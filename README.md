@@ -1,37 +1,89 @@
 # mibacon.github.io
 
-Q1:
-Garbage Ecosystem - how does garbage flow from NYC to landfills? Who are the participants? (residential vs commercial, garbage vs recycling, etc) micro - apartments, buildings to stations, macro - stations to landfill
-https://www.theguardian.com/cities/2016/oct/27/new-york-rubbish-all-that-trash-city-waste-in-numbers
-http://www.waste.exposed/
-https://catalog.data.gov/dataset/dsnys-refuse-and-recycling-disposal-networks-d0e72
+Which neigborhoods produces the most garbage? what are their demographics? what are the ramifications (e.g. higher temperatures, higher carbon emissions, more garbage pick up days?, etc.) and what are some conclusions to draw (less garbage pick ups? stronger recycling regulations? improve poverty levels? etc.) Can alternatives for waste management work with projections for population growth and shifts in demographics?
 
-which neigborhoods produces the most garbage? what are their demographics? what are the ramifications (e.g. higher temperatures, higher carbon emissions, more garbage pick up days?, etc.) and what are some conclusions to draw (less garbage pick ups? stronger recycling regulations? improve poverty levels? etc.) Can alternatives for waste management work with projections for population growth and shifts in demographics?
+Data Sources:
+1) https://data.cityofnewyork.us/City-Government/DSNY-Monthly-Tonnage-Data/ebb7-mvp5
+	2014-2016 Monthly Tonnage by NYC District - waste, paper, glass/metal
+2) https://data.cityofnewyork.us/City-Government/Demographics-and-profiles-at-the-Public-Use-Microd/7q5y-m6mr
+	2010-12 Demographic, Social, Economic, and Housing Profiles by Community District/PUMA
+3) https://data.cityofnewyork.us/City-Government/Census-Demographics-at-the-NYC-Community-District-/5unr-w4sc
+	2010 Census Data by District
+4) https://www1.nyc.gov/site/planning/community/community-portal.page
+	Map of NYC 56 Districts
 
-possible data sources: 
-https://catalog.data.gov/dataset/recycling-diversion-and-capture-rates-dcaef
-https://data.cityofnewyork.us/City-Government/DSNY-Monthly-Tonnage-Data/ebb7-mvp5
+CONSTRAINTS:
+1) Data only available (that I can see) at district level - is there a way to get smaller units from Department of Sanitation?
+2) Tonnage data (#1) starts in 2014; Census Data is from 2010; PUMA data from 2010-2012.
+3) PUMA data combines some districts (e.g. BX1,2)
 
+Interesting Trends From Data:
+1) Februray is consistently lowest month for garbage production - huge dip - why??
+2) From 2014-2016 overall slight increase in garbage production and recycling - so we're getting slightly better at recycling, but also generating more garbage...
+3) Income is positively correlated to both garbage and recycling - so districts with people who make more money are more likely to recycle, but also generate more garbage. (Other collinear indicators, like districts with high rents, or low unemployment or % of families with income below poverty line have similar correlations.)
+4) Education seems to impact recycling but not garbage production - districts with high percentage of college graduates + have higher recycling production, but not necessarily higher or lower garbage production.
 
-Q2:
-Interplay of changes of infrastructure and impact on NYC fauna. 
+Question: Which district generates the most garbage?
+Answer:
+1 - Queens12
+2 - Queens7
+3 - Brooklyn12
+4 - Staten Island3
+5 - Brooklyn18
+6 - Queens13
+7 - Manhattan8
+8 - Brooklyn1
+9 - Staten Island1
+10 - Manhattan7
 
-2.1 Rat Index - correlated to other factors like new buildings or other construction work?
-https://data.cityofnewyork.us/Health/Rodent-Inspection/p937-wjvj/data
-311 complaints
+Question: Which district generates the most garbage PER PERSON?
+Answer:
+1 - Staten Island3
+2 - Brooklyn12
+3 - Staten Island2
+4 - Brooklyn9
+5 - Brooklyn14
+6 - Brooklyn1
+7 - Queens12
+8 - Staten Island1
+9 - Queens3
+10 - Queens10
 
-2.2 Bird Migration - has bird migration increased/decreased as a result of new buildings or added green spaces? If yes, are there specific endangered species that we could recommend new migration green spaces for? What about Unpleasant Design?
-http://www.dec.ny.gov/natureexplorer/app/
-http://ebird.org/content/ebird/
-http://blogs.plos.org/ecology/2016/01/27/life-as-a-bird-biodiversity-management-in-new-york-city/
+Question: Which districts have the highest median income?
+Answer: Duh, manhattan - but look, Staten Island 3 is on this list!
+1- M8 
+2- M1,2 
+3- M7 
+4- M4,5 
+5 - M6 
+6 - B6 
+7 - B2 
+8 - S3 
+9 - Q13 
+10 - Q11 
 
+Question: Which districts have the highest % of college graduates?
+Answer: Duh, mahattant
+1 - M1,2 
+2 - M6 
+3 - M8 
+4 - M7 
+5 - M4,5 
+6 - B6 
+7 - B2 
+8 - Q6 
+9 - Q11 
+10 - M9 
 
-2.3 Green infrastructure and reduction of mosquito population? Green roofs apparently reduce mosquito population. Can we see this reflected in data? Did new Green Roofs lead to reduction in local mosqito sightings? if yes, can we recommend new high-risk locations to add bio-infrastructure? (CAREFUL - do green roofs cause reduction or do they just have lower % of mosquitos?)
-
-http://nycdohmh.maps.arcgis.com/apps/MapJournal/index.html?appid=0cfbbba7bcb74f4db1ab53210f198912
-http://www.sciencedirect.com/science/article/pii/S0360132316304528
-
-
-Q3: What will be the impact of sea level rise on tourism industry? How many museums and other cultural institutions will be inaccessible within X years? What will be economic ramifications? 
-https://data.cityofnewyork.us/Environment/Sea-Level-Rise-Maps-2020s-100-year-Floodplain-/ezfn-5dsb
-http://www.nycandcompany.org/research/nyc-statistics-page
+Question: Which districts have the highest median age?
+Answer:
+1 - B13 
+2 - Q11 
+3 - BX10 
+4 - Q7 
+5 - S2 
+6 - B15 
+7 - M7 
+8 - Q6 
+9 - S3 
+10 - M8 
