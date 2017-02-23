@@ -4,7 +4,7 @@ var margin = 150;
 var bottomMargin = 50;
 var min,max,color,val;
 
-
+var yAxis = [0,50000,100000,150000,200000,250000];
 
 function preload(){
 	//table = loadTable("2014-2016_garbage.csv","csv")
@@ -78,13 +78,13 @@ function displayData(){
 		}
 		beginShape();
 			curveVertex(margin,
-			map(val,min,max,height-bottomMargin,margin+15))	
+			map(val,min,max,height-bottomMargin,margin+30))	
 		for(var j=2; j<37; j++){
 			val = table.getNum(i,j);
 			
 			curveVertex(
 				map(j,2,37,margin,width-margin),
-				map(val,min,max,height-bottomMargin,margin+15)
+				map(val,min,max,height-bottomMargin,margin+30)
 				);
 
 		//end of j loop	
@@ -92,12 +92,12 @@ function displayData(){
 		var lastPoint = table.getNum(i,37);
 		curveVertex(
 			width-margin,
-			map(lastPoint,min,max,height-bottomMargin,margin+15)
+			map(lastPoint,min,max,height-bottomMargin,margin+30)
 			)
 		var nextPoint = table.getNum(i+1,37);
 		curveVertex(
 			width-margin,
-			map(nextPoint,min,max,height-bottomMargin,margin+15))
+			map(nextPoint,min,max,height-bottomMargin,margin+30))
 		//begin second loop
 		
 		for(var k = 37; k>1; k--){
@@ -105,12 +105,12 @@ function displayData(){
 
 			curveVertex(
 				map(k,37,2,width-margin,margin),
-				map(val2,min,max,height-bottomMargin,margin+15)
+				map(val2,min,max,height-bottomMargin,margin+30)
 						);
 		//end of k loop				
 		}
 			curveVertex(margin,
-			map(val2,min,max,height-bottomMargin,margin+15))	
+			map(val2,min,max,height-bottomMargin,margin+30))	
 		
 	
 		
@@ -199,13 +199,27 @@ function drawLabels(){
 	textAlign(LEFT)
 	textSize(30)
 	textStyle(BOLD)
-	text("Cumulative Garbage Production in NYC",margin-5,margin-85)
+	text("NYC Cumulative Garbage Production in Tons",margin-5,margin-85)
 	textStyle(NORMAL)
 	textSize(30)
 	text("2014 \u2013 2016",margin-5,margin-50)
 	textSize(12)
 	text("Sources:",margin, height-30)
 	text("https://data.cityofnewyork.us/City-Government/DSNY-Monthly-Tonnage-Data/ebb7-mvp5",margin,height-15)
+
+// for(i=0; i < 300000; i = i + 50000){
+// 	yAxis.push(i);
+// }
+
+for(i=0; i<yAxis.length; i++){
+	textAlign(RIGHT)
+	textSize(12)
+	fill(255);
+	var yLabel = nfc(yAxis[i]);
+	text(yLabel,margin-15,map(yAxis[i],0,250000,height-bottomMargin,margin+30));
+	// text(yAxis[i],margin-15,map(yAxis[i],0,250000,height-bottomMargin,margin+30));
+}
+
 
 }
 
