@@ -1,0 +1,645 @@
+﻿{"all":
+[
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "C&D",
+    "Material": "Construction & Demolition",
+    "SubMaterial": "Untreated Dimensional Lumber/Pallets/Crates",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "C&D",
+    "Material": "Construction & Demolition",
+    "SubMaterial": "Treated/Contaminated Wood",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "C&D",
+    "Material": "Construction & Demolition",
+    "SubMaterial": "Other C&D Debris Not Elsewhere Classified",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "E-Waste",
+    "Material": "E-Waste",
+    "SubMaterial": "Audio/Visual Equipment",
+    "SubSub": "TV Peripherals (Covered)",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "E-Waste",
+    "Material": "E-Waste",
+    "SubMaterial": "Audio/Visual Equipment",
+    "SubSub": "Other (Non-Covered)",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "E-Waste",
+    "Material": "E-Waste",
+    "SubMaterial": "Computer Monitors",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "E-Waste",
+    "Material": "E-Waste",
+    "SubMaterial": "Televisions",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "E-Waste",
+    "Material": "E-Waste",
+    "SubMaterial": "Other Computer Equipment",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "HHP",
+    "Material": "Harmful Household Products",
+    "SubMaterial": "Oil Filters",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "HHP",
+    "Material": "Harmful Household Products",
+    "SubMaterial": "Antifreeze",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "HHP",
+    "Material": "Harmful Household Products",
+    "SubMaterial": "Wet-Cell Batteries",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "HHP",
+    "Material": "Harmful Household Products",
+    "SubMaterial": "Water-Based Adhesives/Glues",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "HHP",
+    "Material": "Harmful Household Products",
+    "SubMaterial": "Latex Paint",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "HHP",
+    "Material": "Harmful Household Products",
+    "SubMaterial": "Oil-Based Paint/Solvent",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "HHP",
+    "Material": "Harmful Household Products",
+    "SubMaterial": "Pesticides/Herbicides/Rodenticides",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "HHP",
+    "Material": "Harmful Household Products",
+    "SubMaterial": "Dry-Cell Batteries",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "HHP",
+    "Material": "Harmful Household Products",
+    "SubMaterial": "Fluorescent Tubes/CFLs",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "HHP",
+    "Material": "Harmful Household Products",
+    "SubMaterial": "Mercury-Laden Wastes",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "HHP",
+    "Material": "Harmful Household Products",
+    "SubMaterial": "Compressed Gas Cylinders/Fire Extinguishers",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "HHP",
+    "Material": "Harmful Household Products",
+    "SubMaterial": "Home Medical Products",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "HHP",
+    "Material": "Harmful Household Products",
+    "SubMaterial": "Other Potentially Harmful Wastes",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "Plastic Bags",
+    "Material": "Plastic",
+    "SubMaterial": "Film",
+    "SubSub": "Retail Bags/Sleeves",
+    "subsubsub": "Polyethylene Film (HD/LD/LLD)"
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "Textiles",
+    "Material": "Textiles",
+    "SubMaterial": "Non-Clothing",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "Textiles",
+    "Material": "Textiles",
+    "SubMaterial": "Clothing",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "Textiles",
+    "Material": "Shoes/Rubber/Leather",
+    "SubMaterial": "",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "Other",
+    "Material": "Paper",
+    "SubMaterial": "Other Nonrecyclable Paper",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "Other",
+    "Material": "Plastic",
+    "SubMaterial": "Expanded Polystyrene",
+    "SubSub": "#6 EPS Containers/Packaging (including Single Use)",
+    "subsubsub": "Polyethylene Film (HD/LD/LLD)"
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "Other",
+    "Material": "Plastic",
+    "SubMaterial": "Film",
+    "SubSub": "Refuse Bags",
+    "subsubsub": "Polyethylene Film (HD/LD/LLD)"
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "Other",
+    "Material": "Plastic",
+    "SubMaterial": "Film",
+    "SubSub": "All Other Film",
+    "subsubsub": "Non-PE Film"
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "Other",
+    "Material": "Organics",
+    "SubMaterial": "Non-C&D Wood",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "Other",
+    "Material": "Organics",
+    "SubMaterial": "Carpet/Upholstery",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "Other",
+    "Material": "Organics",
+    "SubMaterial": "Disposable Diapers/Sanitary Products",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "Other",
+    "Material": "Organics",
+    "SubMaterial": "Animal By-Products",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "Other",
+    "Material": "Organics",
+    "SubMaterial": "Fines",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "Other",
+    "Material": "Organics",
+    "SubMaterial": "Miscellaneous Organics",
+    "SubSub": "",
+    "subsubsub": ""
+
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "Other",
+    "Material": "Miscellaneous Inorganics",
+    "SubMaterial": "Miscellaneous Inorganics",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Organics Suitable for Composting",
+    "Category": "Paper-Organics",
+    "Material": "Paper: Compostable/Soiled/Waxed OCC/Kraft",
+    "SubMaterial": "",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Organics Suitable for Composting",
+    "Category": "Organics",
+    "Material": "Yard Waste",
+    "SubMaterial": "",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Organics Suitable for Composting",
+    "Category": "Organics",
+    "Material": "Food",
+    "SubMaterial": "",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Metal",
+    "Material": "Alumunum",
+    "SubMaterial": "Cans",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Metal",
+    "Material": "Alumunum",
+    "SubMaterial": "Foil/Containers",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Metal",
+    "Material": "Alumunum",
+    "SubMaterial": "Other",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Metal",
+    "Material": "Other Non-Ferrous",
+    "SubMaterial": "",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Metal",
+    "Material": "Steel/Tin Food Cans",
+    "SubMaterial": "",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Metal",
+    "Material": "Empty Aerosol Cans",
+    "SubMaterial": "",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Metal",
+    "Material": "Other Ferrous",
+    "SubMaterial": "",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Metal",
+    "Material": "Mixed Metals",
+    "SubMaterial": "",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Metal",
+    "Material": "Appliances",
+    "SubMaterial": "Ferrous",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Metal",
+    "Material": "Appliances",
+    "SubMaterial": "Non-Ferrous",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Glass",
+    "Material": "Clear Container Glass",
+    "SubMaterial": "",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Glass",
+    "Material": "Green Container Glass",
+    "SubMaterial": "",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Glass",
+    "Material": "Brown Container Glass",
+    "SubMaterial": "",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Glass",
+    "Material": "Mixed Cullet",
+    "SubMaterial": "",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "PaperMGP",
+    "Material": "Paper Beverage Cartons/Aseptic Boxes",
+    "SubMaterial": "",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Plastic",
+    "Material": "Other Rigid Plastic",
+    "SubMaterial": "Single Use Plastic Plates/Cups/Cutlery (excluding EPS)",
+    "SubSub": "#5 PP Rigid",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Plastic",
+    "Material": "Other Rigid Plastic",
+    "SubMaterial": "Single Use Plastic Plates/Cups/Cutlery (excluding EPS)",
+    "SubSub": "#6 PS Rigid",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Plastic",
+    "Material": "Other Rigid Plastic",
+    "SubMaterial": "Single Use Plastic Plates/Cups/Cutlery (excluding EPS)",
+    "SubSub": "#6 PS Expanded",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Plastic",
+    "Material": "Other Rigid Plastic",
+    "SubMaterial": "Single Use Plastic Plates/Cups/Cutlery (excluding EPS)",
+    "SubSub": "Unlabeled Resin",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Plastic",
+    "Material": "Other Rigid Plastic",
+    "SubMaterial": "Appliances: Plastic",
+    "SubSub": "Unlabeled Resin",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Plastic",
+    "Material": "Other Rigid Plastic",
+    "SubMaterial": "Bulk/Rigid Plastic",
+    "SubSub": "Crates/Soda Bottle Carriers",
+    "subsubsub": "Unlabeled Resin"
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Plastic",
+    "Material": "Other Rigid Plastic",
+    "SubMaterial": "Bulk/Rigid Plastic",
+    "SubSub": "Toys/Housewares",
+    "subsubsub": "#2 HDPE Pigmented"
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Plastic",
+    "Material": "Other Rigid Plastic",
+    "SubMaterial": "Bulk/Rigid Plastic",
+    "SubSub": "Toys/Housewares",
+    "subsubsub": "Unlabeled Resin"
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Plastic",
+    "Material": "Other Rigid Plastic",
+    "SubMaterial": "Bulk/Rigid Plastic",
+    "SubSub": "Other Durable",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Plastic",
+    "Material": "Other Rigid Plastic",
+    "SubMaterial": "Other Plastics",
+    "SubSub": "Unlabeled Resin",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Plastic",
+    "Material": "Rigid Plastic Containers/Packaging",
+    "SubMaterial": "#1 PET Thermoforms",
+    "SubSub": "#1 PET Clear/ Green",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Plastic",
+    "Material": "Rigid Plastic Containers/Packaging",
+    "SubMaterial": "#1 PET Thermoforms",
+    "SubSub": "#1 PET Other Color",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Plastic",
+    "Material": "Rigid Plastic Containers/Packaging",
+    "SubMaterial": "Tubs/Lids Excluding #6 Polystyrene",
+    "SubSub": "#5 PP Rigid",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Plastic",
+    "Material": "Rigid Plastic Containers/Packaging",
+    "SubMaterial": "Tubs/Lids Excluding #6 Polystyrene",
+    "SubSub": "Unlabeled Resin",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Plastic",
+    "Material": "Rigid Plastic Containers/Packaging",
+    "SubMaterial": "#6 Rigid Polystyrene Containers/Packaging",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Plastic",
+    "Material": "Rigid Plastic Containers/Packaging",
+    "SubMaterial": "Other Rigid Containers/Packaging",
+    "SubSub": "#5 PP Rigid",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Plastic",
+    "Material": "Rigid Plastic Containers/Packaging",
+    "SubMaterial": "Other Rigid Containers/Packaging",
+    "SubSub": "Unlabeled Resin",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Plastic",
+    "Material": "Bottles",
+    "SubMaterial": "#1 PET",
+    "SubSub": "Clear/Green Bottles",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Plastic",
+    "Material": "Bottles",
+    "SubMaterial": "#1 PET",
+    "SubSub": "Other Color Bottles",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Plastic",
+    "Material": "Bottles",
+    "SubMaterial": "#2 HDPE",
+    "SubSub": "Natural Bottles",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Plastic",
+    "Material": "Bottles",
+    "SubMaterial": "#2 HDPE",
+    "SubSub": "Pigmented Bottles",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated MGP",
+    "Category": "Plastic",
+    "Material": "Bottles",
+    "SubMaterial": "#5 PP Rigid Bottles",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated Paper",
+    "Category": "Paper",
+    "Material": "Newspaper",
+    "SubMaterial": "",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated Paper",
+    "Category": "Paper",
+    "Material": "Plain OCC/Kraft Paper",
+    "SubMaterial": "",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated Paper",
+    "Category": "Paper",
+    "Material": "High Grade Paper",
+    "SubMaterial": "",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Designated Paper",
+    "Category": "Paper",
+    "Material": "Mixed Low Grade Paper",
+    "SubMaterial": "",
+    "SubSub": "",
+    "subsubsub": ""
+  }
+]
+}

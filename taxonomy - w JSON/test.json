@@ -1,0 +1,370 @@
+﻿{ "level1":
+        [
+        {
+        "category": "garbage",
+        "units": 36,
+        "color": [128,93,67],
+        "subtype" :
+                [
+                        {
+                                "l2cat": "C&D",
+                                "l2units": 3,
+                                "l2color": [204,149,107],
+                                "subtype3":
+                                        [
+                                               {
+                                                        "l3cat": "Untreated Dimensional Lumber/Pallets/Crates",
+                                                        "l3units": 1,
+                                                        "l3color": [204,149,107]
+                                                },
+                                                {       "l3cat": "Treated/Contaminated Wood",
+                                                        "l3units": 1,
+                                                        "l3color": [204,149,107]
+                                                },
+                                                {       "l3cat": "Other C&D Debris Not Elsewhere Classified",
+                                                        "l3units": 1,
+                                                        "l3color": [204,149,107]
+                                                }   
+                                        ]
+
+                        },
+                        {
+                                "l2cat": "e-Waste",
+                                "l2units": 5,
+                                "l2color": [255,229,210],
+                                "subtype3":[
+                                               {
+                                                        "l3cat": "Audio/Visual Equipment",
+                                                        "l3units": 2,
+                                                        "l3color": [255,229,210]
+                                                },
+                                                {       "l3cat": "Computer Monitors",
+                                                        "l3units": 1,
+                                                        "l3color": [255,229,210]
+                                                },
+                                                {       "l3cat": "Televisions",
+                                                        "l3units": 1,
+                                                        "l3color": [255,229,210]
+                                                },
+                                                {       "l3cat": "Other Computer Equipment",
+                                                        "l3units": 1,
+                                                        "l3color": [255,229,210]
+                                                }    
+                                        ]
+                        },
+                        {
+                                "l2cat": "HHP",
+                                "l2units": 13,
+                                "l2color": [179,83,0],
+                                "subtype3": [
+                                               {
+                                                        "l3cat": "Oil Filters",
+                                                        "l3units": 1,
+                                                        "l3color": [179,83,0]
+                                                },
+                                                {
+                                                        "l3cat": "Antifreeze",
+                                                        "l3units": 1,
+                                                        "l3color": [179,83,0]
+                                                },
+                                                {
+                                                        "l3cat": "Wet-Cell Batteries",
+                                                        "l3units": 1,
+                                                        "l3color": [179,83,0]
+                                                },
+                                                {
+                                                        "l3cat": "Water-Based Adhesives/Glues",
+                                                        "l3units": 1,
+                                                        "l3color": [179,83,0]
+                                                },
+                                                {
+                                                        "l3cat": "Latex Paint",
+                                                        "l3units": 1,
+                                                        "l3color": [179,83,0]
+                                                },
+                                                {
+                                                        "l3cat": "Oil-Based Paint/Solvent",
+                                                        "l3units": 1,
+                                                        "l3color": [179,83,0]
+                                                },
+                                                {
+                                                        "l3cat": "Pesticides/Herbicides/Rodenticides",
+                                                        "l3units": 1,
+                                                        "l3color": [179,83,0]
+                                                },
+                                                {
+                                                        "l3cat": "Dry-Cell Batteries",
+                                                        "l3units": 1,
+                                                        "l3color": [179,83,0]
+                                                },
+                                                {
+                                                        "l3cat": "Fluorescent Tubes/CFLs",
+                                                        "l3units": 1,
+                                                        "l3color": [179,83,0]
+                                                },
+                                                {
+                                                        "l3cat": "Mercury-Laden Wastes",
+                                                        "l3units": 1,
+                                                        "l3color": [179,83,0]
+                                                },  
+                                                {
+                                                        "l3cat": "Compressed Gas Cylinders/Fire Extinguishers",
+                                                        "l3units": 1,
+                                                        "l3color": [179,83,0]
+                                                },
+                                                {
+                                                        "l3cat": "Home Medical Products",
+                                                        "l3units": 1,
+                                                        "l3color": [179,83,0]
+                                                },
+                                                {
+                                                        "l3cat": "Other Potentially Harmful Wastes",
+                                                        "l3units": 1,
+                                                        "l3color": [179,83,0]
+                                                }
+                                        ]
+                        },
+                        {
+                                "l2cat": "plastic bags",
+                                "l2units": 1,
+                                "l2color": [128, 93, 67],
+                                "subtype3":[
+                                               {
+                                                        "l3cat": "Plastic",
+                                                        "l3units": 1,
+                                                        "l3color": [128, 93, 67]
+                                                }
+                                        ]
+                        },
+                        {
+                                "l2cat": "Textiles",
+                                "l2units": 3,
+                                "l2color": [128,115,105],
+                                "subtype3":[
+                                               {
+                                                        "l3cat": "Textiles",
+                                                        "l3units": 2,
+                                                        "l3color":[128,115,105]
+                                                },
+                                                {       "l3cat": "Shoes/Rubber/Leather",
+                                                        "l3units": 1,
+                                                        "l3color": [128,115,105]                                                }  
+                                        ]
+                        },
+                        {
+                                "l2cat": "other",
+                                "l2units": 11,
+                                "l2color": [204, 149, 107],
+                                "subtype3":[
+                                               {
+                                                        "l3cat": "Paper",
+                                                        "l3units": 1,
+                                                        "l3color": [204, 149, 107]
+                                                },
+                                                {       "l3cat": "Plastic",
+                                                        "l3units": 3,
+                                                        "l3color": [204, 149, 107]
+                                                },
+                                                {       "l3cat": "Organics",
+                                                        "l3units": 6,
+                                                        "l3color": [204, 149, 107]
+                                                },
+                                                {       "l3cat": "Miscellaneous Inorganics",
+                                                        "l3units": 1,
+                                                        "l3color": [204, 149, 107]
+                                                }   
+                                        ]
+                        }
+                ]
+
+        },
+        {
+        "category": "organics",
+        "units": 3,
+        "color": [0,172,179],
+        "subtype": 
+                [
+                        {
+                                "l2cat": "Paper",
+                                "l2units": 1,
+                                "l2color": [0,172,179],
+                                "subtype3": [
+                                               {
+                                                        "l3cat": "",
+                                                        "l3units": 1,
+                                                        "l3color": 0
+                                                },
+                                                {       "l3cat": "Yard Waste",
+                                                        "l3units": 1,
+                                                        "l3color": [0,172,179]
+                                                },
+                                                {       "l3cat": "Food",
+                                                        "l3units": 1,
+                                                        "l3color": [0,172,179]
+                                                }    
+                                        ]  
+                        },
+                        {
+                                "l2cat": "Organics",
+                                "l2units": 2,
+                                "l2color": [0,172,179],
+                                "subtype3":[
+                                               {
+                                                        "l3cat": "",
+                                                        "l3units": "",
+                                                        "l3color": ""
+                                                },
+                                                {       "l3cat": "",
+                                                        "l3units": "",
+                                                        "l3color": ""
+                                                }  
+                                        ]  
+                        }
+                ]
+        },
+        {
+        "category": "MGP",
+        "units": 37,
+        "color": [32,108,128],
+        "subtype":
+                [
+                        {
+                                "l2cat": "Metal",
+                                "l2units": 10,
+                                "l2color": [32,108,128] ,
+                                "subtype3":[
+                                               {
+                                                        "l3cat": "",
+                                                        "l3units": "",
+                                                        "l3color": ""
+                                                },
+                                                {       "l3cat": "",
+                                                        "l3units": "",
+                                                        "l3color": ""
+                                                }  
+                                        ]  
+                        },
+                        {
+                                "l2cat": "Glass",
+                                "l2units": 4,
+                                "l2color": [32,108,128],
+                                "subtype3":[
+                                               {
+                                                        "l3cat": "",
+                                                        "l3units": "",
+                                                        "l3color": ""
+                                                },
+                                                {       "l3cat": "",
+                                                        "l3units": "",
+                                                        "l3color": ""
+                                                }  
+                                        ]   
+                        },
+                        {
+                                "l2cat": "Paper",
+                                "l2units": 1,
+                                "l2color": [32,108,128],
+                                "subtype3": [
+                                               {
+                                                        "l3cat": "",
+                                                        "l3units": "",
+                                                        "l3color": ""
+                                                },
+                                                {       "l3cat": "",
+                                                        "l3units": "",
+                                                        "l3color": ""
+                                                }  
+                                        ]
+                        },
+                        {
+                                "l2cat": "Plastic",
+                                "l2units": 22,
+                                "l2color": [32,108,128],
+                                "subtype3":       [
+                                               {
+                                                        "l3cat": "",
+                                                        "l3units": "",
+                                                        "l3color": ""
+                                                },
+                                                {       "l3cat": "",
+                                                        "l3units": "",
+                                                        "l3color": ""
+                                                }  
+                                        ]   
+                        }
+                ]
+        },
+        {
+        "category": "paper",
+        "units": 4,
+        "color": [51,174,204],
+        "subtype": 
+                [
+                        {
+                                "l2cat": "Newspaper",
+                                "l2units": 1,
+                                "l2color": [51,174,204],
+                                "subtype3":[
+                                               {
+                                                        "l3cat": "",
+                                                        "l3units": "",
+                                                        "l3color": ""
+                                                },
+                                                {       "l3cat": "",
+                                                        "l3units": "",
+                                                        "l3color": ""
+                                                }  
+                                        ]   
+                        },
+                        {
+                                "l2cat": "Plain OCC/Kraft Paper",
+                                "l2units": 1,
+                                "l2color": [51,174,204],
+                                "subtype3": [
+                                               {
+                                                        "l3cat": "",
+                                                        "l3units": "",
+                                                        "l3color": ""
+                                                },
+                                                {       "l3cat": "",
+                                                        "l3units": "",
+                                                        "l3color": ""
+                                                }  
+                                        ]   
+                        },
+                        {
+                                "l2cat": "High Grade Paper",
+                                "l2units": 1,
+                                "l2color": [51,174,204],
+                                "subtype3":[
+                                               {
+                                                        "l3cat": "",
+                                                        "l3units": "",
+                                                        "l3color": ""
+                                                },
+                                                {       "l3cat": "",
+                                                        "l3units": "",
+                                                        "l3color": ""
+                                                }  
+                                        ]   
+                        },
+                        {
+                                "l2cat": "Mixed Low Grade Paper",
+                                "l2units": 1,
+                                "l2color": [51,174,204],
+                                "subtype3": [
+                                               {
+                                                        "l3cat": "",
+                                                        "l3units": "",
+                                                        "l3color": ""
+                                                },
+                                                {       "l3cat": "",
+                                                        "l3units": "",
+                                                        "l3color": ""
+                                                }  
+                                        ]   
+                        }
+                ]
+        }
+        ]
+}
