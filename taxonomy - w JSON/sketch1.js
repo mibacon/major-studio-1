@@ -6,10 +6,11 @@ var hash = [];
 var hash2 = [];
 var hash3 = [];
 var hash4 = [];
+var hash5 = [];
 
 var boxes = [];
 var total, unit, pad;
-var x = margin;
+
 
 function preload(){
 	data=loadJSON('level1.json');
@@ -179,7 +180,7 @@ function setup(){
 		} else {
 			hash4[clean] = 1;
 		}	
-	}
+		}
 		// console.log(hash3)
 		var keys4 = Object.keys(hash4)
 		// console.log(keys3)
@@ -213,6 +214,45 @@ function setup(){
 		} 
 		
 		boxes.push(new Box(label4,typeUnit4,x4,y4,col));
+	}
+	for(var i in data.all){
+		var clean = data.all[i].SubSub;
+		if (hash5[clean] >= 1) {
+			hash5[clean] ++;
+		} else {
+			hash5[clean] = 1;
+		}	
+		}
+		// console.log(hash3)
+		var keys5 = Object.keys(hash5)
+		// console.log(keys3)
+		for(var i = 0; i < keys5.length; i++){
+			var label5 = keys5[i];
+			var typeUnit5 = hash5[label5];
+
+			console.log(label5)
+			var x5;
+
+			if(i == 0){
+				x5 = margin;
+			} else {
+			var newkeys5 = keys5[i-1];
+			var oldUnit5 = hash5[newkeys5];
+			x5 = x5 + oldUnit5*unit + (oldUnit5-1)*pad;
+			}
+		
+		y5 = topmargin + 100;
+
+		var col;
+		if(label5 == "Refuse Bags" || label5 == "All Other Film"){
+			col = [204, 149, 107];
+		} else if (label5 == ""){
+			col = 0;
+		} else {
+			col = [32,108,128]
+		} 
+		
+		boxes.push(new Box(label5,typeUnit5,x5,y5,col));
 	}
 }
 	
