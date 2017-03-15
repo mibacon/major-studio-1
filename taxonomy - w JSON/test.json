@@ -1,10 +1,10 @@
-﻿{ "level1":
+﻿{ "all":
         [
         {
-        "category": "garbage",
+        "Diversion_Category": "Refuse",
         "units": 36,
         "color": [128,93,67],
-        "subtype" :
+        "subtype":
                 [
                         {
                                 "l2cat": "C&D",
@@ -15,62 +15,84 @@
                                                {
                                                         "l3cat": "Untreated Dimensional Lumber/Pallets/Crates",
                                                         "l3units": 1,
-                                                        "l3color": [204,149,107]
+                                                        "l3color": [204,149,107],
+                                                        "subtype4": ""
                                                 },
                                                 {       "l3cat": "Treated/Contaminated Wood",
                                                         "l3units": 1,
-                                                        "l3color": [204,149,107]
+                                                        "l3color": [204,149,107],
+                                                        "subtype4": ""
                                                 },
                                                 {       "l3cat": "Other C&D Debris Not Elsewhere Classified",
                                                         "l3units": 1,
-                                                        "l3color": [204,149,107]
+                                                        "l3color": [204,149,107],
+                                                        "subtype4": ""
                                                 }   
                                         ]
 
                         },
                         {
-                                "l2cat": "e-Waste",
+                                "l2cat": "E-Waste",
                                 "l2units": 5,
                                 "l2color": [255,229,210],
                                 "subtype3":[
                                                {
                                                         "l3cat": "Audio/Visual Equipment",
                                                         "l3units": 2,
-                                                        "l3color": [255,229,210]
+                                                        "l3color": [255,229,210],
+                                                        "subtype4": [
+                                                            {
+                                                                "l4cat": "TV Peripherals (Covered)",
+                                                                "l4units": 1,
+                                                                "l4 color": [255,229,210]
+                                                            },
+                                                            {
+                                                                "l4cat": "Other (Non-Covered)",
+                                                                "l4units": 1,
+                                                                "l4 color": [255,229,210]
+                                                            }
+                                                                ]
+                                                                                                                        
                                                 },
                                                 {       "l3cat": "Computer Monitors",
                                                         "l3units": 1,
-                                                        "l3color": [255,229,210]
+                                                        "l3color": [255,229,210],
+                                                        "subtype4": ""
                                                 },
                                                 {       "l3cat": "Televisions",
                                                         "l3units": 1,
-                                                        "l3color": [255,229,210]
+                                                        "l3color": [255,229,210],
+                                                        "subtype4": ""
                                                 },
                                                 {       "l3cat": "Other Computer Equipment",
                                                         "l3units": 1,
-                                                        "l3color": [255,229,210]
+                                                        "l3color": [255,229,210],
+                                                        "subtype4": ""
                                                 }    
                                         ]
                         },
                         {
-                                "l2cat": "HHP",
+                                "l2cat": "Harmful Household Products",
                                 "l2units": 13,
                                 "l2color": [179,83,0],
                                 "subtype3": [
                                                {
                                                         "l3cat": "Oil Filters",
                                                         "l3units": 1,
-                                                        "l3color": [179,83,0]
+                                                        "l3color": [179,83,0],
+                                                        "subtype4": ""
                                                 },
                                                 {
                                                         "l3cat": "Antifreeze",
                                                         "l3units": 1,
-                                                        "l3color": [179,83,0]
+                                                        "l3color": [179,83,0],
+                                                        "subtype4": ""
                                                 },
                                                 {
                                                         "l3cat": "Wet-Cell Batteries",
                                                         "l3units": 1,
-                                                        "l3color": [179,83,0]
+                                                        "l3color": [179,83,0],
+                                                        "subtype4": ""
                                                 },
                                                 {
                                                         "l3cat": "Water-Based Adhesives/Glues",
@@ -80,61 +102,64 @@
                                                 {
                                                         "l3cat": "Latex Paint",
                                                         "l3units": 1,
-                                                        "l3color": [179,83,0]
+                                                        "l3color": [179,83,0],
+                                                        "subtype4": ""
                                                 },
                                                 {
                                                         "l3cat": "Oil-Based Paint/Solvent",
                                                         "l3units": 1,
-                                                        "l3color": [179,83,0]
+                                                        "l3color": [179,83,0],
+                                                        "subtype4": ""
                                                 },
                                                 {
                                                         "l3cat": "Pesticides/Herbicides/Rodenticides",
                                                         "l3units": 1,
-                                                        "l3color": [179,83,0]
+                                                        "l3color": [179,83,0],
+                                                        "subtype4": ""
                                                 },
                                                 {
                                                         "l3cat": "Dry-Cell Batteries",
                                                         "l3units": 1,
-                                                        "l3color": [179,83,0]
+                                                        "l3color": [179,83,0],
+                                                        "subtype4": ""
                                                 },
                                                 {
                                                         "l3cat": "Fluorescent Tubes/CFLs",
                                                         "l3units": 1,
-                                                        "l3color": [179,83,0]
+                                                        "l3color": [179,83,0],
+                                                        "subtype4": ""
                                                 },
                                                 {
                                                         "l3cat": "Mercury-Laden Wastes",
                                                         "l3units": 1,
-                                                        "l3color": [179,83,0]
+                                                        "l3color": [179,83,0],
+                                                        "subtype4": ""
                                                 },  
                                                 {
                                                         "l3cat": "Compressed Gas Cylinders/Fire Extinguishers",
                                                         "l3units": 1,
-                                                        "l3color": [179,83,0]
+                                                        "l3color": [179,83,0],
+                                                        "subtype4": ""
                                                 },
                                                 {
                                                         "l3cat": "Home Medical Products",
                                                         "l3units": 1,
-                                                        "l3color": [179,83,0]
+                                                        "l3color": [179,83,0],
+                                                        "subtype4": ""
                                                 },
                                                 {
                                                         "l3cat": "Other Potentially Harmful Wastes",
                                                         "l3units": 1,
-                                                        "l3color": [179,83,0]
+                                                        "l3color": [179,83,0],
+                                                        "subtype4": ""
                                                 }
                                         ]
                         },
                         {
-                                "l2cat": "plastic bags",
+                                "l2cat": "Retail Bags/Sleeves",
                                 "l2units": 1,
                                 "l2color": [128, 93, 67],
-                                "subtype3":[
-                                               {
-                                                        "l3cat": "Plastic",
-                                                        "l3units": 1,
-                                                        "l3color": [128, 93, 67]
-                                                }
-                                        ]
+                                "subtype3":""
                         },
                         {
                                 "l2cat": "Textiles",
@@ -144,11 +169,26 @@
                                                {
                                                         "l3cat": "Textiles",
                                                         "l3units": 2,
-                                                        "l3color":[128,115,105]
+                                                        "l3color":[128,115,105],
+                                                        "subtype4": [
+                                                            {
+                                                                "l4cat": "Non-Clothing",
+                                                                "l4units": 1,
+                                                                "l4 color": [255,229,210]
+                                                            },
+                                                            {
+                                                                "l4cat": "Clothing",
+                                                                "l4units": 1,
+                                                                "l4 color": [255,229,210]
+                                                            },
+                                                            ]
+                                                            
                                                 },
                                                 {       "l3cat": "Shoes/Rubber/Leather",
                                                         "l3units": 1,
-                                                        "l3color": [128,115,105]                                                }  
+                                                        "l3color": [128,115,105],
+                                                        "subtype4": ""   
+                                               }  
                                         ]
                         },
                         {
@@ -157,21 +197,67 @@
                                 "l2color": [204, 149, 107],
                                 "subtype3":[
                                                {
-                                                        "l3cat": "Paper",
+                                                        "l3cat": "Other Nonrecyclable Paper",
                                                         "l3units": 1,
-                                                        "l3color": [204, 149, 107]
+                                                        "l3color": [204, 149, 107],
+                                                        "subtype4": ""
                                                 },
                                                 {       "l3cat": "Plastic",
                                                         "l3units": 3,
-                                                        "l3color": [204, 149, 107]
+                                                        "l3color": [204, 149, 107],
+                                                        "subtype4": [
+                                                                {
+                                                                    "l4cat": "Expanded Polystyrene",
+                                                                    "l4units": 1,
+                                                                    "l4 color": [204, 149, 107]
+                                                                },
+                                                                {
+                                                                    "l4cat": "Film",
+                                                                    "l4units": 2,
+                                                                    "l4 color": [204, 149, 107]
+                                                                }                                                                
+                                                            ]
                                                 },
                                                 {       "l3cat": "Organics",
                                                         "l3units": 6,
-                                                        "l3color": [204, 149, 107]
+                                                        "l3color": [204, 149, 107],
+                                                        "subtype4": [
+                                                                {
+                                                                    "l4cat": "Non-C&D Wood",
+                                                                    "l4units": 1,
+                                                                    "l4 color": [204, 149, 107]
+                                                                },
+                                                                {
+                                                                    "l4cat": "Carpet/Upholstery",
+                                                                    "l4units": 1,
+                                                                    "l4 color": [204, 149, 107]
+                                                                },
+                                                                {
+                                                                    "l4cat": "Disposable Diapers/Sanitary Products",
+                                                                    "l4units": 1,
+                                                                    "l4 color": [204, 149, 107]
+                                                                },
+                                                                 {
+                                                                    "l4cat": "Animal By-Products",
+                                                                    "l4units": 1,
+                                                                    "l4 color": [204, 149, 107]
+                                                                },
+                                                                {
+                                                                    "l4cat": "Fines",
+                                                                    "l4units": 1,
+                                                                    "l4 color": [204, 149, 107]
+                                                                },
+                                                                {
+                                                                    "l4cat": "Miscellaneous Organics",
+                                                                    "l4units": 1,
+                                                                    "l4 color": [204, 149, 107]
+                                                                },
+                                                        ]
                                                 },
                                                 {       "l3cat": "Miscellaneous Inorganics",
                                                         "l3units": 1,
-                                                        "l3color": [204, 149, 107]
+                                                        "l3color": [204, 149, 107],
+                                                        "subtype4": ""
                                                 }   
                                         ]
                         }
@@ -179,30 +265,17 @@
 
         },
         {
-        "category": "organics",
+        "Diversion_Category": "Organics Suitable for Composting",
         "units": 3,
         "color": [0,172,179],
         "subtype": 
                 [
                         {
-                                "l2cat": "Paper",
+                                "l2cat": "Paper: Compostable/Soiled/Waxed OCC/Kraft",
                                 "l2units": 1,
                                 "l2color": [0,172,179],
-                                "subtype3": [
-                                               {
-                                                        "l3cat": "",
-                                                        "l3units": 1,
-                                                        "l3color": 0
-                                                },
-                                                {       "l3cat": "Yard Waste",
-                                                        "l3units": 1,
-                                                        "l3color": [0,172,179]
-                                                },
-                                                {       "l3cat": "Food",
-                                                        "l3units": 1,
-                                                        "l3color": [0,172,179]
-                                                }    
-                                        ]  
+                                "subtype3": ""
+
                         },
                         {
                                 "l2cat": "Organics",
@@ -210,20 +283,22 @@
                                 "l2color": [0,172,179],
                                 "subtype3":[
                                                {
-                                                        "l3cat": "",
-                                                        "l3units": "",
-                                                        "l3color": ""
+                                                        "l3cat": "Yard Waste",
+                                                        "l3units": 1,
+                                                        "l3color": [0,172,179],
+                                                        "subtype4": ""
                                                 },
-                                                {       "l3cat": "",
-                                                        "l3units": "",
-                                                        "l3color": ""
+                                                {       "l3cat": "Food",
+                                                        "l3units": 1,
+                                                        "l3color": [0,172,179],
+                                                        "subtype4": ""
                                                 }  
                                         ]  
                         }
                 ]
         },
         {
-        "category": "MGP",
+        "Diversion_Category": "Designated MGP",
         "units": 37,
         "color": [32,108,128],
         "subtype":
@@ -234,14 +309,68 @@
                                 "l2color": [32,108,128] ,
                                 "subtype3":[
                                                {
-                                                        "l3cat": "",
-                                                        "l3units": "",
-                                                        "l3color": ""
+                                                        "l3cat": "Alumunum",
+                                                        "l3units": 3,
+                                                        "l3color": [32,108,128],
+                                                        "subtype4": [
+                                                                {
+                                                                    "l4cat": "Cans",
+                                                                    "l4units": 1,
+                                                                    "l4 color": [32,108,128]
+                                                                },
+                                                                {
+                                                                    "l4cat": "Foil/Containers",
+                                                                    "l4units": 1,
+                                                                    "l4 color": [32,108,128]
+                                                                },
+                                                                {
+                                                                    "l4cat": "Other",
+                                                                    "l4units": 1,
+                                                                    "l4 color": [32,108,128]
+                                                                },
+                                                        ]
                                                 },
-                                                {       "l3cat": "",
-                                                        "l3units": "",
-                                                        "l3color": ""
-                                                }  
+                                                {       "l3cat": "Other Non-Ferrous",
+                                                        "l3units": 1,
+                                                        "l3color": [32,108,128],
+                                                        "subtype4": ""
+                                                },
+                                                {       "l3cat": "Steel/Tin Food Cans",
+                                                        "l3units": 1,
+                                                        "l3color": [32,108,128],
+                                                        "subtype4": ""
+                                                },
+                                                {       "l3cat": "Empty Aerosol Cans",
+                                                        "l3units": 1,
+                                                        "l3color": [32,108,128],
+                                                        "subtype4": ""
+                                                },
+                                                {       "l3cat": "Other Ferrous",
+                                                        "l3units": 1,
+                                                        "l3color": [32,108,128],
+                                                        "subtype4": ""
+                                                },
+                                                {       "l3cat": "Mixed Metals",
+                                                        "l3units": 1,
+                                                        "l3color": [32,108,128],
+                                                        "subtype4": ""
+                                                },
+                                                {       "l3cat": "Appliances",
+                                                        "l3units": 2,
+                                                        "l3color": [32,108,128],
+                                                        "subtype4": [
+                                                                {
+                                                                    "l4cat": "Ferrous",
+                                                                    "l4units": 1,
+                                                                    "l4 color": [32,108,128]
+                                                                },
+                                                                {
+                                                                    "l4cat": "Non-Ferrous",
+                                                                    "l4units": 1,
+                                                                    "l4 color": [32,108,128]
+                                                                },
+                                                            ]
+                                                }          
                                         ]  
                         },
                         {
@@ -250,31 +379,33 @@
                                 "l2color": [32,108,128],
                                 "subtype3":[
                                                {
-                                                        "l3cat": "",
-                                                        "l3units": "",
-                                                        "l3color": ""
+                                                        "l3cat": "Clear Container Glass",
+                                                        "l3units": 1,
+                                                        "l3color": [32,108,128],
+                                                        "subtype4": ""
                                                 },
-                                                {       "l3cat": "",
-                                                        "l3units": "",
-                                                        "l3color": ""
-                                                }  
+                                                {       "l3cat": "Green Container Glass",
+                                                        "l3units": 1,
+                                                        "l3color": [32,108,128],
+                                                        "subtype4": ""
+                                                },
+                                                {       "l3cat": "Brown Container Glass",
+                                                        "l3units": 1,
+                                                        "l3color": [32,108,128],
+                                                        "subtype4": ""
+                                                },
+                                                {       "l3cat": "Mixed Cullet",
+                                                        "l3units": 1,
+                                                        "l3color": [32,108,128],
+                                                        "subtype4": ""
+                                                }   
                                         ]   
                         },
                         {
-                                "l2cat": "Paper",
+                                "l2cat": "Paper Beverage Cartons/Aseptic Boxe",
                                 "l2units": 1,
                                 "l2color": [32,108,128],
-                                "subtype3": [
-                                               {
-                                                        "l3cat": "",
-                                                        "l3units": "",
-                                                        "l3color": ""
-                                                },
-                                                {       "l3cat": "",
-                                                        "l3units": "",
-                                                        "l3color": ""
-                                                }  
-                                        ]
+                                "subtype3": ""
                         },
                         {
                                 "l2cat": "Plastic",
@@ -282,20 +413,85 @@
                                 "l2color": [32,108,128],
                                 "subtype3":       [
                                                {
-                                                        "l3cat": "",
-                                                        "l3units": "",
-                                                        "l3color": ""
+                                                        "l3cat": "Other Rigid Plastic",
+                                                        "l3units": 10,
+                                                        "l3color": [32,108,128],
+                                                        "subtype4": [
+                                                                {
+                                                                    "l4cat": "Single Use Plastic Plates/Cups/Cutlery (excluding EPS)",
+                                                                    "l4units": 4,
+                                                                    "l4 color": [32,108,128]
+                                                                },
+                                                                {
+                                                                    "l4cat": "Appliances: Plastic",
+                                                                    "l4units": 1,
+                                                                    "l4 color": [32,108,128]
+                                                                },
+                                                                {
+                                                                    "l4cat": "Bulk/Rigid Plastic",
+                                                                    "l4units": 4,
+                                                                    "l4 color": [32,108,128]
+                                                                },
+                                                                {
+                                                                    "l4cat": "Other Plastics",
+                                                                    "l4units": 1,
+                                                                    "l4 color": [32,108,128]
+                                                                }
+                                                        ]
                                                 },
-                                                {       "l3cat": "",
-                                                        "l3units": "",
-                                                        "l3color": ""
-                                                }  
+                                                {       "l3cat": "Rigid Plastic Containers/Packaging",
+                                                        "l3units": 7,
+                                                        "l3color": [32,108,128],
+                                                        "subtype4": [
+                                                                {
+                                                                    "l4cat": "#1 PET Thermoforms",
+                                                                    "l4units": 2,
+                                                                    "l4 color": [32,108,128]
+                                                                },
+                                                                {
+                                                                    "l4cat": "Tubs/Lids Excluding #6 Polystyrene",
+                                                                    "l4units": 2,
+                                                                    "l4 color": [32,108,128]
+                                                                },
+                                                                {
+                                                                    "l4cat": "#6 Rigid Polystyrene Containers/Packaging",
+                                                                    "l4units": 1,
+                                                                    "l4 color": [32,108,128]
+                                                                },
+                                                                {
+                                                                    "l4cat": "Other Rigid Containers/Packaging",
+                                                                    "l4units": 2,
+                                                                    "l4 color": [32,108,128]
+                                                                },
+                                                        ]
+                                                },
+                                                {   "l3cat": "Bottles",
+                                                        "l3units": 5,
+                                                        "l3color": [32,108,128],
+                                                        "subtype4":  [
+                                                                {
+                                                                    "l4cat": "#1 PET",
+                                                                    "l4units": 2,
+                                                                    "l4 color": [32,108,128]
+                                                                },
+                                                                {
+                                                                    "l4cat": "#2 HDPE",
+                                                                    "l4units": 2,
+                                                                    "l4 color": [32,108,128]
+                                                                },
+                                                                {
+                                                                    "l4cat": "#5 PP Rigid Bottles",
+                                                                    "l4units": 1,
+                                                                    "l4 color": [32,108,128]
+                                                                }
+                                                            ]
+                                                    }
                                         ]   
                         }
                 ]
         },
         {
-        "category": "paper",
+        "Diversion_Category": "Designated Paper",
         "units": 4,
         "color": [51,174,204],
         "subtype": 
@@ -304,67 +500,27 @@
                                 "l2cat": "Newspaper",
                                 "l2units": 1,
                                 "l2color": [51,174,204],
-                                "subtype3":[
-                                               {
-                                                        "l3cat": "",
-                                                        "l3units": "",
-                                                        "l3color": ""
-                                                },
-                                                {       "l3cat": "",
-                                                        "l3units": "",
-                                                        "l3color": ""
-                                                }  
-                                        ]   
+                                "subtype3": ""
                         },
                         {
                                 "l2cat": "Plain OCC/Kraft Paper",
                                 "l2units": 1,
                                 "l2color": [51,174,204],
-                                "subtype3": [
-                                               {
-                                                        "l3cat": "",
-                                                        "l3units": "",
-                                                        "l3color": ""
-                                                },
-                                                {       "l3cat": "",
-                                                        "l3units": "",
-                                                        "l3color": ""
-                                                }  
-                                        ]   
+                                "subtype3": "" 
                         },
                         {
                                 "l2cat": "High Grade Paper",
                                 "l2units": 1,
                                 "l2color": [51,174,204],
-                                "subtype3":[
-                                               {
-                                                        "l3cat": "",
-                                                        "l3units": "",
-                                                        "l3color": ""
-                                                },
-                                                {       "l3cat": "",
-                                                        "l3units": "",
-                                                        "l3color": ""
-                                                }  
-                                        ]   
+                                "subtype3": ""
                         },
                         {
                                 "l2cat": "Mixed Low Grade Paper",
                                 "l2units": 1,
                                 "l2color": [51,174,204],
-                                "subtype3": [
-                                               {
-                                                        "l3cat": "",
-                                                        "l3units": "",
-                                                        "l3color": ""
-                                                },
-                                                {       "l3cat": "",
-                                                        "l3units": "",
-                                                        "l3color": ""
-                                                }  
-                                        ]   
+                                "subtype3": "" 
                         }
                 ]
         }
-        ]
+    ]
 }

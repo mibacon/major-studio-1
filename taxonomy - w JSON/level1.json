@@ -2,193 +2,193 @@
 [
   {
     "Diversion_Category": "Refuse",
-    "Category": "C&D",
-    "Material": "Construction & Demolition",
-    "SubMaterial": "Untreated Dimensional Lumber/Pallets/Crates",
+    "Category": "Construction & Demolition",
+    "Material": "Untreated Dimensional Lumber/Pallets/Crates",
+    "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Refuse",
-    "Category": "C&D",
-    "Material": "Construction & Demolition",
-    "SubMaterial": "Treated/Contaminated Wood",
+    "Category": "Construction & Demolition",
+    "Material": "Treated/Contaminated Wood",
+    "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Refuse",
-    "Category": "C&D",
-    "Material": "Construction & Demolition",
-    "SubMaterial": "Other C&D Debris Not Elsewhere Classified",
-    "SubSub": "",
-    "subsubsub": ""
-  },
-  {
-    "Diversion_Category": "Refuse",
-    "Category": "E-Waste",
-    "Material": "E-Waste",
-    "SubMaterial": "Audio/Visual Equipment",
-    "SubSub": "TV Peripherals (Covered)",
-    "subsubsub": ""
-  },
-  {
-    "Diversion_Category": "Refuse",
-    "Category": "E-Waste",
-    "Material": "E-Waste",
-    "SubMaterial": "Audio/Visual Equipment",
-    "SubSub": "Other (Non-Covered)",
-    "subsubsub": ""
-  },
-  {
-    "Diversion_Category": "Refuse",
-    "Category": "E-Waste",
-    "Material": "E-Waste",
-    "SubMaterial": "Computer Monitors",
+    "Category": "Construction & Demolition",
+    "Material": "Other C&D Debris Not Elsewhere Classified",
+    "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Refuse",
     "Category": "E-Waste",
-    "Material": "E-Waste",
-    "SubMaterial": "Televisions",
+    "Material": "Audio/Visual Equipment",
+    "SubMaterial": "TV Peripherals (Covered)",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Refuse",
     "Category": "E-Waste",
-    "Material": "E-Waste",
-    "SubMaterial": "Other Computer Equipment",
+    "Material": "Audio/Visual Equipment",
+    "SubMaterial": "Other (Non-Covered)",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Refuse",
-    "Category": "HHP",
-    "Material": "Harmful Household Products",
-    "SubMaterial": "Oil Filters",
+    "Category": "E-Waste",
+    "Material": "Computer Monitors",
+    "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Refuse",
-    "Category": "HHP",
-    "Material": "Harmful Household Products",
-    "SubMaterial": "Antifreeze",
+    "Category": "E-Waste",
+    "Material": "Televisions",
+    "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Refuse",
-    "Category": "HHP",
-    "Material": "Harmful Household Products",
-    "SubMaterial": "Wet-Cell Batteries",
+    "Category": "E-Waste",
+    "Material": "Other Computer Equipment",
+    "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Refuse",
-    "Category": "HHP",
-    "Material": "Harmful Household Products",
-    "SubMaterial": "Water-Based Adhesives/Glues",
+    "Category": "Harmful Household Products",
+    "Material": "Oil Filters",
+    "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Refuse",
-    "Category": "HHP",
-    "Material": "Harmful Household Products",
-    "SubMaterial": "Latex Paint",
+    "Category": "Harmful Household Products",
+    "Material": "Antifreeze",
+    "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Refuse",
-    "Category": "HHP",
-    "Material": "Harmful Household Products",
-    "SubMaterial": "Oil-Based Paint/Solvent",
+    "Category": "Harmful Household Products",
+    "Material": "Wet-Cell Batteries",
+    "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Refuse",
-    "Category": "HHP",
-    "Material": "Harmful Household Products",
-    "SubMaterial": "Pesticides/Herbicides/Rodenticides",
+    "Category": "Harmful Household Products",
+    "Material": "Water-Based Adhesives/Glues",
+    "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Refuse",
-    "Category": "HHP",
-    "Material": "Harmful Household Products",
-    "SubMaterial": "Dry-Cell Batteries",
+    "Category": "Harmful Household Products",
+    "Material": "Latex Paint",
+    "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Refuse",
-    "Category": "HHP",
-    "Material": "Harmful Household Products",
-    "SubMaterial": "Fluorescent Tubes/CFLs",
+    "Category": "Harmful Household Products",
+    "Material": "Oil-Based Paint/Solvent",
+    "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Refuse",
-    "Category": "HHP",
-    "Material": "Harmful Household Products",
-    "SubMaterial": "Mercury-Laden Wastes",
+    "Category": "Harmful Household Products",
+    "Material": "Pesticides/Herbicides/Rodenticides",
+    "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Refuse",
-    "Category": "HHP",
-    "Material": "Harmful Household Products",
-    "SubMaterial": "Compressed Gas Cylinders/Fire Extinguishers",
+    "Category": "Harmful Household Products",
+    "Material": "Dry-Cell Batteries",
+    "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Refuse",
-    "Category": "HHP",
-    "Material": "Harmful Household Products",
-    "SubMaterial": "Home Medical Products",
+    "Category": "Harmful Household Products",
+    "Material": "Fluorescent Tubes/CFLs",
+    "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Refuse",
-    "Category": "HHP",
-    "Material": "Harmful Household Products",
-    "SubMaterial": "Other Potentially Harmful Wastes",
+    "Category": "Harmful Household Products",
+    "Material": "Mercury-Laden Wastes",
+    "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Refuse",
-    "Category": "Plastic Bags",
-    "Material": "Plastic",
-    "SubMaterial": "Film",
-    "SubSub": "Retail Bags/Sleeves",
-    "subsubsub": "Polyethylene Film (HD/LD/LLD)"
+    "Category": "Harmful Household Products",
+    "Material": "Compressed Gas Cylinders/Fire Extinguishers",
+    "SubMaterial": "",
+    "SubSub": "",
+    "subsubsub": ""
   },
   {
     "Diversion_Category": "Refuse",
-    "Category": "Textiles",
-    "Material": "Textiles",
-    "SubMaterial": "Non-Clothing",
+    "Category": "Harmful Household Products",
+    "Material": "Home Medical Products",
+    "SubMaterial": "",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "Harmful Household Products",
+    "Material": "Other Potentially Harmful Wastes",
+    "SubMaterial": "",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "Retail Bags/Sleeves",
+    "Material": "",
+    "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Refuse",
     "Category": "Textiles",
-    "Material": "Textiles",
-    "SubMaterial": "Clothing",
+    "Material": "Non-Clothing",
+    "SubMaterial": "",
+    "SubSub": "",
+    "subsubsub": ""
+  },
+  {
+    "Diversion_Category": "Refuse",
+    "Category": "Textiles",
+    "Material": "Clothing",
+    "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
   },
@@ -203,15 +203,15 @@
   {
     "Diversion_Category": "Refuse",
     "Category": "Other",
-    "Material": "Paper",
-    "SubMaterial": "Other Nonrecyclable Paper",
+    "Material": "Other Nonrecyclable Paper",
+    "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Refuse",
     "Category": "Other",
-    "Material": "Plastic",
+    "Material": "Plastic - Other",
     "SubMaterial": "Expanded Polystyrene",
     "SubSub": "#6 EPS Containers/Packaging (including Single Use)",
     "subsubsub": "Polyethylene Film (HD/LD/LLD)"
@@ -219,7 +219,7 @@
   {
     "Diversion_Category": "Refuse",
     "Category": "Other",
-    "Material": "Plastic",
+    "Material": "Plastic - Other",
     "SubMaterial": "Film",
     "SubSub": "Refuse Bags",
     "subsubsub": "Polyethylene Film (HD/LD/LLD)"
@@ -227,7 +227,7 @@
   {
     "Diversion_Category": "Refuse",
     "Category": "Other",
-    "Material": "Plastic",
+    "Material": "Plastic - Other",
     "SubMaterial": "Film",
     "SubSub": "All Other Film",
     "subsubsub": "Non-PE Film"
@@ -285,14 +285,14 @@
     "Diversion_Category": "Refuse",
     "Category": "Other",
     "Material": "Miscellaneous Inorganics",
-    "SubMaterial": "Miscellaneous Inorganics",
+    "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Organics Suitable for Composting",
     "Category": "Paper-Organics",
-    "Material": "Paper: Compostable/Soiled/Waxed OCC/Kraft",
+    "Material": "Compostable/Soiled/Waxed OCC/Kraft",
     "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
@@ -479,7 +479,7 @@
     "Material": "Other Rigid Plastic",
     "SubMaterial": "Bulk/Rigid Plastic",
     "SubSub": "Crates/Soda Bottle Carriers",
-    "subsubsub": "Unlabeled Resin"
+    "subsubsub": ""
   },
   {
     "Diversion_Category": "Designated MGP",
@@ -502,7 +502,7 @@
     "Category": "Plastic",
     "Material": "Other Rigid Plastic",
     "SubMaterial": "Bulk/Rigid Plastic",
-    "SubSub": "Other Durable",
+    "SubSub": "",
     "subsubsub": ""
   },
   {
@@ -510,7 +510,7 @@
     "Category": "Plastic",
     "Material": "Other Rigid Plastic",
     "SubMaterial": "Other Plastics",
-    "SubSub": "Unlabeled Resin",
+    "SubSub": "",
     "subsubsub": ""
   },
   {
@@ -611,32 +611,32 @@
   },
   {
     "Diversion_Category": "Designated Paper",
-    "Category": "Paper",
-    "Material": "Newspaper",
+    "Category": "Newspaper",
+    "Material": "",
     "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Designated Paper",
-    "Category": "Paper",
-    "Material": "Plain OCC/Kraft Paper",
+    "Category": "Plain OCC/Kraft Paper",
+    "Material": "",
     "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Designated Paper",
-    "Category": "Paper",
-    "Material": "High Grade Paper",
+    "Category": "High Grade Paper",
+    "Material": "",
     "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""
   },
   {
     "Diversion_Category": "Designated Paper",
-    "Category": "Paper",
-    "Material": "Mixed Low Grade Paper",
+    "Category": "Mixed Low Grade Paper",
+    "Material": "",
     "SubMaterial": "",
     "SubSub": "",
     "subsubsub": ""

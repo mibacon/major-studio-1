@@ -5,6 +5,7 @@ var topmargin = 150;
 var hash = [];
 var hash2 = [];
 var hash3 = [];
+var hash4 = [];
 
 var boxes = [];
 var total, unit, pad;
@@ -91,13 +92,13 @@ function setup(){
 		y2 = topmargin +25
 		//color
 		var col;
-		if(label2 == "C&D"){
+		if(label2 == "Construction & Demolition"){
 			col = [204,149,107];
 		} else if (label2 == "E-Waste"){
 			col = [255,229,210];
-		} else if (label2 == "HHP"){
+		} else if (label2 == "Harmful Household Products"){
 			col = [179,83,0];
-		} else if (label2 == "Plastic Bags"){
+		} else if (label2 == "Retail Bags/Sleeves"){
 			col = [128, 93, 67];
 		} else if (label2 == "Textiles"){
 			col = [128,115,105];
@@ -113,10 +114,108 @@ function setup(){
 		}
 		
 		boxes.push(new Box(label2,typeUnit2,x2,y2,col));
+		// console.log(boxes)
 	}
-	console.log(boxes)
-}
+	
+	for(var i in data.all){
+		var clean = data.all[i].Material;
+		if (hash3[clean] >= 1) {
+			hash3[clean] ++;
+		} else {
+			hash3[clean] = 1;
+		}	
+	}
+		// console.log(hash3)
+		var keys3 = Object.keys(hash3)
+		// console.log(keys3)
+		for(var i = 0; i < keys3.length; i++){
+			var label3 = keys3[i];
+			var typeUnit3 = hash3[label3];
 
+			console.log(label3)
+			var x3;
+
+			if(i == 0){
+				x3 = margin;
+				
+			} else {
+			var newkeys3 = keys3[i-1];
+			var oldUnit3 = hash3[newkeys3];
+			
+			x3 = x3 + oldUnit3*unit + (oldUnit3-1)*pad;
+			}
+		
+		y3 = topmargin + 50
+		//color
+		var col;
+		if(label3 == "Untreated Dimensional Lumber/Pallets/Crates" || label3 == "Treated/Contaminated Wood" || label3 == "Other C&D Debris Not Elsewhere Classified"){
+			col = [204,149,107];
+		} else if (label3 == "Audio/Visual Equipment" || label3 == "Computer Monitors" || label3 == "Televisions" || label3 == "Other Computer Equipment"){
+			col = [255,229,210];
+		} else if (label3 == "Oil Filters" || label3 == "Antifreeze" ||label3 == "Wet-Cell Batteries" ||label3 == "Water-Based Adhesives/Glues" ||label3 == "Latex Paint" ||
+					label3 == "Oil-Based Paint/Solvent" ||label3 == "Pesticides/Herbicides/Rodenticides" ||label3 == "Dry-Cell Batteries" ||label3 == "Fluorescent Tubes/CFLs" || 
+					label3 == "Mercury-Laden Wastes" || label3 == "Compressed Gas Cylinders/Fire Extinguishers" ||label3 == "Home Medical Products" ||label3 == "Other Potentially Harmful Wastes"){
+			col = [179,83,0];
+		} else if (label3 == "Non-Clothing" || label3 == "Clothing" || label3 == "Shoes/Rubber/Leather"){
+			col = [128,115,105];
+		} else if (label3 == "Other Nonrecyclable Paper" || label3 == "Plastic - Other" || label3 == "Organics" || label3 == "Miscellaneous Inorganics"){
+			col = [204, 149, 107];
+		} else if (label3 == "Compostable/Soiled/Waxed OCC/Kraft" || label3 == "Yard Waste" || label3 == "Food"){
+			col = [0,172,179]
+		} else if (label3 == ""){
+			col = 0;
+		} else {
+			col = [32,108,128]
+		} 
+		
+		boxes.push(new Box(label3,typeUnit3,x3,y3,col));
+	console.log(boxes)
+		}
+
+		for(var i in data.all){
+		var clean = data.all[i].SubMaterial;
+		if (hash4[clean] >= 1) {
+			hash4[clean] ++;
+		} else {
+			hash4[clean] = 1;
+		}	
+	}
+		// console.log(hash3)
+		var keys4 = Object.keys(hash4)
+		// console.log(keys3)
+		for(var i = 0; i < keys4.length; i++){
+			var label4 = keys4[i];
+			var typeUnit4 = hash4[label4];
+
+			console.log(label4)
+			var x4;
+
+			if(i == 0){
+				x4 = margin;
+			} else {
+			var newkeys4 = keys4[i-1];
+			var oldUnit4 = hash4[newkeys4];
+			x4 = x4 + oldUnit4*unit + (oldUnit4-1)*pad;
+			}
+		
+		y4 = topmargin + 75
+
+		var col;
+		if(label4 == "TV Peripherals (Covered)" || label4 == "Other (Non-Covered)"){
+			col = [255,229,210];
+		} else if (label4 == "Expanded Polystyrene" || label4 == "Film" || label4 == "Non-C&D Wood" || label4 == "Carpet/Upholstery"
+					|| label4 == "Disposable Diapers/Sanitary Products" || label4 == "Animal By-Products"|| label4 == "Fines"|| label4 == "Miscellaneous Organics"){
+			col = [204, 149, 107];
+		} else if (label4 == ""){
+			col = 0;
+		} else {
+			col = [32,108,128]
+		} 
+		
+		boxes.push(new Box(label4,typeUnit4,x4,y4,col));
+	}
+}
+	
 function draw(){
 	textFont(myFont);
 	background(0);
