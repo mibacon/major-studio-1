@@ -16,76 +16,101 @@ function setup(){
 	unit = total * 80/91;
 	pad = total * 11/91;
 	
-	// for (var i = 0; i < data.all.length; i++){
-	
-	// 	var name = data.all[i].Diversion_Category;
-var unitcount = 0;
-var jnum = [];
-var knum = [];
-var mnum = [];
+
+	var unitcount = 0;
+	var level1 = [];
+	var level2 = [];
+	var level3 = [];
+	var level4 = [];
+
+	for (var i = 0; i < data.all.length; i++){
+	var l1label = data.all[i].Diversion_Category;
+	var l1size = 0;
+		
 		
 		//let's go through the subcatgories of trash (e.g. C&D, HHP, etc.)
-		for (var j = 0; j < data.all[0].subtype.length; j++){
-			var jlabel = data.all[0].subtype[j].l2cat;
-			var jsize = 0;
+		for (var j = 0; j < data.all[i].subtype.length; j++){
+			var l2label = data.all[i].subtype[j].l2cat;
+			var l2size = 0;
 
 			//if there are no subcategories to C&D, etc, count the unit.
-			if (Object.keys(data.all[0].subtype[j].subtype3).length == 0){
+			if (Object.keys(data.all[i].subtype[j].subtype3).length == 0){
 				unitcount = unitcount + 1;
-				jsize = jsize  + 1;
+				l1size = l1size + 1;
+				l2size = l2size  + 1;
 				}
 
 			//let's go through the sub-subcategories of C&D (e.g. lumber, or AV equipment)
-			for (var k = 0; k < data.all[0].subtype[j].subtype3.length; k++){
-				var klabel = data.all[0].subtype[j].subtype3[k].l3cat;
-				var ksize = 0;
+			for (var k = 0; k < data.all[i].subtype[j].subtype3.length; k++){
+				var l3label = data.all[i].subtype[j].subtype3[k].l3cat;
+				var l3size = 0;
 								
 				//if there are no subcategories, count the unit.
-				if (Object.keys(data.all[0].subtype[j].subtype3[k].subtype4).length == 0){
+				if (Object.keys(data.all[i].subtype[j].subtype3[k].subtype4).length == 0){
 					unitcount = unitcount + 1;
-					jsize = jsize + 1;
-					ksize = ksize +1;
+					l1size = l1size + 1;
+					l2size = l2size + 1;
+					l3size = l3size +1;
 				}
 				
 				//let's go through the next layer of categories
-				for (var m = 0; m < data.all[0].subtype[j].subtype3[k].subtype4.length; m++){
-					var mlabel = data.all[0].subtype[j].subtype3[k].subtype4[m].l4cat;
-					var msize = 0
+				for (var m = 0; m < data.all[i].subtype[j].subtype3[k].subtype4.length; m++){
+					var l4label = data.all[i].subtype[j].subtype3[k].subtype4[m].l4cat;
+					var l4size = 0
 					
 					unitcount = unitcount + 1;
-					jsize = jsize + 1;
-					ksize = ksize + 1;
-					msize = msize + 1;
+					l1size = l1size + 1;
+					l2size = l2size + 1;
+					l3size = l3size + 1;
+					l4size = l4size + 1;
 				
 					
-					mnum[mlabel] = msize;
+					level4[l4label] = l4size;
 
 				//end of m loop
 				}
 			
 			
 			
-			knum[klabel] = ksize;
+			level3[l3label] = l3size;
 			//end of k loop	
 			} 
 
-			jnum[jlabel] = jsize;
+			level2[l2label] = l2size;
 			
 		//end of j loop
 		}
-		// console.log(jnum);
+		// console.log(level2);
+		level1[l1label] = l1size;
+
+		// console.log(level3)
+		// console.log(level4)
+		var level1Keys = Object.keys(level1);
+		var level2Keys = Object.keys(level2);
+		var level3Keys = Object.keys(level3);
+
+		//console.log(level2Keys);
 		
+		// var ilabel = data.all[i].Diversion_Category;
+		var l1name = level1Keys[i];
+		console.log(l1name);
+		var l1unit = level1[l1name];
+		console.log(l1unit)
+		var l1Y = topmargin;
+		var l1col = data.all[i].color;
+		var l1X;
+		var l1W = l1unit*unit + (l1unit-1)*pad;
+			if(i == 0){
+				l1X = margin;
+			} else {
+				l1X = l1X + l1W;
+			}
+		boxes.push(new Box(l1name,l1W,l1X,l1Y,l1col));
 
-		// console.log(knum)
-		// console.log(mnum)
-		var jnumKeys = Object.keys(jnum);
-		var knumKeys = Object.keys(knum);
-
-		// console.log(jnumKeys);
-		for(var j = 0; j < data.all[0].subtype.length; j++){
-			var jname = jnumKeys[j];
+		for(var j = 0; j < data.all[i].subtype.length; j++){
+			var jname = level2Keys[j];
 			console.log(jname);
-			var junit = jnum[jname];
+			var junit = level2[jname];
 			console.log(junit)
 			var jY = topmargin + 25;
 			var jcol = data.all[0].subtype[j].l2color;
@@ -101,12 +126,12 @@ var mnum = [];
 			boxes.push(new Box(jname,jW,jX,jY,jcol));
 
 			for(var k = 0; k < data.all[0].subtype[j].subtype3.length; k++){
-				var kname = knumKeys[k];
+				var kname = level3Keys[k];
 				console.log("kname is " + kname);
-				var kunit = knum[kname];
+				var kunit = level3[kname];
 				console.log("kunit is " + kunit);
-				// var kY = topmargin + 50;
-				// var kcol = data.all[0].subtype[j].subtype3[k].l3color;
+				var kY = topmargin + 50;
+				var kcol = data.all[0].subtype[j].subtype3[k].l3color;
 				var kX;
 				var kW = kunit*unit + (kunit-1)*pad;
 				if(k == 0){
@@ -117,19 +142,20 @@ var mnum = [];
 				console.log("kx for " + kname + " is " + kX)
 				console.log(unit)
 				console.log(pad)
-				// boxes.push(new Box(kname,kW,kX,kY,kcol))
+				boxes.push(new Box(kname,kW,kX,kY,kcol))
 			}
 			
 		}	
 		
+	}	
 		console.log(boxes)
 
 
 			// for (var k = 0; k < data.all[0].subtype[j].subtype3.length; k++){
 				
 
-			// 	var klabel = data.all[0].subtype[j].subtype3[k].l3cat;
-			// 	console.log(klabel + " is size " + ksize)
+			// 	var l3label = data.all[0].subtype[j].subtype3[k].l3cat;
+			// 	console.log(l3label + " is size " + l3size)
 			// 	// var kX;
 			// 	// if(k == 0){
 			// 	// kX = jX;
@@ -139,18 +165,18 @@ var mnum = [];
 			// 	// var kY = topmargin + 50;
 			// 	// var kcol = data.all[0].subtype[j].subtype3[k].l3color;
 
-			// 	// var kW = ksize*unit+(ksize-1)*pad;
+			// 	// var kW = l3size*unit+(l3size-1)*pad;
 				
-			// 	// boxes.push(new Box(klabel,kW,kX,kY,kcol));
+			// 	// boxes.push(new Box(l3label,kW,kX,kY,kcol));
 			// }
 
 							
 				
 				// 
 				
-				// console.log(klabel + " is " + ksize);
-				// console.log("klabel is " + klabel);
-				// console.log("ksize is " + ksize);
+				// console.log(l3label + " is " + l3size);
+				// console.log("l3label is " + l3label);
+				// console.log("l3size is " + l3size);
 				
 				// console.log("kW is " + kW);
 				// console.log("unit is "+ unit);
@@ -161,39 +187,34 @@ var mnum = [];
 
 					//for some reason, in order for the m to loop, i needed this block of code. now it works without it...
 					// if (l4 == 0){
-					// 	console.log(klabel + "l4 = 0")
+					// 	console.log(l3label + "l4 = 0")
 					// 	break
 					// }
-					// console.log(mlabel + " " + msize)			
-		// var mlabel = data.all[0].subtype[j].subtype3[k].subtype4[m].l4cat;
+					// console.log(l4label + " " + l4size)			
+		// var l4label = data.all[0].subtype[j].subtype3[k].subtype4[m].l4cat;
 					// var mX;
 					// if(m == 0){
 					// 	mX = kX;
 					// } else {
-					// 	mX = kX + (msize*unit) + (msize-1)*pad;
+					// 	mX = kX + (l4size*unit) + (l4size-1)*pad;
 					// }
 					// var mY = topmargin + 75;
 					// var mcol = data.all[0].subtype[j].subtype3[k].subtype4[m].l4color;
 					
-					// boxes.push(new Box(mlabel,msize,mX,mY,mcol));
+					// boxes.push(new Box(l4label,l4size,mX,mY,mcol));
 					//this statement won't work. i can't go down to the subtype 5 level.
 					// if (Object.keys(data.all[0].subtype[j].subtype3[k].subtype4[m].subtype5).length == 0){
 					// 	unitcount = unitcount + 1;
-					// 	jsize = jsize + 1;
-					// 	// console.log(klabel + " is 0")
+					// 	l2size = l2size + 1;
+					// 	// console.log(l3label + " is 0")
 					// } else {
-					// 	console.log(klabel + " has subtype5"); 
+					// 	console.log(l3label + " has subtype5"); 
 					// }
 			
 
 			
 	
-	var ilabel = data.all[0].Diversion_Category;
-	var iX = margin;
-	var iW = unitcount*unit + (unitcount-1)*pad;
-	var iY = topmargin;
-	var icol = data.all[0].color;
-	boxes.push(new Box(ilabel,iW,iX,iY,icol));
+
 }
 // 		// console.log(unitcount)
 // 	// }
