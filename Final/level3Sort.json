@@ -1,0 +1,605 @@
+[
+  {
+    "Type": "Untreated Dimensional Lumber/Pallets/Crates Dimensional",
+    "Amount": 23487,
+    "Proper": 1,
+    "Improper": 0,
+    "color": "#cc936b",
+    "tooltip": "1%",
+    "desc": "Untreated, milled lumber commonly used in construction for framing and related uses. Includes 2 x 4's, 2 x 6's, etc."
+  },
+  {
+    "Type": "Treated/Contaminated Wood",
+    "Amount": 39997,
+    "Proper": 1,
+    "Improper": 0,
+    "color": "#cc936b",
+    "tooltip": "1%",
+    "desc": "Lumber and wood products that have been painted or treated so as to render them difficult to compost (with generally 50% or more of the surface area treated). Includes painted and chemically treated lumber, plywood, strandboard, and particleboard. Also includes wood and lumber products that are mixed with other materials in such a way that they cannot easily be separated."
+  },
+  {
+    "Type": "Other C&D Debris Not Elsewhere Classified",
+    "Amount": 93391,
+    "Proper": 0.99,
+    "Improper": 0.01,
+    "color": "#cc936b",
+    "tooltip": "3%",
+    "desc": "Construction debris (other than wood, plastic and metal) that cannot be classified elsewhere, and mixed fine building material scraps. Includes clean and painted gypsum drywall, fiberglass insulation, rock/concrete/bricks, asphaltic and other roofing, fixtures, etc."
+  },
+  {
+    "Type": "Audio/Visual Equipment-TV Peripherals (Covered)",
+    "Amount": 3668,
+    "Proper": 0.89,
+    "Improper": 0.11,
+    "color": "#ffe5d1",
+    "tooltip": "0%",
+    "desc": "Electronic A/V equipment covered by the NYS Electronics Recycling Law. Includes VCRs, digital video recorders, DVD players, digital converter boxes, cable or satellite receivers, electronic or video game consoles. Includes any batteries that are still inside the devices."
+  },
+  {
+    "Type": "Audio/Visual Equipment-Other (Non-Covered)",
+    "Amount": 6545,
+    "Proper": 0.91,
+    "Improper": 0.09,
+    "color": "#ffe5d1",
+    "tooltip": "0%",
+    "desc": "Electronic A/V equipment not covered by the NYS Electronics Recycling Law. Includes Radios, Stereos, Tape Decks, Cameras, GPS devices, Cell phones, Calculators. Includes any batteries that are still inside the devices."
+  },
+  {
+    "Type": "Computer Monitors",
+    "Amount": 78,
+    "Proper": 0.85,
+    "Improper": 0.15,
+    "color": "#ffe5d1",
+    "tooltip": "0%",
+    "desc": "Items other than televisions containing a cathode ray tube (CRT) such as computer monitors and laptops. Also includes flat screen monitors"
+  },
+  {
+    "Type": "Televisions",
+    "Amount": 7925,
+    "Proper": 1,
+    "Improper": "-",
+    "color": "#ffe5d1",
+    "tooltip": "0%",
+    "desc": "Television sets containing a cathode ray tube (CRT) and flat screen TVs."
+  },
+  {
+    "Type": "Other Computer Equipment Computer",
+    "Amount": 9197,
+    "Proper": 0.92,
+    "Improper": 0.08,
+    "color": "#ffe5d1",
+    "tooltip": "0%",
+    "desc": "Computer items not containing CRTs such as processors, mice and mouse pads, keyboards, and disk drives, cords and cables, portable devices (portable digital music player, tablet, e-readers etc.), printers, scanners, servers. Includes both computer cords and regular extension cords."
+  },
+  {
+    "Type": "Oil Filters",
+    "Amount": 3,
+    "Proper": 1,
+    "Improper": "-",
+    "color": "#b25400",
+    "tooltip": "0%",
+    "desc": "Metal oil filters used in cars and other automobiles."
+  },
+  {
+    "Type": "Antifreeze",
+    "Amount": 4,
+    "Proper": "-",
+    "Improper": 1,
+    "color": "#b25400",
+    "tooltip": "0%",
+    "desc": "Full or partially full containers of anti-freeze."
+  },
+  {
+    "Type": "Wet-Cell Batteries",
+    "Amount": 20,
+    "Proper": "-",
+    "Improper": 1,
+    "color": "#b25400",
+    "tooltip": "0%",
+    "desc": "Wet-cell batteries of various sizes and types as commonly used in automobiles. Includes lead-acid batteries."
+  },
+  {
+    "Type": "Water-Based Adhesives/Glues",
+    "Amount": 211,
+    "Proper": 0.29,
+    "Improper": 0.71,
+    "color": "#b25400",
+    "tooltip": "0%",
+    "desc": "Water or resin/volatile solvent-based glues and adhesives, including epoxy, rubber cement, two-part glues and sealers, and auto body fillers."
+  },
+  {
+    "Type": "Latex Paint",
+    "Amount": 2410,
+    "Proper": 0.74,
+    "Improper": 0.26,
+    "color": "#b25400",
+    "tooltip": "0%",
+    "desc": "Latex Paint"
+  },
+  {
+    "Type": "Oil-Based Paint/Solvent",
+    "Amount": 271,
+    "Proper": 0.16,
+    "Improper": 0.84,
+    "color": "#b25400",
+    "tooltip": "0%",
+    "desc": "Oil-based paints, varnishes, and similar products. Various solvents, including chlorinated and flammable solvents, paint strippers, solvents contaminated with other products such as paints, degreasers and some other cleaners if the primary ingredient"
+  },
+  {
+    "Type": "Pesticides/Herbicides/Rodenticides",
+    "Amount": 283,
+    "Proper": 0.95,
+    "Improper": 0.05,
+    "color": "#b25400",
+    "tooltip": "0%",
+    "desc": "Variety of poisons with the purpose of discouraging or killing insects, weeds, vermin, or microorganisms. Fungicides and wood preservatives, such as pentachlorophenol, are also included."
+  },
+  {
+    "Type": "Dry-Cell Batteries",
+    "Amount": 2643,
+    "Proper": 0.95,
+    "Improper": 0.05,
+    "color": "#b25400",
+    "tooltip": "0%",
+    "desc": "Dry-cell batteries of various sizes and types as commonly used in households. Includes cell phone and button cell batteries."
+  },
+  {
+    "Type": "Fluorescent Tubes/CFLs",
+    "Amount": 219,
+    "Proper": 0.86,
+    "Improper": 0.14,
+    "color": "#b25400",
+    "tooltip": "0%",
+    "desc": "Fluorescent light tubes and compact fluorescent light bulbs (CFL)."
+  },
+  {
+    "Type": "Mercury-Laden Wastes",
+    "Amount": 52,
+    "Proper": 1,
+    "Improper": "-",
+    "color": "#b25400",
+    "tooltip": "0%",
+    "desc": "Thermostats, thermometers, and other items containing mercury. Excludes fluorescent bulbs."
+  },
+  {
+    "Type": "Compressed Gas Cylinders/Fire Extinguishers",
+    "Amount": 97,
+    "Proper": 1,
+    "Improper": "-",
+    "color": "#b25400",
+    "tooltip": "0%",
+    "desc": "An apparatus, typically a metal container, containing chemicals or gas, held under pressure."
+  },
+  {
+    "Type": "Home Medical Products",
+    "Amount": 4418,
+    "Proper": 0.95,
+    "Improper": 0.05,
+    "color": "#b25400",
+    "tooltip": "0%",
+    "desc": "Syringes, IV Bags, medical tubing"
+  },
+  {
+    "Type": "Other Potentially Harmful Wastes",
+    "Amount": 1423,
+    "Proper": 0.93,
+    "Improper": 0.07,
+    "color": "#b25400",
+    "tooltip": "0%",
+    "desc": "Caustic acids and bases whose primary purpose is to clean surfaces, unclog drains, or perform other actions; photography chemicals, chemistry sets; household disinfectants and pool chemicals; gasoline/diesel fuels; motor oils and automotive fluids not elsewhere classified; smoke detectors, explosives."
+  },
+  {
+    "Type": "Retail Bags/Sleeves",
+    "Amount": 71923,
+    "Proper": 0.97,
+    "Improper": 0.03,
+    "color": "#7f5b42",
+    "tooltip": "2%",
+    "desc": "Plastic bags given to customers by any retail establishment for transporting purchased goods. Includes labeled grocery and merchandise bags, dry cleaner bags, and newspaper sheath bags. Excludes garbage bags, baggies or Ziploc bags; or bags heavily soiled"
+  },
+  {
+    "Type": "Non-Clothing",
+    "Amount": 69419,
+    "Proper": 0.99,
+    "Improper": 0.01,
+    "color": "#7f7268",
+    "tooltip": "2%",
+    "desc": "Non-clothing fabrics made of rag stock fabric materials of natural or synthetic textiles, such as cotton, wool, silk, woven nylon, rayon, and polyester. Includes handbags, linens, draperies, tablecloths, nylon rope."
+  },
+  {
+    "Type": "Clothing",
+    "Amount": 87545,
+    "Proper": 0.99,
+    "Improper": 0.01,
+    "color": "#7f7268",
+    "tooltip": "3%",
+    "desc": "All clothing textiles. Includes cloth diapers and fabrics made of natural or synthetic textiles, such as cotton, wool, silk, woven nylon, rayon, and polyester."
+  },
+  {
+    "Type": "Shoes/Rubber/Leather",
+    "Amount": 32841,
+    "Proper": 0.97,
+    "Improper": 0.03,
+    "color": "#7f7268",
+    "tooltip": "1%",
+    "desc": "Finished products and scrap materials made of leather, and natural and synthetic rubber. Includes leather jackets, belts, bags, purses, shoes, sneakers, sandals, and boots, bath mats, inner tubes, garden and rubber hoses, foam rubber, tire pieces, latex gloves."
+  },
+  {
+    "Type": "Other Nonrecyclable Paper",
+    "Amount": 26558,
+    "Proper": 0.87,
+    "Improper": 0.13,
+    "color": "#cc936b",
+    "tooltip": "1%",
+    "desc": "Coated paper frozen food and ice cream containers/packaging and other polycoated papers (excluding polycoated beverage cartons and aseptic packaging); paper with other materials attached (e.g. juice concentrate cans, and spiral notebooks), and other non-recyclable papers such as carbon copy paper, label backing, and photographs, gypsum board tape rolls."
+  },
+  {
+    "Type": "#6 EPS Containers/Packaging (including Single  Use)",
+    "Amount": 24513,
+    "Proper": 0.97,
+    "Improper": 0.03,
+    "color": "#cc936b",
+    "tooltip": "1%",
+    "desc": "#6 expanded polystyrene (EPS) packaging and finished products. Includes EPS trays used for packaging and shelf display of meats and groceries. Excludes Styrofoam plates, cups, bowls and platters, which are included in Single Use Plates, Cups, and Cutlery."
+  },
+  {
+    "Type": "Film Plastic: Garbage Bags",
+    "Amount": 77341,
+    "Proper": 0.87,
+    "Improper": 0.13,
+    "color": "#cc936b",
+    "tooltip": "3%",
+    "desc": "Plastic bags designed and marketed to contain garbage, recycling, or other materials for disposal."
+  },
+  {
+    "Type": "Film Plastic: All Other Film",
+    "Amount": 58096,
+    "Proper": 0.96,
+    "Improper": 0.04,
+    "color": "#cc936b",
+    "tooltip": "2%",
+    "desc": "Other film bags not elsewhere classified and other plastic film products made of #2 HDPE, #4 LDPE or #4 LLDPE."
+  },
+  {
+    "Type": "Non-C&D Wood",
+    "Amount": 107188,
+    "Proper": 0.99,
+    "Improper": 0.01,
+    "color": "#cc936b",
+    "tooltip": "4%",
+    "desc": "Wood products not associated with C&D activities. Includes furniture, popsicle sticks, chopsticks, wooden spoons, and other miscellaneous household wood products. Also includes clean, stained, painted and composite woods, wicker, and box springs."
+  },
+  {
+    "Type": "Carpet/Upholstery",
+    "Amount": 37905,
+    "Proper": 1,
+    "Improper": "-",
+    "color": "#cc936b",
+    "tooltip": "1%",
+    "desc": "General category of flooring applications and non-rag stock textiles consisting of various natural or synthetic fibers bonded to some type of backing material. Includes mattresses and cushions made only of urethane foam with upholstered exterior."
+  },
+  {
+    "Type": "Disposable Diapers/Sanitary Products Diapers/Sanitary",
+    "Amount": 117859,
+    "Proper": 1,
+    "Improper": 0,
+    "color": "#cc936b",
+    "tooltip": "4%",
+    "desc": "Diapers and sanitary products made from a combination of natural and/or synthetic fibers, and made for the purpose of single use. This includes disposable baby diapers, adult protective undergarments, and feminine hygiene products"
+  },
+  {
+    "Type": "Animal By-Products",
+    "Amount": 54092,
+    "Proper": 1,
+    "Improper": 0,
+    "color": "#cc936b",
+    "tooltip": "2%",
+    "desc": "Animal carcasses not resulting from food storage or preparation. Also includes animal wastes, and kitty litter."
+  },
+  {
+    "Type": "Fines",
+    "Amount": 87618,
+    "Proper": 0.98,
+    "Improper": 0.02,
+    "color": "#cc936b",
+    "tooltip": "3%",
+    "desc": "Small organic items that are smaller than 1/2 inch and fell through the screen on the sort table."
+  },
+  {
+    "Type": "Miscellaneous Organics",
+    "Amount": 19150,
+    "Proper": 0.98,
+    "Improper": 0.02,
+    "color": "#cc936b",
+    "tooltip": "1%",
+    "desc": "Items of organic origin not elsewhere classified. Include wax, bar soap, carpet padding, cigarette butts, briquettes, and fireplace, burn barrel and fire pit ash, vacuum cleaner bags and contents, sponges. Also includes pet food and hair. Includes traditional mattresses made of a combination of foam and metal coil construction with upholstered exterior."
+  },
+  {
+    "Type": "Paper: Compostable/Soiled/Waxed OCC/Kraft",
+    "Amount": 230253,
+    "Proper": 0.99,
+    "Improper": 0.01,
+    "color": "#8c6c57",
+    "tooltip": "8%",
+    "desc": "Waxed papers and cardboards, other papers that were soiled with food during use (e.g., pizza box inserts); paper towels, wipes and napkins; paper plates, platters, cups, and bowls"
+  },
+  {
+    "Type": "Yard Waste",
+    "Amount": 186715,
+    "Proper": 1,
+    "Improper": 0,
+    "color": "#8c6c57",
+    "tooltip": "6%",
+    "desc": "Any plant materials from a yard or garden area. Includes grass clippings, leaves, weeds, garden wastes, prunings, trimmings, limbs, stumps, etc. Also includes cut flowers and house plants."
+  },
+  {
+    "Type": "Food",
+    "Amount": 554903,
+    "Proper": 0.99,
+    "Improper": 0.01,
+    "color": "#8c6c57",
+    "tooltip": "18%",
+    "desc": "Vegetative and non-vegetative food wastes and scraps. Includes vegetative food wastes such as vegetables and fruit as well as dairy, meat, bones, shells, husks, rinds, and prepared foods etc. Also includes vitamins and supplements. Excludes food containers, except when container weight is not appreciable compared to the food inside and separation is not practical."
+  },
+  {
+    "Type": "Aluminum Cans",
+    "Amount": 8745,
+    "Proper": 0.28,
+    "Improper": 0.72,
+    "color": "#197f66",
+    "tooltip": "0%",
+    "desc": "Aluminum beverage and food cans and bi-metal cans made mostly of aluminum."
+  },
+  {
+    "Type": "Aluminum Foil/Containers",
+    "Amount": 14717,
+    "Proper": 0.12,
+    "Improper": 0.88,
+    "color": "#197f66",
+    "tooltip": "0%",
+    "desc": "Aluminum food containers, trays, and foil."
+  },
+  {
+    "Type": "Other Aluminum",
+    "Amount": 2749,
+    "Proper": 0.22,
+    "Improper": 0.78,
+    "color": "#197f66",
+    "tooltip": "0%",
+    "desc": "Aluminum products and scrap that are 50% or more aluminum by weight, such as window frames, cookware."
+  },
+  {
+    "Type": "Other Non-Ferrous",
+    "Amount": 3528,
+    "Proper": 0.26,
+    "Improper": 0.74,
+    "color": "#197f66",
+    "tooltip": "0%",
+    "desc": "Non-aluminum metals not derived from iron, to which a magnet will not adhere, and which are not significantly contaminated with other metals or materials. Includes copper, brass, lead, stainless steel, zinc."
+  },
+  {
+    "Type": "Steel/Tin Food Cans",
+    "Amount": 26998,
+    "Proper": 0.49,
+    "Improper": 0.51,
+    "color": "#197f66",
+    "tooltip": "1%",
+    "desc": "Steel food containers, including bi-metal cans mostly of steel. Includes removed steel lids."
+  },
+  {
+    "Type": "Empty Aerosol Cans",
+    "Amount": 4351,
+    "Proper": 0.39,
+    "Improper": 0.61,
+    "color": "#197f66",
+    "tooltip": "0%",
+    "desc": "Empty, mixed material/metal aerosol cans. (Aerosols that still contain product are sorted according to that material-for instance, solvent-based paint.)"
+  },
+  {
+    "Type": "Other Ferrous",
+    "Amount": 24891,
+    "Proper": 0.25,
+    "Improper": 0.75,
+    "color": "#197f66",
+    "tooltip": "1%",
+    "desc": "Ferrous and alloyed ferrous scrap metals to which a magnet adheres and which are not significantly contaminated with other metals or materials. Includes ferrous metal caps/lids to containers of other"
+  },
+  {
+    "Type": "Mixed Metals",
+    "Amount": 13622,
+    "Proper": 0.13,
+    "Improper": 0.87,
+    "color": "#197f66",
+    "tooltip": "0%",
+    "desc": "Items that are predominately metal with other materials attached such as motors, insulated wire, and finished products containing a mixture of metals, or metals and other materials, that are not classified in the \"small appliances\" section below. Includes pieces of white goods. Included certain non-computer insulated wiring such as holiday light strands if the wiring is half or more of the weight."
+  },
+  {
+    "Type": "Appliances: Ferrous",
+    "Amount": 8584,
+    "Proper": 0.4,
+    "Improper": 0.6,
+    "color": "#197f66",
+    "tooltip": "0%",
+    "desc": "Large and small electric appliances made predominantly of ferrous metal (steel). Includes large appliances such as washers, dryers, stoves, refrigerators, dishwashers, etc. Includes small appliances such as toasters, microwave ovens, power tools, curling irons, and light fixtures."
+  },
+  {
+    "Type": "Appliances: Non-Ferrous",
+    "Amount": 1104,
+    "Proper": 0.64,
+    "Improper": 0.36,
+    "color": "#197f66",
+    "tooltip": "0%",
+    "desc": "Large and small electric appliances made predominantly of non-ferrous metal (stainless steel)."
+  },
+  {
+    "Type": "Clear Container Glass",
+    "Amount": 55798,
+    "Proper": 0.57,
+    "Improper": 0.43,
+    "color": "#56937f",
+    "tooltip": "2%",
+    "desc": "Manually sortable, recyclable clear glass bottles and jars that are greater than 2\" x 2"
+  },
+  {
+    "Type": "Green Container Glass",
+    "Amount": 20443,
+    "Proper": 0.75,
+    "Improper": 0.25,
+    "color": "#56937f",
+    "tooltip": "1%",
+    "desc": "Manually sortable, recyclable green glass bottles and jars that are greater than 2\" x 2"
+  },
+  {
+    "Type": "Brown Container Glass",
+    "Amount": 11370,
+    "Proper": 0.56,
+    "Improper": 0.44,
+    "color": "#56937f",
+    "tooltip": "0%",
+    "desc": "Manually sortable, recyclable brown glass bottles and jars that are greater than 2\" x 2"
+  },
+  {
+    "Type": "Mixed Cullet",
+    "Amount": 35095,
+    "Proper": 0.72,
+    "Improper": 0.28,
+    "color": "#56937f",
+    "tooltip": "1%",
+    "desc": "Broken glass of any color not manually sortable (under 2\" x 2\"); glass shards"
+  },
+  {
+    "Type": "Other Glass",
+    "Amount": 10824,
+    "Proper": 0.24,
+    "Improper": 0.76,
+    "color": "#56937f",
+    "tooltip": "0%",
+    "desc": "Window glass, mirrors, light bulbs (except fluorescent tubes), decorative glassware (e.g. vases), decorative glass bottles (e.g. perfume bottles), drinking glasses, other noncontainer glass."
+  },
+  {
+    "Type": "Paper Beverage Cartons/Aseptic Boxes",
+    "Amount": 12861,
+    "Proper": 0.38,
+    "Improper": 0.62,
+    "color": "#2b997c",
+    "tooltip": "0%",
+    "desc": "Beverage and food containers made of bleached and unbleached paperboard coated with HDPE film. This includes polycoated milk, juice and soup containers, and aseptic juice and soup boxes, including those with plastic spouts attached. Excludes juice concentrate cans."
+  },
+  {
+    "Type": "Single Use Plastic Plates/Cups/Cutlery (Excluding EPS)",
+    "Amount": 14599,
+    "Proper": 0.05,
+    "Improper": 0.95,
+    "color": "#58af7f",
+    "tooltip": "0%",
+    "desc": "Plastic single use spoons, forks, knives, plates, cups, cup lids, bowls, straws, and platters of various resins, including expanded polystyrene (EPS). Excludes any EPS tray used for packaging and display (such as meat trays)."
+  },
+  {
+    "Type": "Appliances: Plastic",
+    "Amount": 7336,
+    "Proper": 0.11,
+    "Improper": 0.89,
+    "color": "#58af7f",
+    "tooltip": "0%",
+    "desc": "Small and large electric appliances made predominantly (> 50%) of plastic."
+  },
+  {
+    "Type": "Bulk/Rigid Plastic",
+    "Amount": 26991,
+    "Proper": 0.25,
+    "Improper": 0.75,
+    "color": "#58af7f",
+    "tooltip": "1%",
+    "desc": "Plastic crates and soda bottle carriers."
+  },
+  {
+    "Type": "Other Plastics",
+    "Amount": 24159,
+    "Proper": 0.13,
+    "Improper": 0.87,
+    "color": "#58af7f",
+    "tooltip": "1%",
+    "desc": "Plastic items made entirely of plastic or predominantly of plastic not elsewhere classified. As a rule of thumb, smaller in size than a breadbox. Includes pens and markers, lighters, 3- ring binders, small toys and housewares, toothbrushes, razors, dental floss containers, CD/DVDs, VHS tapes."
+  },
+  {
+    "Type": "Rigid Plastic Containers/Packaging",
+    "Amount": 48240,
+    "Proper": 0.17,
+    "Improper": 0.83,
+    "color": "#58af7f",
+    "tooltip": "2%",
+    "desc": "#6 rigid polystyrene containers and packaging. Includes clear trays, clamshells, and cases, salad green containers, cookie tray inserts, yogurt, butter and sour cream containers, CD cases."
+  },
+  {
+    "Type": "#1 PET Bottles",
+    "Amount": 44274,
+    "Proper": 0.46,
+    "Improper": 0.54,
+    "color": "#58af7f",
+    "tooltip": "1%",
+    "desc": "#1 Polyethylene terephthalate translucent bottles and jars with necks"
+  },
+  {
+    "Type": "#2 HDPE Natural Bottles",
+    "Amount": 15749,
+    "Proper": 0.6,
+    "Improper": 0.4,
+    "color": "#58af7f",
+    "tooltip": "1%",
+    "desc": "High-density translucent polyethylene (#2) bottles. Milk, juice, beverage, vinegar, distilled water bottles and jars with necks"
+  },
+  {
+    "Type": "#2 HDPE Pigmented Bottles",
+    "Amount": 13355,
+    "Proper": 0.58,
+    "Improper": 0.42,
+    "color": "#58af7f",
+    "tooltip": "0%",
+    "desc": "High-density colored (including opaque white) polyethylene (#2) bottles. Liquid detergent bottles, some hair care bottles and jars with necks. Includes empty motor oil bottles. (Chemical bottles that still contain product are sorted according to that material-for instance, pesticides.)"
+  },
+  {
+    "Type": "Other Plastic Bottles",
+    "Amount": 3960,
+    "Proper": 0.44,
+    "Improper": 0.56,
+    "color": "#58af7f",
+    "tooltip": "0%",
+    "desc": "All other bottles and jars with necks labeled with resin codes other than #1 and #2, bioplastic, dual-labeled (marked with two resin codes), other labeled, or unlabeled. Includes empty bottles that once held motor oil or other HHW. (Chemical bottles that still contain product are sorted according to that material-for instance, pesticides.)"
+  },
+  {
+    "Type": "Newspaper",
+    "Amount": 101035,
+    "Proper": 0.59,
+    "Improper": 0.41,
+    "color": "#285677",
+    "tooltip": "3%",
+    "desc": "Printed ground wood newsprint (Advertising \"slicks\" (glossy paper), if found mixed with newspaper; otherwise, ad slicks are included with mixed low grade.)"
+  },
+  {
+    "Type": "Plain OCC/Kraft Paper",
+    "Amount": 136039,
+    "Proper": 0.71,
+    "Improper": 0.29,
+    "color": "#285677",
+    "tooltip": "4%",
+    "desc": "Old unwaxed/uncoated corrugated container boxes, and Kraft paper including paper bags"
+  },
+  {
+    "Type": "High Grade Paper",
+    "Amount": 40977,
+    "Proper": 0.41,
+    "Improper": 0.59,
+    "color": "#285677",
+    "tooltip": "1%",
+    "desc": "White and lightly colored bond, rag, or stationery grade paper. This includes white or lightly colored sulfite/sulfate bond, copy papers, notebook paper, envelopes, Continuous-feed sulfite/sulfate computer printouts and forms of all types, excluding carbonless copy paper"
+  },
+  {
+    "Type": "Mixed Low Grade Paper",
+    "Amount": 286715,
+    "Proper": 0.32,
+    "Improper": 0.68,
+    "color": "#285677",
+    "tooltip": "9%",
+    "desc": "Includes junk mail, magazines, advertising \"slicks\" (glossy paper) not mixed with newspaper, colored papers, bleached Kraft including bags, boxboard, mailing tubes, carbonless copy paper, ground wood computer printouts, telephone directories, paperback books, hardcover books"
+  }
+]

@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+
+	</head>
+
+	<body>
+		<p> This is a p </p>
+		
+		<script>
+			var svg = d3.select("body").append("svg")
+				.attr("height", 1280)
+				.attr("width", 800)
+
+
+      		var xScale = d3.scaleLinear().range([0, 500])
+      			// .domain([0,3500000])
+      			
+
+      		// var colorScale = d3.scale.category10();
+		
+		var x = 0;
+		var x1 = 0;
+		var x2 = 0;
+		d3.json("data.json", function(data) {
+			
+			xScale.domain([0, d3.sum(data, function(d) { return d.amount })]);
+
+			svg.append("g").selectAll("rect")
+				.data(data)
+				.enter()
+				.append("rect")
+				.attr("x", 20)
+				.attr("x", function(d){		
+					var oldx=x;
+					x = x + xScale(d.amount)+5;
+					return oldx;
+				})
+				.attr("y", 200)
+				.attr("width", function(d){
+					return xScale(d.amount)
+				})
+				.attr("height", 20)
+			});
+
+		d3.json("level2.json", function(data) {
+			
+			xScale.domain([0, d3.sum(data, function(d) { return d.Amount })]);
+
+			svg.append("g").selectAll("rect")
+				.data(data)
+				.enter()
+				.append("rect")
+				.attr("x", 20)
+				.attr("x", function(d){		
+					var oldx1=x1;
+					x1 = x1 + xScale(d.Amount)+5;
+					return oldx1;
+				})
+				.attr("y", 230)
+				.attr("width", function(d){
+					return xScale(d.Amount)
+				})
+				.attr("height", 20)
+			})
+
+			d3.json("level3.json", function(data) {
+			
+			xScale.domain([0, d3.sum(data, function(d) { return d.Waste })]);
+
+			svg.append("g").selectAll("rect")
+				.data(data)
+				.enter()
+				.append("rect")
+				.attr("x", 20)
+				.attr("x", function(d){		
+					var oldx2=x2;
+					x2 = x2 + xScale(d.Waste)+5;
+					return oldx2;
+				})
+				.attr("y", 260)
+				.attr("width", function(d){
+					return xScale(d.Waste)
+				})
+				.attr("height", 20)
+			})
+		
+		</script>
+</body>
+
+</html>

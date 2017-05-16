@@ -1,0 +1,70 @@
+<html>
+<head>
+	<script src="https://d3js.org/d3.v4.js"></script>
+</head>
+<body>
+	<p> This is a bar chart</p>
+	<script>
+		var outerHeight = 500;
+		var outerWidth = 500;
+		var margin = { left: 60, top: 30, right: 30, bottom: 30 };
+		var barPadding = .05
+		
+		var innerWidth  = outerWidth  - margin.left - margin.right;
+		var innerHeight = outerHeight - margin.top - margin.bottom;
+		
+		var xColumn = "Name";
+		var yColumn = "Amount";
+		var colorColumn = "Name"
+
+
+		var svg = d3.select("body").append("svg")
+					.attr("width", outerWidth)
+					.attr("height", outerHeight);
+		
+		var g = svg.append("g")
+					.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+		var xAxisG = g.append("g")
+					.attr("transform", "translate(0," + innerHeight + ")");
+		var yAxisG = g.append("g")
+
+		var xScale = d3.scaleBand().rangeRound([0,innerWidth]).paddingInner(barPadding);
+		var yScale = d3.scaleLinear().range([innerHeight,0]);
+		var colorScale = d3.scaleOrdinal(["#FF734C", "#00CCC0"])
+
+		var xAxis = d3.axisBottom(xScale);
+		var yAxis = d3.axisLeft(yScale);
+
+		d3.json("Trash1.json", function(data){
+			xScale.domain(data.map(function(d) { return d[xColumn]; }))
+
+			var max = d3.max(data, function(d) { return d[yColumn] })
+
+			yScale.domain([0, max]);
+			colorScale.domain(data.map(function (d){ return d[colorColumn]; }));
+
+			var bars = g.selectAll("rect").data(data)
+				.enter().append("rect")
+				.attr("x", function(d) { return xScale(d[xColumn]); })
+				.attr("y", function(d) { return yScale(d[yColumn]); })
+				.attr("width", xScale.bandwidth())
+				.attr("height", function(d) { return innerHeight - yScale(d[yColumn]); })
+				.attr("fill", function(d) {return(colorScale(d[colorColumn]))})
+
+			xAxisG.call(xAxis)
+			yAxisG.call(yAxis)
+
+		})
+
+
+		
+		
+	
+			
+		
+
+
+	</script>
+</body>
+</html>

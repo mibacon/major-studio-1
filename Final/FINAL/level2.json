@@ -1,0 +1,74 @@
+[
+  {
+    "Type": "Construction & Demolition",
+    "Amount": 156875,
+    "color": "#cc936b",
+    "tooltip": "5.13%"
+  },
+  {
+    "Type": "E-Waste",
+    "Amount": 27413,
+    "color": "#ffe5d1",
+    "tooltip": "0.90%"
+  },
+  {
+    "Type": "Special Waste",
+    "Amount": 12054,
+    "color": "#b25400",
+    "tooltip": "0.39%"
+  },
+  {
+    "Type": "Film Plastic",
+    "Amount": 71923,
+    "color": "#7f5b42",
+    "tooltip": "2.35%"
+  },
+  {
+    "Type": "Textiles",
+    "Amount": 189805,
+    "color": "#7f7268",
+    "tooltip": "6.20%"
+  },
+  {
+    "Type": "Other",
+    "Amount": 610320,
+    "color": "#cc936b",
+    "tooltip": "19.95%"
+  },
+  {
+    "Type": "Organics Suitable for Composting",
+    "Amount": 971871,
+    "color": "#8c6c57",
+    "tooltip": "31.77%"
+  },
+  {
+    "Type": "Metal",
+    "Amount": 109289,
+    "color": "#197f66",
+    "tooltip": "3.57%"
+  },
+  {
+    "Type": "Glass",
+    "Amount": 133530,
+    "color": "#56937f",
+    "tooltip": "4.36%"
+  },
+  {
+    "Type": "Paper (MGP)",
+    "Amount": 12861,
+    "color": "#2b997c",
+    "tooltip": "0.42%"
+  },
+  {
+    "Type": "Plastic",
+    "Amount": 198663,
+    "color": "#58af7f",
+    "tooltip": "6.49%"
+  },
+  {
+    "Type": "Paper",
+    "Amount": 564766,
+    "color": "#285677",
+    "tooltip": "18.46%"
+  }
+]

@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+
+	</head>
+
+	<body>
+		<p> This is a p </p>
+		
+		<script>
+			var svg = d3.select("body").append("svg")
+				.attr("height", 500)
+				.attr("width", 500)
+			
+			var data = [
+				{month: "Jan", apples: 2840, bananas: 1920, cherries: 960, dates: 400},
+				{month: "Feb", apples: 1600, bananas: 1440, cherries: 960, dates: 400},
+  				{month: "March", apples:  640, bananas:  960, cherries: 640, dates: 400},
+  				{month: "April", apples:  320, bananas:  480, cherries: 640, dates: 400}
+			]
+  								
+
+			var keys = ["apples", "bananas", "cherries", "dates"]
+			
+			var x = d3.scaleBand().rangeRound([0, 500]).padding(0.5),
+    			y = d3.scaleLinear().rangeRound([500, 0])
+			    z = d3.scaleOrdinal()
+				.range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+
+				x.domain(data.map(function(d) { return d.month; }));
+ 				y.domain([0, d3.max(data, function(d) { return d.apples; })]);
+				z.domain(keys)
+
+			
+
+
+			svg.append("g")
+    				.selectAll("g")
+    				.data(d3.stack().keys(keys)(data))
+    				.enter().append("g")
+      				.attr("fill", function(d) { return z(d.key); })
+   				
+   				.selectAll("rect")
+    				.data(function(d) { return d; })
+    				.enter().append("rect")
+      					.attr("x", function(d) { return x(d.data.month); })
+      					.attr("y", function(d) { return y(d[1]); })
+						.attr("height", function(d) { return (y(d[0]) - y(d[1])); })
+      					.attr("width", x.bandwidth());
+
+
+		</script>
+
+	</body>
+</html>

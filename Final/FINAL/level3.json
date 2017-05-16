@@ -1,0 +1,270 @@
+[
+  {
+    "Type": "Untreated Dimensional Lumber/Pallets/Crates Dimensional",
+    "Amount": 23487
+  },
+  {
+    "Type": "Treated/Contaminated Wood",
+    "Amount": 39997
+  },
+  {
+    "Type": "Other C&D Debris Not Elsewhere Classified",
+    "Amount": 93391
+  },
+  {
+    "Type": "Audio/Visual Equipment-TV Peripherals (Covered)",
+    "Amount": 3668
+  },
+  {
+    "Type": "Audio/Visual Equipment-Other (Non-Covered)",
+    "Amount": 6545
+  },
+  {
+    "Type": "Computer Monitors",
+    "Amount": 78
+  },
+  {
+    "Type": "Televisions",
+    "Amount": 7925
+  },
+  {
+    "Type": "Other Computer Equipment Computer",
+    "Amount": 9197
+  },
+  {
+    "Type": "Oil Filters",
+    "Amount": 3
+  },
+  {
+    "Type": "Antifreeze",
+    "Amount": 4
+  },
+  {
+    "Type": "Wet-Cell Batteries",
+    "Amount": 20
+  },
+  {
+    "Type": "Water-Based Adhesives/Glues",
+    "Amount": 211
+  },
+  {
+    "Type": "Latex Paint",
+    "Amount": 2410
+  },
+  {
+    "Type": "Oil-Based Paint/Solvent",
+    "Amount": 271
+  },
+  {
+    "Type": "Pesticides/Herbicides/Rodenticides",
+    "Amount": 283
+  },
+  {
+    "Type": "Dry-Cell Batteries",
+    "Amount": 2643
+  },
+  {
+    "Type": "Fluorescent Tubes/CFLs",
+    "Amount": 219
+  },
+  {
+    "Type": "Mercury-Laden Wastes",
+    "Amount": 52
+  },
+  {
+    "Type": "Compressed Gas Cylinders/Fire Extinguishers",
+    "Amount": 97
+  },
+  {
+    "Type": "Home Medical Products",
+    "Amount": 4418
+  },
+  {
+    "Type": "Other Potentially Harmful Wastes",
+    "Amount": 1423
+  },
+  {
+    "Type": "Retail Bags/Sleeves",
+    "Amount": 71923
+  },
+  {
+    "Type": "Non-Clothing",
+    "Amount": 69419
+  },
+  {
+    "Type": "Clothing",
+    "Amount": 87545
+  },
+  {
+    "Type": "Shoes/Rubber/Leather",
+    "Amount": 32841
+  },
+  {
+    "Type": "Other Nonrecyclable Paper",
+    "Amount": 26558
+  },
+  {
+    "Type": "#6 EPS Containers/Packaging (including Single  Use)",
+    "Amount": 24513
+  },
+  {
+    "Type": "Film Plastic: Garbage Bags",
+    "Amount": 77341
+  },
+  {
+    "Type": "Film Plastic: All Other Film",
+    "Amount": 58096
+  },
+  {
+    "Type": "Non-C&D Wood",
+    "Amount": 107188
+  },
+  {
+    "Type": "Carpet/Upholstery",
+    "Amount": 37905
+  },
+  {
+    "Type": "Disposable Diapers/Sanitary Products Diapers/Sanitary",
+    "Amount": 117859
+  },
+  {
+    "Type": "Animal By-Products",
+    "Amount": 54092
+  },
+  {
+    "Type": "Fines",
+    "Amount": 87618
+  },
+  {
+    "Type": "Miscellaneous Organics",
+    "Amount": 19150
+  },
+  {
+    "Type": "Paper: Compostable/Soiled/Waxed OCC/Kraft",
+    "Amount": 230253
+  },
+  {
+    "Type": "Yard Waste",
+    "Amount": 186715
+  },
+  {
+    "Type": "Food",
+    "Amount": 554903
+  },
+  {
+    "Type": "Aluminum Cans",
+    "Amount": 8745
+  },
+  {
+    "Type": "Aluminum Foil/Containers",
+    "Amount": 14717
+  },
+  {
+    "Type": "Other Aluminum",
+    "Amount": 2749
+  },
+  {
+    "Type": "Other Non-Ferrous",
+    "Amount": 3528
+  },
+  {
+    "Type": "Steel/Tin Food Cans",
+    "Amount": 26998
+  },
+  {
+    "Type": "Empty Aerosol Cans",
+    "Amount": 4351
+  },
+  {
+    "Type": "Other Ferrous",
+    "Amount": 24891
+  },
+  {
+    "Type": "Mixed Metals",
+    "Amount": 13622
+  },
+  {
+    "Type": "Appliances: Ferrous",
+    "Amount": 8584
+  },
+  {
+    "Type": "Appliances: Non-Ferrous",
+    "Amount": 1104
+  },
+  {
+    "Type": "Clear Container Glass",
+    "Amount": 55798
+  },
+  {
+    "Type": "Green Container Glass",
+    "Amount": 20443
+  },
+  {
+    "Type": "Brown Container Glass",
+    "Amount": 11370
+  },
+  {
+    "Type": "Mixed Cullet",
+    "Amount": 35095
+  },
+  {
+    "Type": "Other Glass",
+    "Amount": 10824
+  },
+  {
+    "Type": "Paper Beverage Cartons/Aseptic Boxes",
+    "Amount": 12861
+  },
+  {
+    "Type": "Single Use Plastic Plates/Cups/Cutlery (Excluding EPS)",
+    "Amount": 14599
+  },
+  {
+    "Type": "Appliances: Plastic",
+    "Amount": 7336
+  },
+  {
+    "Type": "Bulk/Rigid Plastic",
+    "Amount": 26991
+  },
+  {
+    "Type": "Other Plastics",
+    "Amount": 24159
+  },
+  {
+    "Type": "Rigid Plastic Containers/Packaging",
+    "Amount": 48240
+  },
+  {
+    "Type": "#1 PET Bottles",
+    "Amount": 44274
+  },
+  {
+    "Type": "#2 HDPE Natural Bottles",
+    "Amount": 15749
+  },
+  {
+    "Type": "#2 HDPE Pigmented Bottles",
+    "Amount": 13355
+  },
+  {
+    "Type": "Other Plastic Bottles",
+    "Amount": 3960
+  },
+  {
+    "Type": "Newspaper",
+    "Amount": 101035
+  },
+  {
+    "Type": "Plain OCC/Kraft Paper",
+    "Amount": 136039
+  },
+  {
+    "Type": "High Grade Paper",
+    "Amount": 40977
+  },
+  {
+    "Type": "Mixed Low Grade Paper",
+    "Amount": 286715
+  }
+]

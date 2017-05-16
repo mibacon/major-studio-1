@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "Untreated Dimensional Lumber/Pallets/Crates Dimensional",
+    "Amount": 23439,
+    "Divert": "Proper",
+    "Color": "#7f5b42"
+  },
+  {
+    "Type": "Treated/Contaminated Wood",
+    "Amount": 39837,
+    "Divert": "Proper",
+    "Color": "#7f5b42"
+  },
+  {
+    "Type": "Other C&D Debris Not Elsewhere Classified",
+    "Amount": 92226,
+    "Divert": "Proper",
+    "Color": "#7f5b42"
+  },
+  {
+    "Type": "Untreated Dimensional Lumber/Pallets/Crates Dimensional",
+    "Amount": 49,
+    "Divert": "Improper",
+    "Color": "#197f66"
+  },
+  {
+    "Type": "Treated/Contaminated Wood",
+    "Amount": 160,
+    "Divert": "Improper",
+    "Color": "#285677"
+  },
+  {
+    "Type": "Other C&D Debris Not Elsewhere Classified",
+    "Amount": 1165,
+    "Divert": "Improper",
+    "Color": "#197f66"
+  }
+]

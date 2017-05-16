@@ -1,0 +1,27 @@
+[
+		{
+		"name": "Refuse",
+		"diverted": "Landfill",
+		"value": 100
+		},
+		{
+		"name": "Refuse",
+		"diverted": "Recycling",
+		"value": 50
+		},
+		{
+		"name": "MGP",
+		"diverted": "Landfill",
+		"value": 40
+		},
+		{
+		"name": "MGP",
+		"diverted": "Recycling",
+		"value": 10
+		},
+		{
+		"name": "Paper",
+		"diverted": "Landfill",
+		"value": 200
+		}
+	]

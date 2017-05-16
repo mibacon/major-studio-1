@@ -1,0 +1,583 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- script language="javascript" type="text/javascript" src="d3.v4.min.js"></script>
+  <script language="javascript" type="text/javascript" src="jquery.min.js"></script>
+  <rel="stylesheet" type="text/css" src="bootstrap.min.css"></script> -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+ 
+  </head>
+
+  <body>
+    <div class = "first-container"> 
+   <div class= "title"> Defining NYC Trash </div>
+        
+        <p> <span class= "by"> BY Michal Bacon </span> <br>  How should New Yorkers be recycling their trash?<br>What do they really do?</p>
+
+            <svg class = "carrot">
+            <path fill="#ffffff" d="M 24.146 26 c -0.53 0 -1.039 -0.284 -1.414 -0.659 L 0.586 3.158 c -0.781 -0.781 -0.781 -2.066 0 -2.846 c 0.78 -0.781 2.048 -0.791 2.828 -0.009 L 24.137 21.02 L 44.576 0.305 c 0.776 -0.787 2.042 -0.796 2.829 -0.021 c 0.786 0.776 0.794 2.042 0.019 2.828 L 25.57 25.332 C 25.196 25.711 24.686 26 24.153 26 C 24.151 26 24.149 26 24.146 26 Z">
+            </svg>
+    </div>
+      
+
+
+   <div class = "second-container">
+          <p> Each year, New Yorkers generate over 3 billion tons of trash. In face, NYC generates more trash than any other city in the world. Mayor DeBlasio has pledged that by 2030, New York will send ZERO Waste to landfills. To see if and how this is possible, we must first take a closer look at what's in our trash bins. </p> 
+     
+          <svg  class = "carrot" fill =  "#434343" >
+          <path d = "M 24.146 26 c -0.53 0 -1.039 -0.284 -1.414 -0.659 L 0.586 3.158 c -0.781 -0.781 -0.781 -2.066 0 -2.846 c 0.78 -0.781 2.048 -0.791 2.828 -0.009 L 24.137 21.02 L 44.576 0.305 c 0.776 -0.787 2.042 -0.796 2.829 -0.021 c 0.786 0.776 0.794 2.042 0.019 2.828 L 25.57 25.332 C 25.196 25.711 24.686 26 24.153 26 C 24.151 26 24.149 26 24.146 26 Z"> </path> </svg>  
+    </div>
+   
+    <div class = "third-container">
+        <div class="title3"> What are the main streams of trash?</div>
+        <p> NYC trash is divided into three main categories, recognized by the color of the garbage bin: brown/black for refuse sent to landfills; green for metal, glass and plastic sent for recycling; and blue for paper, sent for recycling as well. Click below to learn what is in your trash.</p>
+
+        <div class = "content"> 
+              <g>
+              <a id="displayText" href="javascript:toggle();" style="color:white">Click here</a>
+              <div id="toggleText" style="display: none"></div>
+              </g>
+                <g>
+                  <a id="displayText2" href="javascript:toggle1();" style="display:none"> Click to see subcategories</a>
+                   <div id="toggleText2" style="display:none"></div>  
+                   </g>
+                      <g>
+                        <a id="displayText3" href="javascript:toggle2();" style="display:none" style="color:white"> Click to see actual types</a>
+                         <div id="toggleText3" style="display:none"></div>  
+                          
+                         </g>
+                <span id ="hovtext"> </span>
+                <span id ="hlabel" style="display: none"> of all trash</span>
+                <span id ="hov"> </span>
+                <span id ="hovtext1"> </span>
+                <span id ="hlabel1" style="display: none"> of all trash</span>
+                <span id ="hov1"> </span>
+                <span id ="hovtext2"> </span>
+                <span id ="hlabel2" style="display: none"> of all trash</span>
+                <span id = "hbox"></span>
+              </div>
+       
+       
+       <div class = "footer"> But that's not how New Yorkers actually sort their trash... </div>
+        <svg class = "carrot">
+            <path fill="#ffffff" d="M 24.146 26 c -0.53 0 -1.039 -0.284 -1.414 -0.659 L 0.586 3.158 c -0.781 -0.781 -0.781 -2.066 0 -2.846 c 0.78 -0.781 2.048 -0.791 2.828 -0.009 L 24.137 21.02 L 44.576 0.305 c 0.776 -0.787 2.042 -0.796 2.829 -0.021 c 0.786 0.776 0.794 2.042 0.019 2.828 L 25.57 25.332 C 25.196 25.711 24.686 26 24.153 26 C 24.151 26 24.149 26 24.146 26 Z"></path>
+            </svg>
+    </div>
+
+     <div class = "second-container">
+          <p> According to the 2013 Waste Characterization Study, over 30% of refuse sent to landfills could have been recycled. However, in order to get to ZERO WASTE, New Yorkers are going to have to learn not just to recycle better, but to reduce their overall production of trash. Explore below to see the worse offenders. </p> 
+     
+          <svg  class = "carrot" fill =  "#434343" >
+          <path d = "M 24.146 26 c -0.53 0 -1.039 -0.284 -1.414 -0.659 L 0.586 3.158 c -0.781 -0.781 -0.781 -2.066 0 -2.846 c 0.78 -0.781 2.048 -0.791 2.828 -0.009 L 24.137 21.02 L 44.576 0.305 c 0.776 -0.787 2.042 -0.796 2.829 -0.021 c 0.786 0.776 0.794 2.042 0.019 2.828 L 25.57 25.332 C 25.196 25.711 24.686 26 24.153 26 C 24.151 26 24.149 26 24.146 26 Z"> </path> </svg>  
+    </div>
+
+    <div class="fourth-container"> 
+        <div class ="title4"> How do New Yorkers actually sort their trash?</div>
+        <p> Over 30% of all trash ends up in the wrong stream.</p>
+        <span class='btn'>ALL</span>  
+        <span class='btn'>PROPERLY CATEGORIZED</span>  
+        <span class='btn'>IMPROPERLY CATEGORIZED</span>  
+        <div class="content2"> 
+
+
+            
+            <div>
+              <div id = "tips"> <img id = "picture"> </div >
+              <div id = "textimport">
+                  <span id = "import"> </span>
+
+                  <div id = "pcat"> </div>
+                  <span id = "plabel"></span> <br>
+                 
+                  <div id = "icat"></div>
+                  <span id = "ilabel"></span>
+              </div>
+             </div> 
+         </div>
+    </div>    
+<hr>
+<div class= "source"> Source: <br> 2013 Waste Characterization Study</div></div>
+<script>
+            function toggle() {
+                var ele = document.getElementById("toggleText");
+                var text = document.getElementById("displayText");
+
+                  if(ele.style.display == "none") {
+                  ele.style.display = "block";
+                  text.innerHTML = "Main Stream";
+                  var text1 = document.getElementById("displayText2");
+                  text1.style.display = "block";
+
+                }
+              } 
+
+              function toggle1() {
+                var ele1 = document.getElementById("toggleText2");
+                var text1 = document.getElementById("displayText2");
+                  if (ele1.style.display == "none"){
+                  ele1.style.display = "block";
+                  text1.innerHTML = "Categories";
+                  ele1.style = "white"
+                  var text2 = document.getElementById("displayText3");
+                  text2.style.display = "block";
+                }
+              } 
+
+              function toggle2() {
+                var ele2 = document.getElementById("toggleText3");
+                var text2 = document.getElementById("displayText3");
+                  if(ele2.style.display == "none") {
+                  ele2.style.display = "block";
+                  text2.innerHTML = "60 Types";
+                  }
+                }
+  
+                
+          </script>
+<script> 
+
+
+var svg = d3.select("#toggleText").append("svg")
+        .attr("width", 1200)
+        .attr("height", 60)
+
+        var xScale = d3.scaleLinear().range([0, 1200])
+        var xScale1 = d3.scaleLinear().range([0, 1200])
+        var xScale2 = d3.scaleLinear().range([0, 1200])
+        var x = 0, 
+            xL = 0;
+
+ 
+    // var tooltip = svg.append('g').append("text").attr("class", "toolTip");
+
+        d3.json("level1.json", function(data) {
+
+          xScale.domain([0, d3.sum(data, function(d) { return d.amount })]);
+
+          svg.selectAll("rect")
+            .data(data)
+            .enter()
+            .append("rect")
+            .attr("x", function(d){   
+              var oldx=x;
+              x = x + xScale(d.amount);
+              return oldx;
+              })
+            .attr("y", 40)
+            .attr("width", function(d){
+              return xScale(d.amount) - 2.5;
+              })
+            .attr("height", 20)
+            .attr("fill", function(d){ return d.color})
+            .on("mousemove", function(d){
+                d3.select("#hovtext")
+                  .text(d.tooltip)
+                  .style("font-family", "Roboto Slab")
+                  .style("font-size", "2em")
+                  .style("display", "block")
+                  .style("left", (d3.event.pageX - 34) + "px") 
+                  .style("top", (d3.event.pageY +40) + "px")
+                  .style("opacity", 1)
+                  .style("position", "absolute")
+
+                d3.select("#hlabel")
+                  .style("font-size", "1em")
+                  .style("display", "inline")
+                  // .style("margin-left", "40%")
+                  .style("left", (d3.event.pageX - 34) + "px")
+                  .style("top", (d3.event.pageY + 100) + "px")
+                  .style("opacity", 1)
+                  .style("position", "absolute")
+                })
+             .on("mouseout", function(d){ 
+               d3.select("#hovtext")
+                  // .style("opacity", 0);
+                  .style("display", "none");
+               d3.select("#hlabel")
+                  // .style("opacity", 0);
+                  .style("display", "none");
+            });
+            
+
+            svg.selectAll("text.legend")
+                .data(data)
+                .enter().append("text")
+                .attr("class", "legend")
+                .attr("x", function(d){   
+                    var oldxL=xL;
+                    xL = xL + xScale(d.amount);
+                    return oldxL;
+                    })
+                .text(function(d){return d.name})
+                .attr("fill","white")
+                .attr('y', 30);
+      });
+
+
+
+      var svg1 = d3.select("#toggleText2").append("svg")
+                .attr("width", 1200)
+                .attr("height", 60);
+
+        var x1 = 0;
+        var x1L = 0;
+       d3.json("level2.json", function(data) {
+          sum2 = d3.sum(data, function(d) { return d.Amount })
+          xScale1.domain([0, d3.sum(data, function(d) { return d.Amount})]);
+
+          svg1.selectAll("rect")
+            .data(data)
+            .enter()
+            .append("rect")
+            .attr("x", function(d){   
+              var oldx1=x1;
+              x1 = x1 + xScale(d.Amount);
+              return oldx1;
+              })
+            .attr("y", 40)
+            .attr("width", function(d){
+              return xScale(d.Amount)-2.5
+              })
+            .attr("height", 20)
+            .attr("fill", function(d){ return d.color})
+            .on("mousemove", function(d){
+                d3.select("#hov")
+                  .text(d.Type)
+                  .style("font-family", "Roboto Slab")
+                  .style("font-size", "1em")
+                  .style("display", "block")
+                  .style("left", (d3.event.pageX - 34) + "px") 
+                  .style("top", (d3.event.pageY +40) + "px")
+                  .style("opacity", 1)
+                  .style("position", "absolute")
+                  
+                d3.select("#hovtext1")
+                  .text(d.tooltip)
+                  .style("font-family", "Roboto Slab")
+                  .style("font-size", "2em")
+                  .style("display", "block")
+                  .style("left", (d3.event.pageX - 34) + "px") 
+                  .style("top", (d3.event.pageY +60) + "px")
+                  .style("opacity", 1)
+                  .style("position", "absolute")
+                  // .style("margin-left", "40%")
+                d3.select("#hlabel1")
+                  .style("font-size", "1em")
+                  .style("display", "block")
+                  .style("left", (d3.event.pageX - 34) + "px") 
+                  .style("top", (d3.event.pageY +100) + "px")
+                  .style("opacity", 1)
+                  .style("position", "absolute")
+                  // .style("margin-left", "40%")
+                  .attr("x", d3.event.pageX - 50 + "px")
+                })
+             .on("mouseout", function(d){ 
+               d3.select("#hov")
+                  .style("display", "none")
+               d3.select("#hovtext1")
+                  .style("display", "none")
+               d3.select("#hlabel1")
+                  .style("display", "none")
+            });
+            // svg1.selectAll(".legend")
+            //     .data(data)
+            //     .enter()
+            //     .append("text")
+            //     .attr('y', 30)
+            //      .style('text-anchor', 'start')
+            //       .attr('transform', 'rotate(-45 -10 10)')
+            //     .attr("class", "legend")
+            //     .attr("x", function(d){   
+            //          var oldx1L=x1L;
+            //           x1L = x1L + xScale(d.Amount);
+            //           return oldx1L;
+            //   })
+            //     .text(function(d){return d.Type })
+                 
+            //       .style("fill", "white")
+                
+               
+      });
+
+
+      var svg2 = d3.select("#toggleText3").append("svg")
+                .attr("width", 1200)
+                .attr("height", 60);
+                
+        var x2 = 0;
+       d3.json("level3Sort.json", function(data) {
+          xScale2.domain([0, d3.sum(data, function(d) { return d.Amount })]);
+          sum3 = d3.sum(data, function(d) { return d.Amount })
+          svg2.selectAll("rect")
+            .data(data)
+            .enter()
+            .append("rect")
+            // .attr("x", 20)
+            .attr("x", function(d){   
+              var oldx2=x2;
+              x2 = x2 + xScale(d.Amount);
+              return oldx2;
+              })
+            .attr("y", 40)
+            .attr("width", function(d){
+              return xScale(d.Amount)-2.5;
+              })
+            .attr("height", 20)
+            .attr("fill", function(d){ return d.color})
+              .on("mousemove", function(d){
+                d3.select("#hov1")
+                  .text(d.Type)
+                  .style("font-family", "Roboto Slab")
+                  .style("font-size", "1em")
+                  .style("display", "block")
+                  .style("left", (d3.event.pageX - 34) + "px") 
+                  .style("top", (d3.event.pageY +40) + "px")
+                  .style("opacity", 1)
+                  .style("position", "absolute")
+                d3.select("#hovtext2")
+                  .text(d.tooltip)
+                  .style("font-family", "Roboto Slab")
+                  .style("font-size", "2em")
+                  .style("display", "block")
+                  .style("left", (d3.event.pageX - 34) + "px") 
+                  .style("top", (d3.event.pageY +60) + "px")
+                  .style("opacity", 1)
+                  .style("position", "absolute")
+                  // .style("margin-left", "40%")
+                d3.select("#hlabel2")
+                  .style("font-size", "1em")
+                  .style("display", "block")
+                  .style("left", (d3.event.pageX - 34) + "px") 
+                  .style("top", (d3.event.pageY +100) + "px")
+                  .style("opacity", 1)
+                  .style("position", "absolute")
+               
+                d3.select("#hbox")
+                  .text(d.desc)
+                  .style("display", "inline-block")
+                  .stye("position", "fixed")
+                  .style("padding-left", "75%")
+                })
+             .on("mouseout", function(d){ 
+                d3.select("#hov1")
+                  .style("display", "none")
+               d3.select("#hovtext2")
+                  .style("display", "none")
+               d3.select("#hlabel2")
+                  .style("display", "none")
+               d3.select("#hbox")
+                  .style("display", "none")
+            });  
+      });
+
+</script>
+<script>
+              var svg3 = d3.select(".content2").append("svg")
+                .attr("width", "100%")
+                .attr("height", 300)
+                
+                svg3.append("rect")
+                  .attr("x", 315)
+                  .attr("y", 235)
+                  .attr("width", 600)
+                  .attr("height", 1)
+                  .attr("fill", "white")
+
+      
+       var xscale4 = d3.scaleLinear()
+       var xscale3 = d3.scaleLinear().range([0, 900])
+
+       
+        var x3 = 90;
+        var type = {};
+       
+       d3.json("level3Sort.json", function(data) {
+         
+         var sumdata = (d3.sum(data, function(d) { return d.Amount }))
+         var y = 66*2.5
+
+         var vary = sumdata + y
+          xscale4.domain([0, vary]).range([0, 900]);
+
+          svg3.append("g").selectAll("rect")
+            .data(data)
+            .enter()
+            .append("rect")
+            .attr("x", function(d){ 
+              type[d.Type] = type[d.Type] || {};
+              type[d.Type]["x1"] = x3;
+
+              var oldx3=x3;
+              type[d.Type]["x2"]= x3 + xscale4((d.Amount)*(d.Proper))
+
+              x3 = x3 + xscale4(d.Amount)+2.5;
+              type[d.Type]["x3"] = x3-2.5;
+              return oldx3;
+              })
+            .attr("y", 20)
+            .attr("width", function(d){return xscale4(d.Amount)})
+            .attr("height", 20)
+            .attr("fill", function(d) {return d.color})
+
+      });
+        
+       var x4 = 0;
+        var typeCount = [];
+
+       d3.json("level4.json", function(data) {
+      
+         var sumdata1 = (d3.sum(data, function(d) { return d.Amount }))
+         var y1 = 133*2.5
+         var vary1 = sumdata1 + y1;
+   
+         xscale3.domain([0, vary1]);
+
+          svg3.append("g").selectAll("rect")
+            .data(data)
+            .enter()
+            .append("rect")
+            .attr("x", function(d){
+
+              if(typeCount[d.Type] == undefined) {
+                type[d.Type]["x4"] = x4;
+                type[d.Type]["x5"] = x4 + xscale3(d.Amount);
+                typeCount[d.Type] = 1;
+                type[d.Type]["color"] = d.Color;
+              }  else {
+                type[d.Type]["x6"] = x4
+                type[d.Type]["x7"] = x4 + xscale3(d.Amount);
+                type[d.Type]["color2"] = d.Color;
+              }
+
+              var oldx4=x4;
+              x4 = x4 + xscale3(d.Amount)+2.5;
+              return oldx4;
+
+              })
+            .attr("y", 200)
+            .attr("width", function(d){return xscale3(d.Amount)})
+            .attr("height", 20)
+            .attr("fill", function(d) {return d.Color})
+            .attr("class", function(d) {return d.Divert})
+            .on("mousemove", function(d){
+              d3.select("#picture")
+                .attr("src", d.Image)
+                .style("display", "block")
+                .attr("float","left")
+                .attr("height", 150)
+              d3.select("#import")
+                .text(d.Type)
+                .style("font-family", "Roboto Slab")
+                .style("font-size", "24px")
+                .style("display", "block")
+              d3.select("#pcat")
+                .style("font-size", "44px")
+                .text(d.PerProper)
+                .style("color", "#197f66")
+                .style("display", "inline")
+              d3.select("#plabel")
+                .text("PROPERLY CATEGORIZED")
+                .style("color", "#197f66")
+                .style("display", "inline")
+              d3.select("#icat")
+                .text(d.PerImp)
+                .style("font-size", "44px")
+                .style("color", "#b25400")
+                .style("display", "inline")
+              d3.select("#ilabel")
+                .text("IMROPERLY CATEGORIZED")
+                .style("color", "#b25400")
+                .style("display", "inline")
+              })
+            .on("mouseout", function(d){ 
+              d3.select("#picture")
+                .style("display", "none")
+              d3.select("#import")
+                .style("display", "none")
+              d3.select("#pcat")
+                .style("display", "none")
+              d3.select("#plabel")
+                .style("display", "none")
+               d3.select("#icat")
+                .style("display", "none")
+               d3.select("#ilabel")
+                 .style("display", "none");
+               })
+    //         .on("click",function(d){
+    //             .selectAll("*:not (." + d.Type) +" \" ")
+    //               .style("opacity", 0.5)
+    // //               // var circleUnderMouse = this;
+    // //               // d3.selectAll("rect").transition().style('opacity',function () {
+    // //               // return (this === circleUnderMouse) ? 1.0 : 0.5;
+    //          });
+
+            // })
+           
+
+          for (var Type in type){
+              var obj = type[Type];
+              var obj1 = type[Type];
+
+              var points = [
+                {"x": obj["x1"], "y": 45},
+                {"x": obj["x4"], "y": 195},
+                {"x": obj["x5"], "y": 195},
+                {"x": obj["x2"], "y": 45},         
+                {"x": obj["x1"], "y": 45}
+              ]
+
+              var points1 = [
+                {"x": obj1["x2"], "y": 45},
+                {"x": obj1["x6"], "y": 195},
+                {"x": obj1["x7"], "y": 195},
+                {"x": obj1["x3"], "y": 45},         
+                {"x": obj1["x2"], "y": 45}
+              ]
+
+              var lineFunction = d3.line()
+                         .x(function(d) { return d.x; })
+                         .y(function(d) { return d.y; });
+
+
+              var lineGraph = svg3.append("g").append("path")
+                            .attr("d", lineFunction(points))
+                            .attr("fill", type[Type]["color"])
+                            .attr("class", "Proper")
+                            
+
+              var lineGraph1 = svg3.append("g").append("path")
+                            .attr("d", lineFunction(points1))
+                            .attr("fill", type[Type]["color2"])
+                            .attr("class", "Improper")
+             }
+
+             var curves = [ { "x": 1,   "y": 5},
+             ]
+
+  });
+
+  d3.selectAll(".btn").on("click",function(){
+    var val = d3.select(event.target).html();
+    if(val=="IMPROPERLY CATEGORIZED"){
+      d3.selectAll(".Proper").style("display", "none")
+      d3.selectAll(".Improper").style("display", "block")
+    } else if (val == "PROPERLY CATEGORIZED"){
+      d3.selectAll(".Improper").style("display", "none")
+      d3.selectAll(".Proper").style("display", "block")
+    } else {
+      d3.selectAll(".Improper").style("display", "block")
+      d3.selectAll(".Proper").style("display", "block")
+    }
+});
+
+
+</script>
+</body>
+</html>

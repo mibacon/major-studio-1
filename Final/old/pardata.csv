@@ -1,0 +1,6 @@
+name, diverted, value
+Refuse, Landfill,100
+Refuse, Recycling,50
+MGP, Landfill, 40
+MGP, Recycling, 10
+Paper, Landfill, 200

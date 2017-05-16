@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Parallel Sets - Jason Davies</title>
+<style>
+
+.dimension { cursor: ns-resize; }
+.category { cursor: ew-resize; }
+.dimension tspan.name { font-size: 1.5em; fill: #333; font-weight: bold; }
+.dimension tspan.sort { fill: #000; cursor: pointer; opacity: 0; }
+.dimension tspan.sort:hover { fill: #333; }
+.dimension:hover tspan.name { fill: #000; }
+.dimension:hover tspan.sort { opacity: 1; }
+.dimension line { stroke: #000; }
+.dimension rect { stroke: none; fill-opacity: 0; }
+.dimension > rect, .category-background { fill: #fff; }
+.dimension > rect { display: none; }
+.category:hover rect { fill-opacity: .3; }
+.dimension:hover > rect { fill-opacity: .3; }
+.ribbon path { stroke-opacity: 0; fill-opacity: .5; }
+.ribbon path.active { fill-opacity: .9; }
+.ribbon-mouse path { fill-opacity: 0; }
+
+.category-0 { fill: #1f77b4; stroke: #1f77b4; }
+.category-1 { fill: #ff7f0e; stroke: #ff7f0e; }
+.category-2 { fill: #2ca02c; stroke: #2ca02c; }
+.category-3 { fill: #d62728; stroke: #d62728; }
+.category-4 { fill: #9467bd; stroke: #9467bd; }
+.category-5 { fill: #8c564b; stroke: #8c564b; }
+.category-6 { fill: #e377c2; stroke: #e377c2; }
+.category-7 { fill: #7f7f7f; stroke: #7f7f7f; }
+.category-8 { fill: #bcbd22; stroke: #bcbd22; }
+.category-9 { fill: #17becf; stroke: #17becf; }
+
+.tooltip {
+  background-color: rgba(242, 242, 242, .6);
+  position: absolute;
+  font-family: san-serif;
+  padding: 5px;
+}
+</style>
+
+<body>
+
+<script src="http://mbostock.github.com/d3/d3.js?2.5.0"></script>
+<script src="http://www.jasondavies.com/parallel-sets/d3.parsets.js"></script>
+<script src="http://www.jasondavies.com/parallel-sets/highlight.min.js"></script>
+
+<script>
+	var data = [
+  {
+    name: "Untreated Dimensional Lumber/Pallets/Crates Dimensional",
+    diverted: "Refuse",
+    value: 23439
+  },
+  {
+    name: "Untreated Dimensional Lumber/Pallets/Crates Dimensional",
+    diverted: "MGP",
+    value: 32
+  },
+  {
+    name: "Untreated Dimensional Lumber/Pallets/Crates Dimensional",
+    diverted: "Paper",
+    value: 17
+  },
+  {
+    name: "Treated/Contaminated Wood",
+    diverted: "Refuse",
+    value: 39837
+  },
+  {
+    name: "Treated/Contaminated Wood",
+    diverted: "MGP",
+    value: 14
+  },
+  {
+    name: "Treated/Contaminated Wood",
+    diverted: "Paper",
+    value: 146
+  },
+  {
+    name: "Other C&D Debris Not Elsewhere Classified",
+    diverted: "Refuse",
+    value: 92226
+  },
+  {
+    name: "Other C&D Debris Not Elsewhere Classified",
+    diverted: "MGP",
+    value: 628
+  },
+  {
+    name: "Other C&D Debris Not Elsewhere Classified",
+    diverted: "Paper",
+    value: 537
+  },
+  {
+    name: "Audio/Visual Equipment-TV Peripherals (Covered)",
+    diverted: "Refuse",
+    value: 3253
+  },
+  {
+    name: "Audio/Visual Equipment-TV Peripherals (Covered)",
+    diverted: "MGP",
+    value: 402
+  },
+  {
+    name: "Audio/Visual Equipment-TV Peripherals (Covered)",
+    diverted: "Paper",
+    value: 13
+  },
+  {
+    name: "Audio/Visual Equipment-Other (Non-Covered)",
+    diverted: "Refuse",
+    value: 5977
+  },
+  {
+    name: "Audio/Visual Equipment-Other (Non-Covered)",
+    diverted: "MGP",
+    value: 439
+  },
+  {
+    name: "Audio/Visual Equipment-Other (Non-Covered)",
+    diverted: "Paper",
+    value: 129
+  },
+  {
+    name: "Computer Monitors",
+    diverted: "Refuse",
+    value: 66
+  },
+  {
+    name: "Computer Monitors",
+    diverted: "MGP",
+    value: 12
+  },
+  {
+    name: "Computer Monitors",
+    diverted: "Paper",
+    value: 0
+  },
+  {
+    name: "Televisions",
+    diverted: "Refuse",
+    value: 7925
+  },
+  {
+    name: "Televisions",
+    diverted: "MGP",
+    value: 0
+  },
+  {
+    name: "Televisions",
+    diverted: "Paper",
+    value: 0
+  },
+  {
+    name: "Other Computer Equipment Computer",
+    diverted: "Refuse",
+    value: 8451
+  },
+  {
+    name: "Other Computer Equipment Computer",
+    diverted: "MGP",
+    value: 724
+  },
+  {
+    name: "Other Computer Equipment Computer",
+    diverted: "Paper",
+    value: 21
+  },
+  {
+    name: "Oil Filters",
+    diverted: "Refuse",
+    value: 3
+  },
+  {
+    name: "Oil Filters",
+    diverted: "MGP",
+    value: 0
+  },
+  {
+    name: "Oil Filters",
+    diverted: "Paper",
+    value: 1
+  },
+  {
+    name: "Antifreeze",
+    diverted: "Refuse",
+    value: 0
+  },
+  {
+    name: "Antifreeze",
+    diverted: "MGP",
+    value: 0
+  },
+  {
+    name: "Antifreeze",
+    diverted: "Paper",
+    value: 4
+  },
+  {
+    name: "Wet-Cell Batteries",
+    diverted: "Refuse",
+    value: 0
+  },
+  {
+    name: "Wet-Cell Batteries",
+    diverted: "MGP",
+    value: 14
+  },
+  {
+    name: "Wet-Cell Batteries",
+    diverted: "Paper",
+    value: 6
+  },
+  {
+    name: "Water-Based Adhesives/Glues",
+    diverted: "Refuse",
+    value: 61
+  },
+  {
+    name: "Water-Based Adhesives/Glues",
+    diverted: "MGP",
+    value: 123
+  },
+  {
+    name: "Water-Based Adhesives/Glues",
+    diverted: "Paper",
+    value: 28
+  },
+  {
+    name: "Latex Paint",
+    diverted: "Refuse",
+    value: 1777
+  },
+  {
+    name: "Latex Paint",
+    diverted: "MGP",
+    value: 633
+  },
+  {
+    name: "Latex Paint",
+    diverted: "Paper",
+    value: 0
+  },
+  {
+    name: "Oil-Based Paint/Solvent",
+    diverted: "Refuse",
+    value: 43
+  },
+  {
+    name: "Oil-Based Paint/Solvent",
+    diverted: "MGP",
+    value: 227
+  },
+  {
+    name: "Oil-Based Paint/Solvent",
+    diverted: "Paper",
+    value: 0
+  },
+  {
+    name: "Pesticides/Herbicides/Rodenticides",
+    diverted: "Refuse",
+    value: 269
+  },
+  {
+    name: "Pesticides/Herbicides/Rodenticides",
+    diverted: "MGP",
+    value: 14
+  },
+  {
+    name: "Pesticides/Herbicides/Rodenticides",
+    diverted: "Paper",
+    value: 0
+  },
+  {
+    name: "Dry-Cell Batteries",
+    diverted: "Refuse",
+    value: 2524
+  },
+  {
+    name: "Dry-Cell Batteries",
+    diverted: "MGP",
+    value: 75
+  },
+  {
+    name: "Dry-Cell Batteries",
+    diverted: "Paper",
+    value: 45
+  },
+  {
+    name: "Fluorescent Tubes/CFLs",
+    diverted: "Refuse",
+    value: 189
+  },
+  {
+    name: "Fluorescent Tubes/CFLs",
+    diverted: "MGP",
+    value: 30
+  },
+  {
+    name: "Fluorescent Tubes/CFLs",
+    diverted: "Paper",
+    value: 0
+  },
+  {
+    name: "Mercury-Laden Wastes",
+    diverted: "Refuse",
+    value: 52
+  },
+  {
+    name: "Mercury-Laden Wastes",
+    diverted: "MGP",
+    value: 0
+  },
+  {
+    name: "Mercury-Laden Wastes",
+    diverted: "Paper",
+    value: 0
+  },
+  {
+    name: "Compressed Gas Cylinders/Fire Extinguishers",
+    diverted: "Refuse",
+    value: 97
+  },
+  {
+    name: "Compressed Gas Cylinders/Fire Extinguishers",
+    diverted: "MGP",
+    value: 0
+  },
+  {
+    name: "Compressed Gas Cylinders/Fire Extinguishers",
+    diverted: "Paper",
+    value: 0
+  },
+  {
+    name: "Home Medical Products",
+    diverted: "Refuse",
+    value: 4194
+  },
+  {
+    name: "Home Medical Products",
+    diverted: "MGP",
+    value: 126
+  },
+  {
+    name: "Home Medical Products",
+    diverted: "Paper",
+    value: 99
+  },
+  {
+    name: "Other Potentially Harmful Wastes",
+    diverted: "Refuse",
+    value: 1328
+  },
+  {
+    name: "Other Potentially Harmful Wastes",
+    diverted: "MGP",
+    value: 85
+  },
+  {
+    name: "Other Potentially Harmful Wastes",
+    diverted: "Paper",
+    value: 10
+  },
+  {
+    name: "Retail Bags/Sleeves",
+    diverted: "Refuse",
+    value: 69470
+  },
+  {
+    name: "Retail Bags/Sleeves",
+    diverted: "MGP",
+    value: 1862
+  },
+  {
+    name: "Retail Bags/Sleeves",
+    diverted: "Paper",
+    value: 591
+  },
+  {
+    name: "Non-Clothing",
+    diverted: "Refuse",
+    value: 68906
+  },
+  {
+    name: "Non-Clothing",
+    diverted: "MGP",
+    value: 142
+  },
+  {
+    name: "Non-Clothing",
+    diverted: "Paper",
+    value: 371
+  },
+  {
+    name: "Clothing",
+    diverted: "Refuse",
+    value: 87021
+  },
+  {
+    name: "Clothing",
+    diverted: "MGP",
+    value: 214
+  },
+  {
+    name: "Clothing",
+    diverted: "Paper",
+    value: 310
+  },
+  {
+    name: "Shoes/Rubber/Leather",
+    diverted: "Refuse",
+    value: 31695
+  },
+  {
+    name: "Shoes/Rubber/Leather",
+    diverted: "MGP",
+    value: 321
+  },
+  {
+    name: "Shoes/Rubber/Leather",
+    diverted: "Paper",
+    value: 824
+  },
+  {
+    name: "Other Nonrecyclable Paper",
+    diverted: "Refuse",
+    value: 23124
+  },
+  {
+    name: "Other Nonrecyclable Paper",
+    diverted: "MGP",
+    value: 962
+  },
+  {
+    name: "Other Nonrecyclable Paper",
+    diverted: "Paper",
+    value: 2472
+  },
+  {
+    name: "#6 EPS Containers/Packaging (including Single  Use)",
+    diverted: "Refuse",
+    value: 23783
+  },
+  {
+    name: "#6 EPS Containers/Packaging (including Single  Use)",
+    diverted: "MGP",
+    value: 283
+  },
+  {
+    name: "#6 EPS Containers/Packaging (including Single  Use)",
+    diverted: "Paper",
+    value: 447
+  },
+  {
+    name: "Film Plastic: Garbage Bags",
+    diverted: "Refuse",
+    value: 67522
+  },
+  {
+    name: "Film Plastic: Garbage Bags",
+    diverted: "MGP",
+    value: 6804
+  },
+  {
+    name: "Film Plastic: Garbage Bags",
+    diverted: "Paper",
+    value: 3014
+  },
+  {
+    name: "Film Plastic: All Other Film",
+    diverted: "Refuse",
+    value: 55891
+  },
+  {
+    name: "Film Plastic: All Other Film",
+    diverted: "MGP",
+    value: 1280
+  },
+  {
+    name: "Film Plastic: All Other Film",
+    diverted: "Paper",
+    value: 925
+  },
+  {
+    name: "Non-C&D Wood",
+    diverted: "Refuse",
+    value: 106650
+  },
+  {
+    name: "Non-C&D Wood",
+    diverted: "MGP",
+    value: 294
+  },
+  {
+    name: "Non-C&D Wood",
+    diverted: "Paper",
+    value: 245
+  },
+  {
+    name: "Carpet/Upholstery",
+    diverted: "Refuse",
+    value: 37905
+  },
+  {
+    name: "Carpet/Upholstery",
+    diverted: "MGP",
+    value: 1
+  },
+  {
+    name: "Carpet/Upholstery",
+    diverted: "Paper",
+    value: 0
+  },
+  {
+    name: "Disposable Diapers/Sanitary Products Diapers/Sanitary",
+    diverted: "Refuse",
+    value: 117483
+  },
+  {
+    name: "Disposable Diapers/Sanitary Products Diapers/Sanitary",
+    diverted: "MGP",
+    value: 200
+  },
+  {
+    name: "Disposable Diapers/Sanitary Products Diapers/Sanitary",
+    diverted: "Paper",
+    value: 176
+  },
+  {
+    name: "Animal By-Products",
+    diverted: "Refuse",
+    value: 53876
+  },
+  {
+    name: "Animal By-Products",
+    diverted: "MGP",
+    value: 85
+  },
+  {
+    name: "Animal By-Products",
+    diverted: "Paper",
+    value: 131
+  },
+  {
+    name: "Fines",
+    diverted: "Refuse",
+    value: 85730
+  },
+  {
+    name: "Fines",
+    diverted: "MGP",
+    value: 1310
+  },
+  {
+    name: "Fines",
+    diverted: "Paper",
+    value: 578
+  },
+  {
+    name: "Miscellaneous Organics",
+    diverted: "Refuse",
+    value: 18743
+  },
+  {
+    name: "Miscellaneous Organics",
+    diverted: "MGP",
+    value: 191
+  },
+  {
+    name: "Miscellaneous Organics",
+    diverted: "Paper",
+    value: 215
+  },
+  {
+    name: "Paper: Compostable/Soiled/Waxed OCC/Kraft",
+    diverted: "Refuse",
+    value: 227541
+  },
+  {
+    name: "Paper: Compostable/Soiled/Waxed OCC/Kraft",
+    diverted: "MGP",
+    value: 987
+  },
+  {
+    name: "Paper: Compostable/Soiled/Waxed OCC/Kraft",
+    diverted: "Paper",
+    value: 1726
+  },
+  {
+    name: "Yard Waste",
+    diverted: "Refuse",
+    value: 186418
+  },
+  {
+    name: "Yard Waste",
+    diverted: "MGP",
+    value: 164
+  },
+  {
+    name: "Yard Waste",
+    diverted: "Paper",
+    value: 134
+  },
+  {
+    name: "Food",
+    diverted: "Refuse",
+    value: 547316
+  },
+  {
+    name: "Food",
+    diverted: "MGP",
+    value: 5438
+  },
+  {
+    name: "Food",
+    diverted: "Paper",
+    value: 2149
+  },
+  {
+    name: "Aluminum Cans",
+    diverted: "Refuse",
+    value: 6116
+  },
+  {
+    name: "Aluminum Cans",
+    diverted: "MGP",
+    value: 2491
+  },
+  {
+    name: "Aluminum Cans",
+    diverted: "Paper",
+    value: 138
+  },
+  {
+    name: "Aluminum Foil/Containers",
+    diverted: "Refuse",
+    value: 12850
+  },
+  {
+    name: "Aluminum Foil/Containers",
+    diverted: "MGP",
+    value: 1793
+  },
+  {
+    name: "Aluminum Foil/Containers",
+    diverted: "Paper",
+    value: 74
+  },
+  {
+    name: "Other Aluminum",
+    diverted: "Refuse",
+    value: 2146
+  },
+  {
+    name: "Other Aluminum",
+    diverted: "MGP",
+    value: 593
+  },
+  {
+    name: "Other Aluminum",
+    diverted: "Paper",
+    value: 10
+  },
+  {
+    name: "Other Non-Ferrous",
+    diverted: "Refuse",
+    value: 2554
+  },
+  {
+    name: "Other Non-Ferrous",
+    diverted: "MGP",
+    value: 931
+  },
+  {
+    name: "Other Non-Ferrous",
+    diverted: "Paper",
+    value: 43
+  },
+  {
+    name: "Steel/Tin Food Cans",
+    diverted: "Refuse",
+    value: 13596
+  },
+  {
+    name: "Steel/Tin Food Cans",
+    diverted: "MGP",
+    value: 13141
+  },
+  {
+    name: "Steel/Tin Food Cans",
+    diverted: "Paper",
+    value: 261
+  },
+  {
+    name: "Empty Aerosol Cans",
+    diverted: "Refuse",
+    value: 2614
+  },
+  {
+    name: "Empty Aerosol Cans",
+    diverted: "MGP",
+    value: 1694
+  },
+  {
+    name: "Empty Aerosol Cans",
+    diverted: "Paper",
+    value: 43
+  },
+  {
+    name: "Other Ferrous",
+    diverted: "Refuse",
+    value: 18386
+  },
+  {
+    name: "Other Ferrous",
+    diverted: "MGP",
+    value: 6319
+  },
+  {
+    name: "Other Ferrous",
+    diverted: "Paper",
+    value: 185
+  },
+  {
+    name: "Mixed Metals",
+    diverted: "Refuse",
+    value: 11728
+  },
+  {
+    name: "Mixed Metals",
+    diverted: "MGP",
+    value: 1824
+  },
+  {
+    name: "Mixed Metals",
+    diverted: "Paper",
+    value: 70
+  },
+  {
+    name: "Appliances: Ferrous",
+    diverted: "Refuse",
+    value: 5162
+  },
+  {
+    name: "Appliances: Ferrous",
+    diverted: "MGP",
+    value: 3395
+  },
+  {
+    name: "Appliances: Ferrous",
+    diverted: "Paper",
+    value: 26
+  },
+  {
+    name: "Appliances: Non-Ferrous",
+    diverted: "Refuse",
+    value: 362
+  },
+  {
+    name: "Appliances: Non-Ferrous",
+    diverted: "MGP",
+    value: 704
+  },
+  {
+    name: "Appliances: Non-Ferrous",
+    diverted: "Paper",
+    value: 37
+  },
+  {
+    name: "Clear Container Glass",
+    diverted: "Refuse",
+    value: 23845
+  },
+  {
+    name: "Clear Container Glass",
+    diverted: "MGP",
+    value: 31549
+  },
+  {
+    name: "Clear Container Glass",
+    diverted: "Paper",
+    value: 404
+  },
+  {
+    name: "Green Container Glass",
+    diverted: "Refuse",
+    value: 5103
+  },
+  {
+    name: "Green Container Glass",
+    diverted: "MGP",
+    value: 15262
+  },
+  {
+    name: "Green Container Glass",
+    diverted: "Paper",
+    value: 77
+  },
+  {
+    name: "Brown Container Glass",
+    diverted: "Refuse",
+    value: 4943
+  },
+  {
+    name: "Brown Container Glass",
+    diverted: "MGP",
+    value: 6329
+  },
+  {
+    name: "Brown Container Glass",
+    diverted: "Paper",
+    value: 98
+  },
+  {
+    name: "Mixed Cullet",
+    diverted: "Refuse",
+    value: 9721
+  },
+  {
+    name: "Mixed Cullet",
+    diverted: "MGP",
+    value: 25187
+  },
+  {
+    name: "Mixed Cullet",
+    diverted: "Paper",
+    value: 187
+  },
+  {
+    name: "Other Glass",
+    diverted: "Refuse",
+    value: 7892
+  },
+  {
+    name: "Other Glass",
+    diverted: "MGP",
+    value: 2564
+  },
+  {
+    name: "Other Glass",
+    diverted: "Paper",
+    value: 368
+  },
+  {
+    name: "Paper Beverage Cartons/Aseptic Boxes",
+    diverted: "Refuse",
+    value: 7037
+  },
+  {
+    name: "Paper Beverage Cartons/Aseptic Boxes",
+    diverted: "MGP",
+    value: 4852
+  },
+  {
+    name: "Paper Beverage Cartons/Aseptic Boxes",
+    diverted: "Paper",
+    value: 973
+  },
+  {
+    name: "Single Use Plastic Plates/Cups/Cutlery (Excluding EPS)",
+    diverted: "Refuse",
+    value: 13754
+  },
+  {
+    name: "Single Use Plastic Plates/Cups/Cutlery (Excluding EPS)",
+    diverted: "MGP",
+    value: 730
+  },
+  {
+    name: "Single Use Plastic Plates/Cups/Cutlery (Excluding EPS)",
+    diverted: "Paper",
+    value: 115
+  },
+  {
+    name: "Appliances: Plastic",
+    diverted: "Refuse",
+    value: 6510
+  },
+  {
+    name: "Appliances: Plastic",
+    diverted: "MGP",
+    value: 773
+  },
+  {
+    name: "Appliances: Plastic",
+    diverted: "Paper",
+    value: 54
+  },
+  {
+    name: "Bulk/Rigid Plastic",
+    diverted: "Refuse",
+    value: 20009
+  },
+  {
+    name: "Bulk/Rigid Plastic",
+    diverted: "MGP",
+    value: 6742
+  },
+  {
+    name: "Bulk/Rigid Plastic",
+    diverted: "Paper",
+    value: 240
+  },
+  {
+    name: "Other Plastics",
+    diverted: "Refuse",
+    value: 20425
+  },
+  {
+    name: "Other Plastics",
+    diverted: "MGP",
+    value: 3227
+  },
+  {
+    name: "Other Plastics",
+    diverted: "Paper",
+    value: 508
+  },
+  {
+    name: "Rigid Plastic Containers/Packaging",
+    diverted: "Refuse",
+    value: 39232
+  },
+  {
+    name: "Rigid Plastic Containers/Packaging",
+    diverted: "MGP",
+    value: 8427
+  },
+  {
+    name: "Rigid Plastic Containers/Packaging",
+    diverted: "Paper",
+    value: 580
+  },
+  {
+    name: "#1 PET Bottles",
+    diverted: "Refuse",
+    value: 23643
+  },
+  {
+    name: "#1 PET Bottles",
+    diverted: "MGP",
+    value: 20170
+  },
+  {
+    name: "#1 PET Bottles",
+    diverted: "Paper",
+    value: 461
+  },
+  {
+    name: "#2 HDPE Natural Bottles",
+    diverted: "Refuse",
+    value: 6085
+  },
+  {
+    name: "#2 HDPE Natural Bottles",
+    diverted: "MGP",
+    value: 9515
+  },
+  {
+    name: "#2 HDPE Natural Bottles",
+    diverted: "Paper",
+    value: 149
+  },
+  {
+    name: "#2 HDPE Pigmented Bottles",
+    diverted: "Refuse",
+    value: 5523
+  },
+  {
+    name: "#2 HDPE Pigmented Bottles",
+    diverted: "MGP",
+    value: 7739
+  },
+  {
+    name: "#2 HDPE Pigmented Bottles",
+    diverted: "Paper",
+    value: 93
+  },
+  {
+    name: "Other Plastic Bottles",
+    diverted: "Refuse",
+    value: 2170
+  },
+  {
+    name: "Other Plastic Bottles",
+    diverted: "MGP",
+    value: 1745
+  },
+  {
+    name: "Other Plastic Bottles",
+    diverted: "Paper",
+    value: 44
+  },
+  {
+    name: "Newspaper",
+    diverted: "Refuse",
+    value: 39508
+  },
+  {
+    name: "Newspaper",
+    diverted: "MGP",
+    value: 1421
+  },
+  {
+    name: "Newspaper",
+    diverted: "Paper",
+    value: 60107
+  },
+  {
+    name: "Plain OCC/Kraft Paper",
+    diverted: "Refuse",
+    value: 38623
+  },
+  {
+    name: "Plain OCC/Kraft Paper",
+    diverted: "MGP",
+    value: 1109
+  },
+  {
+    name: "Plain OCC/Kraft Paper",
+    diverted: "Paper",
+    value: 96307
+  },
+  {
+    name: "High Grade Paper",
+    diverted: "Refuse",
+    value: 23792
+  },
+  {
+    name: "High Grade Paper",
+    diverted: "MGP",
+    value: 219
+  },
+  {
+    name: "High Grade Paper",
+    diverted: "Paper",
+    value: 16966
+  },
+  {
+    name: "Mixed Low Grade Paper",
+    diverted: "Refuse",
+    value: 190549
+  },
+  {
+    name: "Mixed Low Grade Paper",
+    diverted: "MGP",
+    value: 5068
+  },
+  {
+    name: "Mixed Low Grade Paper",
+    diverted: "Paper",
+    value: 91099
+  }
+]
+
+	var chart = d3.parsets()
+   	 .dimensions(["name", "diverted"])
+	 .tension(1)
+	 ;
+
+
+	var vis = d3.select("body").append("svg")
+		.attr("width", chart.width())
+   		.attr("height", chart.height());
+
+	vis.datum(data).call(chart);
+	
+		
+
+</script>
+</body>
+</html>

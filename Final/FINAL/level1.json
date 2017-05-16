@@ -1,0 +1,21 @@
+[
+	{ 
+	"name": "Refuse",
+	"amount":2040261,
+	"color": "#7f5b42",
+	"tooltip": "67%"
+	},
+	{ 
+	"name": "Metal, Glass, Plastic",
+	"amount": 454343,
+	"color": "#197f66",
+	"tooltip": "15%"
+	}, 
+	{
+	"name": "Paper",
+	"amount":564766,
+	"color": "#285677",
+	"tooltip": "18%"
+	}
+]
+

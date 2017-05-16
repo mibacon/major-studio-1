@@ -1,0 +1,99 @@
+</!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+
+<head>
+      <script src="https://d3js.org/d3.v4.min.js"></script>
+      <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+      <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
+<style>
+
+  #header {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    line-height: 90%;
+  }
+
+  p.intro{
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 200px;
+    color: #999999;
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    line-height: 90%;
+  }
+  body {
+    background-color: #434343;
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 960px;
+    margin: 1em auto;
+    position: relative;
+  }
+</style>
+
+<body>
+    <div id="header"> How do New Yorkers actually sort their trash?</div>
+    <p class="intro"> Over 30% of all trash ends up in the wrong stream.</p>
+
+  <script>
+    var w = window.innerWidth;
+    var h = window.innerHeight;    
+
+      var svg = d3.select("body").append("svg")
+                .attr("width", w)
+                .attr("height", 40);
+
+        var x1 = 0;
+        var x1L = 0;
+       d3.json("level3.json", function(data) {
+      
+          xScale.domain([0, d3.sum(data, function(d) { return d.Amount })]);
+
+          svg.selectAll("rect")
+            .data(data)
+            .enter()
+            .append("rect")
+            // .attr("x", 20)
+            .attr("x", function(d){   
+              var oldx1=x1;
+              x1 = x1 + xScale(d.Amount)+5;
+              return oldx1;
+              })
+            .attr("y", 20)
+            .attr("width", function(d){
+              return xScale(d.Amount)
+              })
+            .attr("height", 20)
+            .attr("fill", "blue")
+            // .attr("fill", function(d){ return d.color})
+
+            svg1.selectAll("text.legend")
+                .data(data)
+                .enter().append("text")
+                .attr("class", "legend")
+                
+                .attr("x", function(d){   
+                    var oldx1L=x1L;
+                    x1L = x1L + xScale(d.Amount)+5;
+                    return oldx1L;
+                    })
+                .text(function(d){return d.Type})
+                .attr('y', 10)
+
+                // .attr("transform", "rotate(-15)")
+                ;
+      });
+
+  </script>
+
+</body>
+
+</html>

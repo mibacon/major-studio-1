@@ -1,0 +1,1208 @@
+[
+  {
+    "Type": "Untreated Dimensional Lumber/Pallets/Crates Dimensional",
+    "Amount": 23439,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "99.80%",
+    "PerImp": "0.20%"
+  },
+  {
+    "Type": "Treated/Contaminated Wood",
+    "Amount": 39837,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "99.60%",
+    "PerImp": "0.40%"
+  },
+  {
+    "Type": "Other C&D Debris Not Elsewhere Classified",
+    "Amount": 92226,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "98.75%",
+    "PerImp": "1.25%"
+  },
+  {
+    "Type": "Audio/Visual Equipment-TV Peripherals (Covered)",
+    "Amount": 3253,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "88.69%",
+    "PerImp": "11.31%"
+  },
+  {
+    "Type": "Audio/Visual Equipment-Other (Non-Covered)",
+    "Amount": 5977,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "91.32%",
+    "PerImp": "8.68%"
+  },
+  {
+    "Type": "Computer Monitors",
+    "Amount": 66,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "84.62%",
+    "PerImp": "15.38%"
+  },
+  {
+    "Type": "Televisions",
+    "Amount": 7925,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "100.00%",
+    "PerImp": "0.00%"
+  },
+  {
+    "Type": "Other Computer Equipment Computer",
+    "Amount": 8451,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "91.89%",
+    "PerImp": "8.11%"
+  },
+  {
+    "Type": "Oil Filters",
+    "Amount": 3,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "100.00%",
+    "PerImp": "0.00%"
+  },
+  {
+    "Type": "Antifreeze",
+    "Amount": 0,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "0.00%",
+    "PerImp": "100.00%"
+  },
+  {
+    "Type": "Wet-Cell Batteries",
+    "Amount": 0,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "0.00%",
+    "PerImp": "100.00%"
+  },
+  {
+    "Type": "Water-Based Adhesives/Glues",
+    "Amount": 61,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "28.91%",
+    "PerImp": "71.09%"
+  },
+  {
+    "Type": "Latex Paint",
+    "Amount": 1777,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "73.73%",
+    "PerImp": "26.27%"
+  },
+  {
+    "Type": "Oil-Based Paint/Solvent",
+    "Amount": 43,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "15.87%",
+    "PerImp": "84.13%"
+  },
+  {
+    "Type": "Pesticides/Herbicides/Rodenticides",
+    "Amount": 269,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "95.05%",
+    "PerImp": "4.95%"
+  },
+  {
+    "Type": "Dry-Cell Batteries",
+    "Amount": 2524,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "95.50%",
+    "PerImp": "4.50%"
+  },
+  {
+    "Type": "Fluorescent Tubes/CFLs",
+    "Amount": 189,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "86.30%",
+    "PerImp": "13.70%"
+  },
+  {
+    "Type": "Mercury-Laden Wastes",
+    "Amount": 52,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "100.00%",
+    "PerImp": "0.00%"
+  },
+  {
+    "Type": "Compressed Gas Cylinders/Fire Extinguishers",
+    "Amount": 97,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "100.00%",
+    "PerImp": "0.00%"
+  },
+  {
+    "Type": "Home Medical Products",
+    "Amount": 4194,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "94.93%",
+    "PerImp": "5.07%"
+  },
+  {
+    "Type": "Other Potentially Harmful Wastes",
+    "Amount": 1328,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "93.32%",
+    "PerImp": "6.68%"
+  },
+  {
+    "Type": "Retail Bags/Sleeves",
+    "Amount": 69470,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "96.59%",
+    "PerImp": "3.41%"
+  },
+  {
+    "Type": "Non-Clothing",
+    "Amount": 68906,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "99.26%",
+    "PerImp": "0.74%"
+  },
+  {
+    "Type": "Clothing",
+    "Amount": 87021,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "99.40%",
+    "PerImp": "0.60%"
+  },
+  {
+    "Type": "Shoes/Rubber/Leather",
+    "Amount": 31695,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "96.51%",
+    "PerImp": "3.49%"
+  },
+  {
+    "Type": "Other Nonrecyclable Paper",
+    "Amount": 23124,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "87.07%",
+    "PerImp": "12.93%"
+  },
+  {
+    "Type": "#6 EPS Containers/Packaging (including Single  Use)",
+    "Amount": 23783,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "97.02%",
+    "PerImp": "2.98%"
+  },
+  {
+    "Type": "Film Plastic: Garbage Bags",
+    "Amount": 67522,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "87.30%",
+    "PerImp": "12.70%"
+  },
+  {
+    "Type": "Film Plastic: All Other Film",
+    "Amount": 55891,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "96.20%",
+    "PerImp": "3.80%"
+  },
+  {
+    "Type": "Non-C&D Wood",
+    "Amount": 106650,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "99.50%",
+    "PerImp": "0.50%"
+  },
+  {
+    "Type": "Carpet/Upholstery",
+    "Amount": 37905,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "100.00%",
+    "PerImp": "0.00%"
+  },
+  {
+    "Type": "Disposable Diapers/Sanitary Products Diapers/Sanitary",
+    "Amount": 117483,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "99.68%",
+    "PerImp": "0.32%"
+  },
+  {
+    "Type": "Animal By-Products",
+    "Amount": 53876,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "99.60%",
+    "PerImp": "0.40%"
+  },
+  {
+    "Type": "Fines",
+    "Amount": 85730,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "97.85%",
+    "PerImp": "2.15%"
+  },
+  {
+    "Type": "Miscellaneous Organics",
+    "Amount": 18743,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "97.87%",
+    "PerImp": "2.13%"
+  },
+  {
+    "Type": "Paper: Compostable/Soiled/Waxed OCC/Kraft",
+    "Amount": 227541,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "98.82%",
+    "PerImp": "1.18%"
+  },
+  {
+    "Type": "Yard Waste",
+    "Amount": 186418,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "99.84%",
+    "PerImp": "0.16%"
+  },
+  {
+    "Type": "Food",
+    "Amount": 547316,
+    "Divert": "Proper",
+    "Color": "#7f5b42",
+    "Image": "image1.jpg",
+    "PerProper": "98.63%",
+    "PerImp": "1.37%"
+  },
+  {
+    "Type": "Aluminum Cans",
+    "Amount": 2491,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "69.94%",
+    "PerImp": "30.06%"
+  },
+  {
+    "Type": "Aluminum Foil/Containers",
+    "Amount": 1793,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "87.31%",
+    "PerImp": "12.69%"
+  },
+  {
+    "Type": "Other Aluminum",
+    "Amount": 593,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "78.06%",
+    "PerImp": "21.94%"
+  },
+  {
+    "Type": "Other Non-Ferrous",
+    "Amount": 931,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "72.39%",
+    "PerImp": "27.61%"
+  },
+  {
+    "Type": "Steel/Tin Food Cans",
+    "Amount": 13141,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "50.36%",
+    "PerImp": "49.64%"
+  },
+  {
+    "Type": "Empty Aerosol Cans",
+    "Amount": 1694,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "60.08%",
+    "PerImp": "39.92%"
+  },
+  {
+    "Type": "Other Ferrous",
+    "Amount": 6319,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "73.87%",
+    "PerImp": "26.13%"
+  },
+  {
+    "Type": "Mixed Metals",
+    "Amount": 1824,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "86.10%",
+    "PerImp": "13.90%"
+  },
+  {
+    "Type": "Appliances: Ferrous",
+    "Amount": 3395,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "60.14%",
+    "PerImp": "39.86%"
+  },
+  {
+    "Type": "Appliances: Non-Ferrous",
+    "Amount": 704,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "32.79%",
+    "PerImp": "67.21%"
+  },
+  {
+    "Type": "Clear Container Glass",
+    "Amount": 31549,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "42.73%",
+    "PerImp": "57.27%"
+  },
+  {
+    "Type": "Green Container Glass",
+    "Amount": 15262,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "24.96%",
+    "PerImp": "75.04%"
+  },
+  {
+    "Type": "Brown Container Glass",
+    "Amount": 6329,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "43.47%",
+    "PerImp": "56.53%"
+  },
+  {
+    "Type": "Mixed Cullet",
+    "Amount": 25187,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "27.70%",
+    "PerImp": "72.30%"
+  },
+  {
+    "Type": "Other Glass",
+    "Amount": 2564,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "72.91%",
+    "PerImp": "27.09%"
+  },
+  {
+    "Type": "Paper Beverage Cartons/Aseptic Boxes",
+    "Amount": 4852,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "54.72%",
+    "PerImp": "45.28%"
+  },
+  {
+    "Type": "Single Use Plastic Plates/Cups/Cutlery (Excluding EPS)",
+    "Amount": 730,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "94.21%",
+    "PerImp": "5.79%"
+  },
+  {
+    "Type": "Appliances: Plastic",
+    "Amount": 773,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "88.74%",
+    "PerImp": "11.26%"
+  },
+  {
+    "Type": "Bulk/Rigid Plastic",
+    "Amount": 6742,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "74.13%",
+    "PerImp": "25.87%"
+  },
+  {
+    "Type": "Other Plastics",
+    "Amount": 3227,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "84.54%",
+    "PerImp": "15.46%"
+  },
+  {
+    "Type": "Rigid Plastic Containers/Packaging",
+    "Amount": 8427,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "81.33%",
+    "PerImp": "18.67%"
+  },
+  {
+    "Type": "#1 PET Bottles",
+    "Amount": 20170,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "53.40%",
+    "PerImp": "46.60%"
+  },
+  {
+    "Type": "#2 HDPE Natural Bottles",
+    "Amount": 9515,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "38.64%",
+    "PerImp": "61.36%"
+  },
+  {
+    "Type": "#2 HDPE Pigmented Bottles",
+    "Amount": 7739,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "41.36%",
+    "PerImp": "58.64%"
+  },
+  {
+    "Type": "Other Plastic Bottles",
+    "Amount": 1745,
+    "Divert": "Proper",
+    "Color": "#197f66",
+    "Image": "image1.jpg",
+    "PerProper": "54.80%",
+    "PerImp": "45.20%"
+  },
+  {
+    "Type": "Newspaper",
+    "Amount": 60107,
+    "Divert": "Proper",
+    "Color": "#285677",
+    "Image": "image1.jpg",
+    "PerProper": "39.10%",
+    "PerImp": "60.90%"
+  },
+  {
+    "Type": "Plain OCC/Kraft Paper",
+    "Amount": 96307,
+    "Divert": "Proper",
+    "Color": "#285677",
+    "Image": "image1.jpg",
+    "PerProper": "28.39%",
+    "PerImp": "71.61%"
+  },
+  {
+    "Type": "High Grade Paper",
+    "Amount": 16966,
+    "Divert": "Proper",
+    "Color": "#285677",
+    "Image": "image1.jpg",
+    "PerProper": "58.06%",
+    "PerImp": "41.94%"
+  },
+  {
+    "Type": "Mixed Low Grade Paper",
+    "Amount": 91099,
+    "Divert": "Proper",
+    "Color": "#285677",
+    "Image": "image1.jpg",
+    "PerProper": "66.46%",
+    "PerImp": "33.54%"
+  },
+  {
+    "Type": "Untreated Dimensional Lumber/Pallets/Crates Dimensional",
+    "Amount": 49,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "99.80%",
+    "PerImp": "0.20%"
+  },
+  {
+    "Type": "Treated/Contaminated Wood",
+    "Amount": 160,
+    "Divert": "Improper",
+    "Color": "#285677",
+    "Image": "image2.jpg",
+    "PerProper": "99.60%",
+    "PerImp": "0.40%"
+  },
+  {
+    "Type": "Other C&D Debris Not Elsewhere Classified",
+    "Amount": 1165,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "98.75%",
+    "PerImp": "1.25%"
+  },
+  {
+    "Type": "Audio/Visual Equipment-TV Peripherals (Covered)",
+    "Amount": 415,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "88.69%",
+    "PerImp": "11.31%"
+  },
+  {
+    "Type": "Audio/Visual Equipment-Other (Non-Covered)",
+    "Amount": 568,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "91.32%",
+    "PerImp": "8.68%"
+  },
+  {
+    "Type": "Computer Monitors",
+    "Amount": 12,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "84.62%",
+    "PerImp": "15.38%"
+  },
+  {
+    "Type": "Televisions",
+    "Amount": 0,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "100.00%",
+    "PerImp": "0.00%"
+  },
+  {
+    "Type": "Other Computer Equipment Computer",
+    "Amount": 745,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "91.89%",
+    "PerImp": "8.11%"
+  },
+  {
+    "Type": "Oil Filters",
+    "Amount": 1,
+    "Divert": "Improper",
+    "Color": "#285677",
+    "Image": "image2.jpg",
+    "PerProper": "100.00%",
+    "PerImp": "0.00%"
+  },
+  {
+    "Type": "Antifreeze",
+    "Amount": 4,
+    "Divert": "Improper",
+    "Color": "#285677",
+    "Image": "image2.jpg",
+    "PerProper": "0.00%",
+    "PerImp": "100.00%"
+  },
+  {
+    "Type": "Wet-Cell Batteries",
+    "Amount": 20,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "0.00%",
+    "PerImp": "100.00%"
+  },
+  {
+    "Type": "Water-Based Adhesives/Glues",
+    "Amount": 151,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "28.91%",
+    "PerImp": "71.09%"
+  },
+  {
+    "Type": "Latex Paint",
+    "Amount": 633,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "73.73%",
+    "PerImp": "26.27%"
+  },
+  {
+    "Type": "Oil-Based Paint/Solvent",
+    "Amount": 227,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "15.87%",
+    "PerImp": "84.13%"
+  },
+  {
+    "Type": "Pesticides/Herbicides/Rodenticides",
+    "Amount": 14,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "95.05%",
+    "PerImp": "4.95%"
+  },
+  {
+    "Type": "Dry-Cell Batteries",
+    "Amount": 120,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "95.50%",
+    "PerImp": "4.50%"
+  },
+  {
+    "Type": "Fluorescent Tubes/CFLs",
+    "Amount": 30,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "",
+    "PerProper": "86.30%",
+    "PerImp": "13.70%"
+  },
+  {
+    "Type": "Mercury-Laden Wastes",
+    "Amount": 0,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "100.00%",
+    "PerImp": "0.00%"
+  },
+  {
+    "Type": "Compressed Gas Cylinders/Fire Extinguishers",
+    "Amount": 0,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "100.00%",
+    "PerImp": "0.00%"
+  },
+  {
+    "Type": "Home Medical Products",
+    "Amount": 225,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "94.93%",
+    "PerImp": "5.07%"
+  },
+  {
+    "Type": "Other Potentially Harmful Wastes",
+    "Amount": 95,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "93.32%",
+    "PerImp": "6.68%"
+  },
+  {
+    "Type": "Retail Bags/Sleeves",
+    "Amount": 2453,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "96.59%",
+    "PerImp": "3.41%"
+  },
+  {
+    "Type": "Non-Clothing",
+    "Amount": 513,
+    "Divert": "Improper",
+    "Color": "#285677",
+    "Image": "image2.jpg",
+    "PerProper": "99.26%",
+    "PerImp": "0.74%"
+  },
+  {
+    "Type": "Clothing",
+    "Amount": 524,
+    "Divert": "Improper",
+    "Color": "#285677",
+    "Image": "image2.jpg",
+    "PerProper": "99.40%",
+    "PerImp": "0.60%"
+  },
+  {
+    "Type": "Shoes/Rubber/Leather",
+    "Amount": 1145,
+    "Divert": "Improper",
+    "Color": "#285677",
+    "Image": "image2.jpg",
+    "PerProper": "96.51%",
+    "PerImp": "3.49%"
+  },
+  {
+    "Type": "Other Nonrecyclable Paper",
+    "Amount": 3434,
+    "Divert": "Improper",
+    "Color": "#285677",
+    "Image": "image2.jpg",
+    "PerProper": "87.07%",
+    "PerImp": "12.93%"
+  },
+  {
+    "Type": "#6 EPS Containers/Packaging (including Single  Use)",
+    "Amount": 730,
+    "Divert": "Improper",
+    "Color": "#285677",
+    "Image": "image2.jpg",
+    "PerProper": "97.02%",
+    "PerImp": "2.98%"
+  },
+  {
+    "Type": "Film Plastic: Garbage Bags",
+    "Amount": 9818,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "87.30%",
+    "PerImp": "12.70%"
+  },
+  {
+    "Type": "Film Plastic: All Other Film",
+    "Amount": 2205,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "96.20%",
+    "PerImp": "3.80%"
+  },
+  {
+    "Type": "Non-C&D Wood",
+    "Amount": 539,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "99.50%",
+    "PerImp": "0.50%"
+  },
+  {
+    "Type": "Carpet/Upholstery",
+    "Amount": 1,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "100.00%",
+    "PerImp": "0.00%"
+  },
+  {
+    "Type": "Disposable Diapers/Sanitary Products Diapers/Sanitary",
+    "Amount": 376,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "99.68%",
+    "PerImp": "0.32%"
+  },
+  {
+    "Type": "Animal By-Products",
+    "Amount": 216,
+    "Divert": "Improper",
+    "Color": "#285677",
+    "Image": "image2.jpg",
+    "PerProper": "99.60%",
+    "PerImp": "0.40%"
+  },
+  {
+    "Type": "Fines",
+    "Amount": 1888,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "97.85%",
+    "PerImp": "2.15%"
+  },
+  {
+    "Type": "Miscellaneous Organics",
+    "Amount": 406,
+    "Divert": "Improper",
+    "Color": "#285677",
+    "Image": "image2.jpg",
+    "PerProper": "97.87%",
+    "PerImp": "2.13%"
+  },
+  {
+    "Type": "Paper: Compostable/Soiled/Waxed OCC/Kraft",
+    "Amount": 2713,
+    "Divert": "Improper",
+    "Color": "#285677",
+    "Image": "image2.jpg",
+    "PerProper": "98.82%",
+    "PerImp": "1.18%"
+  },
+  {
+    "Type": "Yard Waste",
+    "Amount": 298,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "image2.jpg",
+    "PerProper": "99.84%",
+    "PerImp": "0.16%"
+  },
+  {
+    "Type": "Food",
+    "Amount": 7587,
+    "Divert": "Improper",
+    "Color": "#197f66",
+    "Image": "",
+    "PerProper": "98.63%",
+    "PerImp": "1.37%"
+  },
+  {
+    "Type": "Aluminum Cans",
+    "Amount": 6254,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "69.94%",
+    "PerImp": "30.06%"
+  },
+  {
+    "Type": "Aluminum Foil/Containers",
+    "Amount": 12924,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "87.31%",
+    "PerImp": "12.69%"
+  },
+  {
+    "Type": "Other Aluminum",
+    "Amount": 2156,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "78.06%",
+    "PerImp": "21.94%"
+  },
+  {
+    "Type": "Other Non-Ferrous",
+    "Amount": 2597,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "72.39%",
+    "PerImp": "27.61%"
+  },
+  {
+    "Type": "Steel/Tin Food Cans",
+    "Amount": 13857,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "50.36%",
+    "PerImp": "49.64%"
+  },
+  {
+    "Type": "Empty Aerosol Cans",
+    "Amount": 2657,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "60.08%",
+    "PerImp": "39.92%"
+  },
+  {
+    "Type": "Other Ferrous",
+    "Amount": 18571,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "73.87%",
+    "PerImp": "26.13%"
+  },
+  {
+    "Type": "Mixed Metals",
+    "Amount": 11798,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "86.10%",
+    "PerImp": "13.90%"
+  },
+  {
+    "Type": "Appliances: Ferrous",
+    "Amount": 5188,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "60.14%",
+    "PerImp": "39.86%"
+  },
+  {
+    "Type": "Appliances: Non-Ferrous",
+    "Amount": 399,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "32.79%",
+    "PerImp": "67.21%"
+  },
+  {
+    "Type": "Clear Container Glass",
+    "Amount": 24249,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "42.73%",
+    "PerImp": "57.27%"
+  },
+  {
+    "Type": "Green Container Glass",
+    "Amount": 5180,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "24.96%",
+    "PerImp": "75.04%"
+  },
+  {
+    "Type": "Brown Container Glass",
+    "Amount": 5041,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "43.47%",
+    "PerImp": "56.53%"
+  },
+  {
+    "Type": "Mixed Cullet",
+    "Amount": 9908,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "27.70%",
+    "PerImp": "72.30%"
+  },
+  {
+    "Type": "Other Glass",
+    "Amount": 8260,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "72.91%",
+    "PerImp": "27.09%"
+  },
+  {
+    "Type": "Paper Beverage Cartons/Aseptic Boxes",
+    "Amount": 8010,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "54.72%",
+    "PerImp": "45.28%"
+  },
+  {
+    "Type": "Single Use Plastic Plates/Cups/Cutlery (Excluding EPS)",
+    "Amount": 13869,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "94.21%",
+    "PerImp": "5.79%"
+  },
+  {
+    "Type": "Appliances: Plastic",
+    "Amount": 6564,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "88.74%",
+    "PerImp": "11.26%"
+  },
+  {
+    "Type": "Bulk/Rigid Plastic",
+    "Amount": 20249,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "74.13%",
+    "PerImp": "25.87%"
+  },
+  {
+    "Type": "Other Plastics",
+    "Amount": 20933,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "84.54%",
+    "PerImp": "15.46%"
+  },
+  {
+    "Type": "Rigid Plastic Containers/Packaging",
+    "Amount": 39812,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "81.33%",
+    "PerImp": "18.67%"
+  },
+  {
+    "Type": "#1 PET Bottles",
+    "Amount": 24104,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "53.40%",
+    "PerImp": "46.60%"
+  },
+  {
+    "Type": "#2 HDPE Natural Bottles",
+    "Amount": 6234,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "38.64%",
+    "PerImp": "61.36%"
+  },
+  {
+    "Type": "#2 HDPE Pigmented Bottles",
+    "Amount": 5616,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "41.36%",
+    "PerImp": "58.64%"
+  },
+  {
+    "Type": "Other Plastic Bottles",
+    "Amount": 2214,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "54.80%",
+    "PerImp": "45.20%"
+  },
+  {
+    "Type": "Newspaper",
+    "Amount": 40929,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "39.10%",
+    "PerImp": "60.90%"
+  },
+  {
+    "Type": "Plain OCC/Kraft Paper",
+    "Amount": 39732,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "28.39%",
+    "PerImp": "71.61%"
+  },
+  {
+    "Type": "High Grade Paper",
+    "Amount": 24011,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "58.06%",
+    "PerImp": "41.94%"
+  },
+  {
+    "Type": "Mixed Low Grade Paper",
+    "Amount": 195617,
+    "Divert": "Improper",
+    "Color": "#7f5b42",
+    "Image": "image2.jpg",
+    "PerProper": "66.46%",
+    "PerImp": "33.54%"
+  }
+]
