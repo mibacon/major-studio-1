@@ -1,0 +1,1007 @@
+[
+  {
+    "Type": "Untreated Dimensional Lumber/Pallets/Crates Dimensional",
+    "Amount": 23439,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Untreated Dimensional Lumber/Pallets/Crates Dimensional",
+    "Amount": 32,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Untreated Dimensional Lumber/Pallets/Crates Dimensional",
+    "Amount": 17,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Treated/Contaminated Wood",
+    "Amount": 39837,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Treated/Contaminated Wood",
+    "Amount": 14,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Treated/Contaminated Wood",
+    "Amount": 146,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Other C&D Debris Not Elsewhere Classified",
+    "Amount": 92226,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Other C&D Debris Not Elsewhere Classified",
+    "Amount": 628,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Other C&D Debris Not Elsewhere Classified",
+    "Amount": 537,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Audio/Visual Equipment-TV Peripherals (Covered)",
+    "Amount": 3253,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Audio/Visual Equipment-TV Peripherals (Covered)",
+    "Amount": 402,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Audio/Visual Equipment-TV Peripherals (Covered)",
+    "Amount": 13,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Audio/Visual Equipment-Other (Non-Covered)",
+    "Amount": 5977,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Audio/Visual Equipment-Other (Non-Covered)",
+    "Amount": 439,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Audio/Visual Equipment-Other (Non-Covered)",
+    "Amount": 129,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Computer Monitors",
+    "Amount": 66,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Computer Monitors",
+    "Amount": 12,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Computer Monitors",
+    "Amount": 0,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Televisions",
+    "Amount": 7925,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Televisions",
+    "Amount": 0,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Televisions",
+    "Amount": 0,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Other Computer Equipment Computer",
+    "Amount": 8451,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Other Computer Equipment Computer",
+    "Amount": 724,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Other Computer Equipment Computer",
+    "Amount": 21,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Oil Filters",
+    "Amount": 3,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Oil Filters",
+    "Amount": 0,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Oil Filters",
+    "Amount": 1,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Antifreeze",
+    "Amount": 0,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Antifreeze",
+    "Amount": 0,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Antifreeze",
+    "Amount": 4,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Wet-Cell Batteries",
+    "Amount": 0,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Wet-Cell Batteries",
+    "Amount": 14,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Wet-Cell Batteries",
+    "Amount": 6,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Water-Based Adhesives/Glues",
+    "Amount": 61,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Water-Based Adhesives/Glues",
+    "Amount": 123,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Water-Based Adhesives/Glues",
+    "Amount": 28,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Latex Paint",
+    "Amount": 1777,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Latex Paint",
+    "Amount": 633,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Latex Paint",
+    "Amount": 0,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Oil-Based Paint/Solvent",
+    "Amount": 43,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Oil-Based Paint/Solvent",
+    "Amount": 227,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Oil-Based Paint/Solvent",
+    "Amount": 0,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Pesticides/Herbicides/Rodenticides",
+    "Amount": 269,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Pesticides/Herbicides/Rodenticides",
+    "Amount": 14,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Pesticides/Herbicides/Rodenticides",
+    "Amount": 0,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Dry-Cell Batteries",
+    "Amount": 2524,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Dry-Cell Batteries",
+    "Amount": 75,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Dry-Cell Batteries",
+    "Amount": 45,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Fluorescent Tubes/CFLs",
+    "Amount": 189,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Fluorescent Tubes/CFLs",
+    "Amount": 30,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Fluorescent Tubes/CFLs",
+    "Amount": 0,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Mercury-Laden Wastes",
+    "Amount": 52,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Mercury-Laden Wastes",
+    "Amount": 0,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Mercury-Laden Wastes",
+    "Amount": 0,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Compressed Gas Cylinders/Fire Extinguishers",
+    "Amount": 97,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Compressed Gas Cylinders/Fire Extinguishers",
+    "Amount": 0,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Compressed Gas Cylinders/Fire Extinguishers",
+    "Amount": 0,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Home Medical Products",
+    "Amount": 4194,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Home Medical Products",
+    "Amount": 126,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Home Medical Products",
+    "Amount": 99,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Other Potentially Harmful Wastes",
+    "Amount": 1328,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Other Potentially Harmful Wastes",
+    "Amount": 85,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Other Potentially Harmful Wastes",
+    "Amount": 10,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Retail Bags/Sleeves",
+    "Amount": 69470,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Retail Bags/Sleeves",
+    "Amount": 1862,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Retail Bags/Sleeves",
+    "Amount": 591,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Non-Clothing",
+    "Amount": 68906,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Non-Clothing",
+    "Amount": 142,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Non-Clothing",
+    "Amount": 371,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Clothing",
+    "Amount": 87021,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Clothing",
+    "Amount": 214,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Clothing",
+    "Amount": 310,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Shoes/Rubber/Leather",
+    "Amount": 31695,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Shoes/Rubber/Leather",
+    "Amount": 321,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Shoes/Rubber/Leather",
+    "Amount": 824,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Other Nonrecyclable Paper",
+    "Amount": 23124,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Other Nonrecyclable Paper",
+    "Amount": 962,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Other Nonrecyclable Paper",
+    "Amount": 2472,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "#6 EPS Containers/Packaging (including Single  Use)",
+    "Amount": 23783,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "#6 EPS Containers/Packaging (including Single  Use)",
+    "Amount": 283,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "#6 EPS Containers/Packaging (including Single  Use)",
+    "Amount": 447,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Film Plastic: Garbage Bags",
+    "Amount": 67522,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Film Plastic: Garbage Bags",
+    "Amount": 6804,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Film Plastic: Garbage Bags",
+    "Amount": 3014,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Film Plastic: All Other Film",
+    "Amount": 55891,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Film Plastic: All Other Film",
+    "Amount": 1280,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Film Plastic: All Other Film",
+    "Amount": 925,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Non-C&D Wood",
+    "Amount": 106650,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Non-C&D Wood",
+    "Amount": 294,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Non-C&D Wood",
+    "Amount": 245,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Carpet/Upholstery",
+    "Amount": 37905,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Carpet/Upholstery",
+    "Amount": 1,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Carpet/Upholstery",
+    "Amount": 0,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Disposable Diapers/Sanitary Products Diapers/Sanitary",
+    "Amount": 117483,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Disposable Diapers/Sanitary Products Diapers/Sanitary",
+    "Amount": 200,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Disposable Diapers/Sanitary Products Diapers/Sanitary",
+    "Amount": 176,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Animal By-Products",
+    "Amount": 53876,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Animal By-Products",
+    "Amount": 85,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Animal By-Products",
+    "Amount": 131,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Fines",
+    "Amount": 85730,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Fines",
+    "Amount": 1310,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Fines",
+    "Amount": 578,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Miscellaneous Organics",
+    "Amount": 18743,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Miscellaneous Organics",
+    "Amount": 191,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Miscellaneous Organics",
+    "Amount": 215,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Paper: Compostable/Soiled/Waxed OCC/Kraft",
+    "Amount": 227541,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Paper: Compostable/Soiled/Waxed OCC/Kraft",
+    "Amount": 987,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Paper: Compostable/Soiled/Waxed OCC/Kraft",
+    "Amount": 1726,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Yard Waste",
+    "Amount": 186418,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Yard Waste",
+    "Amount": 164,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Yard Waste",
+    "Amount": 134,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Food",
+    "Amount": 547316,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Food",
+    "Amount": 5438,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Food",
+    "Amount": 2149,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Aluminum Cans",
+    "Amount": 6116,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Aluminum Cans",
+    "Amount": 2491,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Aluminum Cans",
+    "Amount": 138,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Aluminum Foil/Containers",
+    "Amount": 12850,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Aluminum Foil/Containers",
+    "Amount": 1793,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Aluminum Foil/Containers",
+    "Amount": 74,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Other Aluminum",
+    "Amount": 2146,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Other Aluminum",
+    "Amount": 593,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Other Aluminum",
+    "Amount": 10,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Other Non-Ferrous",
+    "Amount": 2554,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Other Non-Ferrous",
+    "Amount": 931,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Other Non-Ferrous",
+    "Amount": 43,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Steel/Tin Food Cans",
+    "Amount": 13596,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Steel/Tin Food Cans",
+    "Amount": 13141,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Steel/Tin Food Cans",
+    "Amount": 261,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Empty Aerosol Cans",
+    "Amount": 2614,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Empty Aerosol Cans",
+    "Amount": 1694,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Empty Aerosol Cans",
+    "Amount": 43,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Other Ferrous",
+    "Amount": 18386,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Other Ferrous",
+    "Amount": 6319,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Other Ferrous",
+    "Amount": 185,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Mixed Metals",
+    "Amount": 11728,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Mixed Metals",
+    "Amount": 1824,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Mixed Metals",
+    "Amount": 70,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Appliances: Ferrous",
+    "Amount": 5162,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Appliances: Ferrous",
+    "Amount": 3395,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Appliances: Ferrous",
+    "Amount": 26,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Appliances: Non-Ferrous",
+    "Amount": 362,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Appliances: Non-Ferrous",
+    "Amount": 704,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Appliances: Non-Ferrous",
+    "Amount": 37,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Clear Container Glass",
+    "Amount": 23845,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Clear Container Glass",
+    "Amount": 31549,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Clear Container Glass",
+    "Amount": 404,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Green Container Glass",
+    "Amount": 5103,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Green Container Glass",
+    "Amount": 15262,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Green Container Glass",
+    "Amount": 77,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Brown Container Glass",
+    "Amount": 4943,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Brown Container Glass",
+    "Amount": 6329,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Brown Container Glass",
+    "Amount": 98,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Mixed Cullet",
+    "Amount": 9721,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Mixed Cullet",
+    "Amount": 25187,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Mixed Cullet",
+    "Amount": 187,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Other Glass",
+    "Amount": 7892,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Other Glass",
+    "Amount": 2564,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Other Glass",
+    "Amount": 368,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Paper Beverage Cartons/Aseptic Boxes",
+    "Amount": 7037,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Paper Beverage Cartons/Aseptic Boxes",
+    "Amount": 4852,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Paper Beverage Cartons/Aseptic Boxes",
+    "Amount": 973,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Single Use Plastic Plates/Cups/Cutlery (Excluding EPS)",
+    "Amount": 13754,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Single Use Plastic Plates/Cups/Cutlery (Excluding EPS)",
+    "Amount": 730,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Single Use Plastic Plates/Cups/Cutlery (Excluding EPS)",
+    "Amount": 115,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Appliances: Plastic",
+    "Amount": 6510,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Appliances: Plastic",
+    "Amount": 773,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Appliances: Plastic",
+    "Amount": 54,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Bulk/Rigid Plastic",
+    "Amount": 20009,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Bulk/Rigid Plastic",
+    "Amount": 6742,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Bulk/Rigid Plastic",
+    "Amount": 240,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Other Plastics",
+    "Amount": 20425,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Other Plastics",
+    "Amount": 3227,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Other Plastics",
+    "Amount": 508,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Rigid Plastic Containers/Packaging",
+    "Amount": 39232,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Rigid Plastic Containers/Packaging",
+    "Amount": 8427,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Rigid Plastic Containers/Packaging",
+    "Amount": 580,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "#1 PET Bottles",
+    "Amount": 23643,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "#1 PET Bottles",
+    "Amount": 20170,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "#1 PET Bottles",
+    "Amount": 461,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "#2 HDPE Natural Bottles",
+    "Amount": 6085,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "#2 HDPE Natural Bottles",
+    "Amount": 9515,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "#2 HDPE Natural Bottles",
+    "Amount": 149,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "#2 HDPE Pigmented Bottles",
+    "Amount": 5523,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "#2 HDPE Pigmented Bottles",
+    "Amount": 7739,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "#2 HDPE Pigmented Bottles",
+    "Amount": 93,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Other Plastic Bottles",
+    "Amount": 2170,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Other Plastic Bottles",
+    "Amount": 1745,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Other Plastic Bottles",
+    "Amount": 44,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Newspaper",
+    "Amount": 39508,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Newspaper",
+    "Amount": 1421,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Newspaper",
+    "Amount": 60107,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Plain OCC/Kraft Paper",
+    "Amount": 38623,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Plain OCC/Kraft Paper",
+    "Amount": 1109,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Plain OCC/Kraft Paper",
+    "Amount": 96307,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "High Grade Paper",
+    "Amount": 23792,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "High Grade Paper",
+    "Amount": 219,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "High Grade Paper",
+    "Amount": 16966,
+    "Divert": "Paper"
+  },
+  {
+    "Type": "Mixed Low Grade Paper",
+    "Amount": 190549,
+    "Divert": "Refuse"
+  },
+  {
+    "Type": "Mixed Low Grade Paper",
+    "Amount": 5068,
+    "Divert": "MGP"
+  },
+  {
+    "Type": "Mixed Low Grade Paper",
+    "Amount": 91099,
+    "Divert": "Paper"
+  }
+]
