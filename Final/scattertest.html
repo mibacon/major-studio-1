@@ -1,0 +1,476 @@
+<html>
+<head>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+	<style>
+		body {
+		margin: 0;
+		background-color: #434343;
+		}
+		.point:hover {
+			fill: orangered;
+		}
+		.axis path {
+			opacity: 0;
+		}
+		.grid .domain path {
+			opacity: 0;
+		}
+
+		div.tooltip {
+  			position: absolute;
+  			text-align: center;
+  			width: auto;
+ 			height: auto;
+  			padding: 2px;
+  			background: #434343;
+			opacity: .8
+			border-radius: 2px;
+  			font-family: 'Roboto', sans-serif;
+			font: 12px, serif;
+			color: white;
+		}
+		.tick line {
+			stroke: white;
+		}
+		.tick text{
+			fill: white;
+		}
+		.domain path {
+			stroke: white
+			}
+
+	</style>
+</head>
+<body>
+<!-- <path stroke = 000 d= M890,450.5H0.5V0.5H890></path> -->
+	<script>
+		var data = [
+  {
+    "type": "Untreated Dimensional Lumber/Pallets/Crates Dimensional",
+    "amount": 49,
+    "percent": 0.002
+  },
+  {
+    "type": "Treated/Contaminated Wood",
+    "amount": 160,
+    "percent": 0.004
+  },
+  {
+    "type": "Other C&D Debris Not Elsewhere Classified",
+    "amount": 1165,
+    "percent": 0.0125
+  },
+  {
+    "type": "Audio/Visual Equipment-TV Peripherals (Covered)",
+    "amount": 415,
+    "percent": 0.1131
+  },
+  {
+    "type": "Audio/Visual Equipment-Other (Non-Covered)",
+    "amount": 568,
+    "percent": 0.0868
+  },
+  {
+    "type": "Computer Monitors",
+    "amount": 12,
+    "percent": 0.1538
+  },
+  {
+    "type": "Televisions",
+    "amount": 0,
+    "percent": 0
+  },
+  {
+    "type": "Other Computer Equipment Computer",
+    "amount": 745,
+    "percent": 0.0811
+  },
+  {
+    "type": "Oil Filters",
+    "amount": 1,
+    "percent": 0.25
+  },
+  {
+    "type": "Antifreeze",
+    "amount": 4,
+    "percent": 1
+  },
+  {
+    "type": "Wet-Cell Batteries",
+    "amount": 20,
+    "percent": 1
+  },
+  {
+    "type": "Water-Based Adhesives/Glues",
+    "amount": 151,
+    "percent": 0.7109
+  },
+  {
+    "type": "Latex Paint",
+    "amount": 633,
+    "percent": 0.2627
+  },
+  {
+    "type": "Oil-Based Paint/Solvent",
+    "amount": 227,
+    "percent": 0.8413
+  },
+  {
+    "type": "Pesticides/Herbicides/Rodenticides",
+    "amount": 14,
+    "percent": 0.0495
+  },
+  {
+    "type": "Dry-Cell Batteries",
+    "amount": 120,
+    "percent": 0.045
+  },
+  {
+    "type": "Fluorescent Tubes/CFLs",
+    "amount": 30,
+    "percent": 0.137
+  },
+  {
+    "type": "Mercury-Laden Wastes",
+    "amount": 0,
+    "percent": 0
+  },
+  {
+    "type": "Compressed Gas Cylinders/Fire Extinguishers",
+    "amount": 0,
+    "percent": 0
+  },
+  {
+    "type": "Home Medical Products",
+    "amount": 225,
+    "percent": 0.0507
+  },
+  {
+    "type": "Other Potentially Harmful Wastes",
+    "amount": 95,
+    "percent": 0.0668
+  },
+  {
+    "type": "Retail Bags/Sleeves",
+    "amount": 2453,
+    "percent": 0.0341
+  },
+  {
+    "type": "Non-Clothing",
+    "amount": 513,
+    "percent": 0.0074
+  },
+  {
+    "type": "Clothing",
+    "amount": 524,
+    "percent": 0.006
+  },
+  {
+    "type": "Shoes/Rubber/Leather",
+    "amount": 1145,
+    "percent": 0.0349
+  },
+  {
+    "type": "Other Nonrecyclable Paper",
+    "amount": 3434,
+    "percent": 0.1293
+  },
+  {
+    "type": "#6 EPS Containers/Packaging (including Single Use)",
+    "amount": 730,
+    "percent": 0.0298
+  },
+  {
+    "type": "Film Plastic: Garbage Bags",
+    "amount": 9818,
+    "percent": 0.127
+  },
+  {
+    "type": "Film Plastic: All Other Film",
+    "amount": 2205,
+    "percent": 0.038
+  },
+  {
+    "type": "Non-C&D Wood",
+    "amount": 539,
+    "percent": 0.005
+  },
+  {
+    "type": "Carpet/Upholstery",
+    "amount": 1,
+    "percent": 0
+  },
+  {
+    "type": "Disposable Diapers/Sanitary Products Diapers/Sanitary",
+    "amount": 376,
+    "percent": 0.0032
+  },
+  {
+    "type": "Animal By-Products",
+    "amount": 216,
+    "percent": 0.004
+  },
+  {
+    "type": "Fines",
+    "amount": 1888,
+    "percent": 0.0215
+  },
+  {
+    "type": "Miscellaneous Organics",
+    "amount": 406,
+    "percent": 0.0213
+  },
+  {
+    "type": "Paper: Compostable/Soiled/Waxed OCC/Kraft",
+    "amount": 2713,
+    "percent": 0.0118
+  },
+  {
+    "type": "Yard Waste",
+    "amount": 298,
+    "percent": 0.0016
+  },
+  {
+    "type": "Food",
+    "amount": 7587,
+    "percent": 0.0137
+  },
+  {
+    "type": "Aluminum Cans",
+    "amount": 6254,
+    "percent": 0.7152
+  },
+  {
+    "type": "Aluminum Foil/Containers",
+    "amount": 12924,
+    "percent": 0.8782
+  },
+  {
+    "type": "Other Aluminum",
+    "amount": 2156,
+    "percent": 0.7843
+  },
+  {
+    "type": "Other Non-Ferrous",
+    "amount": 2597,
+    "percent": 0.7361
+  },
+  {
+    "type": "Steel/Tin Food Cans",
+    "amount": 13857,
+    "percent": 0.5133
+  },
+  {
+    "type": "Empty Aerosol Cans",
+    "amount": 2657,
+    "percent": 0.6107
+  },
+  {
+    "type": "Other Ferrous",
+    "amount": 18571,
+    "percent": 0.7461
+  },
+  {
+    "type": "Mixed Metals",
+    "amount": 11798,
+    "percent": 0.8661
+  },
+  {
+    "type": "Appliances: Ferrous",
+    "amount": 5188,
+    "percent": 0.6045
+  },
+  {
+    "type": "Appliances: Non-Ferrous",
+    "amount": 399,
+    "percent": 0.3617
+  },
+  {
+    "type": "Clear Container Glass",
+    "amount": 24249,
+    "percent": 0.4346
+  },
+  {
+    "type": "Green Container Glass",
+    "amount": 5180,
+    "percent": 0.2534
+  },
+  {
+    "type": "Brown Container Glass",
+    "amount": 5041,
+    "percent": 0.4434
+  },
+  {
+    "type": "Mixed Cullet",
+    "amount": 9908,
+    "percent": 0.2823
+  },
+  {
+    "type": "Other Glass",
+    "amount": 8260,
+    "percent": 0.7631
+  },
+  {
+    "type": "Paper Beverage Cartons/Aseptic Boxes",
+    "amount": 8010,
+    "percent": 0.6228
+  },
+  {
+    "type": "Single Use Plastic Plates/Cups/Cutlery (Excluding EPS)",
+    "amount": 13869,
+    "percent": 0.95
+  },
+  {
+    "type": "Appliances: Plastic",
+    "amount": 6564,
+    "percent": 0.8946
+  },
+  {
+    "type": "Bulk/Rigid Plastic",
+    "amount": 20249,
+    "percent": 0.7502
+  },
+  {
+    "type": "Other Plastics",
+    "amount": 20933,
+    "percent": 0.8664
+  },
+  {
+    "type": "Rigid Plastic Containers/Packaging",
+    "amount": 39812,
+    "percent": 0.8253
+  },
+  {
+    "type": "#1 PET Bottles",
+    "amount": 24104,
+    "percent": 0.5444
+  },
+  {
+    "type": "#2 HDPE Natural Bottles",
+    "amount": 6234,
+    "percent": 0.3958
+  },
+  {
+    "type": "#2 HDPE Pigmented Bottles",
+    "amount": 5616,
+    "percent": 0.4205
+  },
+  {
+    "type": "Other Plastic Bottles",
+    "amount": 2214,
+    "percent": 0.5592
+  },
+  {
+    "type": "Newspaper",
+    "amount": 40929,
+    "percent": 0.4051
+  },
+  {
+    "type": "Plain OCC/Kraft Paper",
+    "amount": 39732,
+    "percent": 0.2921
+  },
+  {
+    "type": "High Grade Paper",
+    "amount": 24011,
+    "percent": 0.586
+  },
+  {
+    "type": "Mixed Low Grade Paper",
+    "amount": 195617,
+    "percent": .6823
+  }
+]
+	var margin = {top: 20, right: 20, bottom: 100, left: 100},
+    	    width = 1250 - margin.left - margin.right,
+            height = 500 - margin.top - margin.bottom;
+	    
+
+	var x = d3.scaleLinear().range([0, width]).domain([0,d3.max(data, function(d) {return d.amount})]);
+	var y = d3.scaleLinear().range([height, 0]).domain([0,1]);
+
+		var div = d3.select("body").append("div")
+    			.attr("class", "tooltip")
+    			.style("opacity", 0);
+		
+		var chart = d3.select("body").append("svg")
+			.attr("width", width + margin.left + margin.right)
+    			.attr("height", height + margin.top + margin.bottom)
+			.append("g")
+			.attr("transform","translate(" + margin.left + "," + margin.top + ")");
+			
+		
+		
+
+		function make_y_gridlines() {		
+    			return d3.axisLeft(y)
+        		.ticks(3)
+			}
+		chart.append("g")			
+      			.attr("class", "grid")
+      			.call(make_y_gridlines()
+          		.tickSize(-width)
+          		.tickFormat("")
+      			)
+	
+		chart.selectAll("circle").data(data).enter()
+			.append("circle")
+			.attr("class", "point")
+			.attr("cx", function(d) { return x(d.amount)})
+			.attr("cy", function(d) { return y(d.percent)})
+			.attr("r", 7)
+			.attr("fill", "white")
+			.on("mouseover", function(d) {
+         			div.style("opacity", .9)
+       				div.html("<strong>" + d.type + ":</strong>"+ "<br/>" + formatPercent(d.percent) + "miscategorized <br>" + formatComma(d.amount) + " tons miscategorized")
+         			.style("left", (d3.event.pageX + 20) + "px")
+         			.style("top", (d3.event.pageY - 50) + "px");
+       				})
+     			.on("mouseout", function(d) {
+         			div.style("opacity", 0);
+       			});
+
+		var xAxis = d3.axisBottom(x).ticks(2)
+	
+		chart.append("g")
+      			.attr("transform", "translate(0," + height + ")")
+      			.call(xAxis)
+			.attr("class", "x axis");
+
+
+
+		var formatPercent = d3.format(".0%");
+		var formatComma = d3.format(",")
+
+		var yAxis = d3.axisLeft(y).ticks(3)
+				.tickFormat(formatPercent)
+				
+  		chart.append("text").attr("text-anchor", "middle")  
+            		.attr("transform", "translate(" + -(margin.left/2) + ", "+ height/2 + ") rotate(-90)")  
+            		.text("Percent Miscategorized")
+			.style("fill", "orangered")
+			.style("font-family", "Roboto")
+	
+  		chart.append("text").attr("text-anchor", "middle")  
+            		.attr("transform", "translate("+ width/2 + "," + (height + margin.bottom/2)+ ")")  
+            		.text("Tons Miscategorized")
+			.style("fill", "orangered")
+			.style("font-family", "Roboto")
+
+		chart.append("g")
+			.call(yAxis)
+			.attr("class", "y axis")
+			
+      			
+		d3.selectAll(".grid")
+			.selectAll("path")
+			.style("opacity", 0)
+			
+		
+		
+
+	</script>
+</body>
+</html>
